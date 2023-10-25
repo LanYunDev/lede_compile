@@ -1,0 +1,60 @@
+Source-Makefile: feeds/kenzo/luci-app-wechatpush/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-wechatpush
+Submenu: 3. Applications
+Version: 3.3.3-12
+Depends: +libc +iputils-arping +curl +jq +bash
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for wechatpush
+Maintainer: tty228 <tty228@yeah.net>
+Source: 
+Type: ipkg
+Description: LuCI support for wechatpush
+tty228 <tty228@yeah.net>
+@@
+
+Package: luci-i18n-wechatpush-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 3.3.3-12
+Depends: +libc luci-app-wechatpush
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-wechatpush - zh-cn translation
+Maintainer: tty228 <tty228@yeah.net>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-wechatpush - 简体中文 (Simplified Chinese)
+tty228 <tty228@yeah.net>
+@@
+
+Package: luci-i18n-wechatpush-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 3.3.3-12
+Depends: +libc luci-app-wechatpush
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-wechatpush - zh_Hans translation
+Maintainer: tty228 <tty228@yeah.net>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-wechatpush - 
+tty228 <tty228@yeah.net>
+@@
+
+

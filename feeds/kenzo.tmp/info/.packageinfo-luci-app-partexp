@@ -1,0 +1,63 @@
+Source-Makefile: feeds/kenzo/luci-app-partexp/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-partexp
+Submenu: 3. Applications
+Version: 0.1.9-20221201
+Depends: +libc +fdisk +block-mount
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI Support for Automatic Partition Mount
+Maintainer: Sirpdboy <herboy2008@gmail.com>
+Source: 
+License: Apache-2.0
+Type: ipkg
+Description: LuCI Support for Automatic Partition Mount
+Sirpdboy <herboy2008@gmail.com>
+@@
+
+Package: luci-i18n-partexp-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 0.1.9-20221201
+Depends: +libc luci-app-partexp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-partexp - zh-cn translation
+Maintainer: Sirpdboy <herboy2008@gmail.com>
+Source: 
+License: Apache-2.0
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-partexp - 简体中文 (Simplified Chinese)
+Sirpdboy <herboy2008@gmail.com>
+@@
+
+Package: luci-i18n-partexp-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 0.1.9-20221201
+Depends: +libc luci-app-partexp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-partexp - zh_Hans translation
+Maintainer: Sirpdboy <herboy2008@gmail.com>
+Source: 
+License: Apache-2.0
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-partexp - 
+Sirpdboy <herboy2008@gmail.com>
+@@
+
+

@@ -1,0 +1,87 @@
+Source-Makefile: feeds/istore/luci/luci-app-store/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-store
+Submenu: 3. Applications
+Version: 0.1.14-2
+Depends: +libc +curl +opkg +luci-lib-ipkg +tar +coreutils +coreutils-stat +libuci-lua +mount-utils +luci-lib-taskd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI based ipk store
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Source: istore-ui-v0.1.14-2.tar.gz
+Type: ipkg
+Description:    luci-app-store is a ipk store developed by LinkEase team
+jjm2473 <jjm2473@gmail.com>
+@@
+
+
+Source-Makefile: feeds/istore/luci/luci-lib-taskd/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-lib-taskd
+Submenu: 6. Libraries
+Version: 1.0.18
+Depends: +libc +luci-lib-xterm +taskd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Task library
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Source: 
+Type: ipkg
+Description: Task library
+jjm2473 <jjm2473@gmail.com>
+@@
+
+
+Source-Makefile: feeds/istore/luci/luci-lib-xterm/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-lib-xterm
+Submenu: 6. Libraries
+Version: 4.18.0
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Xterm.js library
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Source: 
+License: MIT
+Type: ipkg
+Description: Xterm.js library
+jjm2473 <jjm2473@gmail.com>
+@@
+
+
+Source-Makefile: feeds/istore/luci/taskd/Makefile
+
+Package: taskd
+Version: 1.0.3-1
+Depends: +libc +procd +script-utils +coreutils-stty
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Simple Task Manager
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Source: 
+Type: ipkg
+Description: 	Simple Task Manager based on procd
+jjm2473 <jjm2473@gmail.com>
+@@
+
+

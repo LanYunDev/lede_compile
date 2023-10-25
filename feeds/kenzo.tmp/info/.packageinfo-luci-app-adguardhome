@@ -1,0 +1,65 @@
+Source-Makefile: feeds/kenzo/luci-app-adguardhome/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-adguardhome
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +!wget-ssl&&!curl:wget-ssl +xz-utils +xz
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI app for AdGuardHome
+Maintainer: <https://github.com/rufengsuixing/luci-app-adguardhome>
+Source: 
+Type: ipkg
+Description:    LuCI support for AdGuardHome
+<https://github.com/rufengsuixing/luci-app-adguardhome>
+@@
+Config:
+config PACKAGE_luci-app-adguardhome_INCLUDE_binary
+	bool "Include Binary File"
+	default y
+@@
+
+Package: luci-i18n-adguardhome-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-adguardhome
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-adguardhome - zh-cn translation
+Maintainer: <https://github.com/rufengsuixing/luci-app-adguardhome>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-adguardhome - 简体中文 (Simplified Chinese)
+<https://github.com/rufengsuixing/luci-app-adguardhome>
+@@
+
+Package: luci-i18n-adguardhome-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-adguardhome
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-adguardhome - zh_Hans translation
+Maintainer: <https://github.com/rufengsuixing/luci-app-adguardhome>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-adguardhome - 
+<https://github.com/rufengsuixing/luci-app-adguardhome>
+@@
+
+

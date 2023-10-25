@@ -1,0 +1,22 @@
+Source-Makefile: feeds/kenzo/luci-theme-argone/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-theme-argone
+Submenu: 4. Themes
+Version: 1.8.3-5
+Depends: +libc +curl +jsonfilter
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Argone kenzo
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Argone kenzo
+
+@@
+
+
