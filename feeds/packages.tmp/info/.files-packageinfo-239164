@@ -1183,7 +1183,6 @@ utils/kmod
 utils/lcd4linux
 utils/lcdproc
 utils/less
-utils/libnetwork
 utils/librespeed-cli
 utils/lm-sensors
 utils/logrotate

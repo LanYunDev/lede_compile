@@ -2,14 +2,15 @@
 .DS_Store
 #.*.swp
 /env
-/dl
 /.config
 #/.config.old
+/dl
 /bin
 /build_dir
 /staging_dir
 /tmp
 /logs
+*.7z
 #/feeds
 #/feeds.conf
 #/files

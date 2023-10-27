@@ -192,7 +192,7 @@ Build-Depends: lua/host luci-base/host
 Package: luci-app-adguardhome
 Submenu: 3. Applications
 Version: x-1
-Depends: +libc +!wget-ssl&&!curl:wget-ssl +xz-utils +xz
+Depends: +libc +ca-certs +curl +wget-ssl +PACKAGE_luci-app-adguardhome_INCLUDE_binary:adguardhome
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1304,7 +1304,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-mosdns
 Submenu: 3. Applications
-Version: 1.5.13-1
+Version: 1.5.14-1
 Depends: +libc +mosdns +jsonfilter +luci-compat +curl +v2ray-geoip +v2ray-geosite +v2dat
 Conflicts: 
 Menu-Depends: 
@@ -1322,7 +1322,7 @@ Description: LuCI Support for mosdns
 
 Package: luci-i18n-mosdns-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.5.13-1
+Version: 1.5.14-1
 Depends: +libc luci-app-mosdns
 Conflicts: 
 Menu-Depends: 
@@ -1341,7 +1341,7 @@ Description:     Translation for luci-app-mosdns - 简体中文 (Simplified Chin
 
 Package: luci-i18n-mosdns-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.5.13-1
+Version: 1.5.14-1
 Depends: +libc luci-app-mosdns
 Conflicts: 
 Menu-Depends: 
@@ -1464,7 +1464,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-smartdns
 Submenu: 3. Applications
-Version: 1.2023.42-1
+Version: 1.2023.43-1
 Depends: +libc +smartdns +luci-compat
 Conflicts: 
 Menu-Depends: 
@@ -1483,7 +1483,7 @@ Nick Peng <pymumu@gmail.com>
 
 Package: luci-i18n-smartdns-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.2023.42-1
+Version: 1.2023.43-1
 Depends: +libc luci-app-smartdns
 Conflicts: 
 Menu-Depends: 
@@ -1503,7 +1503,7 @@ Nick Peng <pymumu@gmail.com>
 
 Package: luci-i18n-smartdns-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.2023.42-1
+Version: 1.2023.43-1
 Depends: +libc luci-app-smartdns
 Conflicts: 
 Menu-Depends: 

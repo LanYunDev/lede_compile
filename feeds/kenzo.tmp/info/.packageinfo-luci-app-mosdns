@@ -3,7 +3,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-mosdns
 Submenu: 3. Applications
-Version: 1.5.13-1
+Version: 1.5.14-1
 Depends: +libc +mosdns +jsonfilter +luci-compat +curl +v2ray-geoip +v2ray-geosite +v2dat
 Conflicts: 
 Menu-Depends: 
@@ -21,7 +21,7 @@ Description: LuCI Support for mosdns
 
 Package: luci-i18n-mosdns-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.5.13-1
+Version: 1.5.14-1
 Depends: +libc luci-app-mosdns
 Conflicts: 
 Menu-Depends: 
@@ -40,7 +40,7 @@ Description:     Translation for luci-app-mosdns - 简体中文 (Simplified Chin
 
 Package: luci-i18n-mosdns-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.5.13-1
+Version: 1.5.14-1
 Depends: +libc luci-app-mosdns
 Conflicts: 
 Menu-Depends: 

@@ -4,7 +4,7 @@ Build-Depends: lua/host luci-base/host
 Package: luci-app-adguardhome
 Submenu: 3. Applications
 Version: x-1
-Depends: +libc +!wget-ssl&&!curl:wget-ssl +xz-utils +xz
+Depends: +libc +ca-certs +curl +wget-ssl +PACKAGE_luci-app-adguardhome_INCLUDE_binary:adguardhome
 Conflicts: 
 Menu-Depends: 
 Provides: 
