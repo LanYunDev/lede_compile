@@ -423,7 +423,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-amlogic
 Submenu: 3. Applications
-Version: 3.1.208-1
+Version: 3.1.209-1
 Depends: +libc @(aarch64||arm) +luci +luci-lib-nixio +block-mount +blkid +parted +dosfstools +e2fsprogs +jq +lsblk +pv +losetup +uuidgen +bash +perl +fdisk
 Conflicts: 
 Menu-Depends: 
@@ -442,7 +442,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 3.1.208-1
+Version: 3.1.209-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -462,7 +462,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 3.1.208-1
+Version: 3.1.209-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -1304,7 +1304,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-mosdns
 Submenu: 3. Applications
-Version: 1.5.14-1
+Version: 1.5.15-1
 Depends: +libc +mosdns +jsonfilter +luci-compat +curl +v2ray-geoip +v2ray-geosite +v2dat
 Conflicts: 
 Menu-Depends: 
@@ -1322,7 +1322,7 @@ Description: LuCI Support for mosdns
 
 Package: luci-i18n-mosdns-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.5.14-1
+Version: 1.5.15-1
 Depends: +libc luci-app-mosdns
 Conflicts: 
 Menu-Depends: 
@@ -1341,7 +1341,7 @@ Description:     Translation for luci-app-mosdns - 简体中文 (Simplified Chin
 
 Package: luci-i18n-mosdns-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.5.14-1
+Version: 1.5.15-1
 Depends: +libc luci-app-mosdns
 Conflicts: 
 Menu-Depends: 
@@ -1764,7 +1764,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-theme-design
 Submenu: 4. Themes
-Version: 5.7.7-20230502-1
+Version: 5.7.8-20231102-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -1852,7 +1852,7 @@ Build-Depends: golang/host
 
 Package: mosdns
 Submenu: IP Addresses and Names
-Version: 5.2.1-1
+Version: 5.3.0-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -1862,7 +1862,7 @@ Category: Network
 Repository: base
 Title: A plug-in DNS forwarder/splitter
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: mosdns-5.2.1.tar.gz
+Source: mosdns-5.3.0.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description: A plug-in DNS forwarder/splitter

@@ -59656,7 +59656,7 @@ Build-Depends: golang/host
 
 Package: dnsproxy
 Submenu: IP Addresses and Names
-Version: 0.56.1-1
+Version: 0.56.2-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -59667,7 +59667,7 @@ Repository: base
 Title: Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Require-User: dnsproxy=411:dnsproxy=411
-Source: dnsproxy-0.56.1.tar.gz
+Source: dnsproxy-0.56.2.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -77940,7 +77940,7 @@ David Bauer <mail@david-bauer.net>
 Source-Makefile: feeds/packages/net/uugamebooster/Makefile
 
 Package: uugamebooster
-Version: v3.13.4-1
+Version: v3.15.0-1
 Depends: +libc @(aarch64||arm||mipsel||x86_64) +kmod-tun
 Conflicts: 
 Menu-Depends: 
@@ -77950,7 +77950,7 @@ Category: Network
 Repository: base
 Title: NetEase UU Game Booster
 Maintainer: 
-Source: uugamebooster--v3.13.4.tar.gz
+Source: uugamebooster--v3.15.0.tar.gz
 Type: ipkg
 Description:   NetEase's UU Game Booster Accelerates Triple-A Gameplay and Market
 https://uu.163.com
@@ -93163,7 +93163,7 @@ Source-Makefile: feeds/packages/utils/nano/Makefile
 
 Package: nano
 Submenu: Editors
-Version: 7.2-1
+Version: 7.2-2
 Depends: +libc +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -93192,7 +93192,7 @@ Hannu Nyman <hannu.nyman@iki.fi>
 
 Package: nano-plus
 Submenu: Editors
-Version: 7.2-1
+Version: 7.2-2
 Depends: +libc +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -93223,7 +93223,7 @@ Hannu Nyman <hannu.nyman@iki.fi>
 
 Package: nano-full
 Submenu: Editors
-Version: 7.2-1
+Version: 7.2-2
 Depends: +libc +libncurses
 Conflicts: 
 Menu-Depends: 

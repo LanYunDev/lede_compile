@@ -5,7 +5,7 @@ Build-Types: host
 Package: luci-base
 Submenu: 2. Modules
 Version: x-1
-Depends: +libc +lua +libuci-lua +luci-lib-nixio +luci-lib-ip +rpcd +libubus-lua +luci-lib-jsonc
+Depends: +libc +lua +libuci-lua +luci-lib-nixio +luci-lib-ip +rpcd +libubus-lua +luci-lib-jsonc +luci-compat +luci-lua-runtime
 Conflicts: 
 Menu-Depends: 
 Provides: 

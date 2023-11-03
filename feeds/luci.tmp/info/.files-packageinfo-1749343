@@ -152,6 +152,7 @@ libs/luci-lib-rpcc
 libs/rpcd-mod-rrdns
 modules/luci-base
 modules/luci-compat
+modules/luci-lua-runtime
 modules/luci-mod-admin-full
 modules/luci-mod-admin-mini
 modules/luci-mod-failsafe
