@@ -1,0 +1,4 @@
+./help.go
+./selfupdate.go
+./verify.go
+./writable_unix.go

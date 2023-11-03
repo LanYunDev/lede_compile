@@ -1,0 +1,23 @@
+Source-Makefile: package/system/rdloader/Makefile
+Build-Depends: util-linux e2fsprogs
+
+Package: rdloader
+Version: 1.0.1-1
+Depends: +libc @TARGET_ramips +e2fsprogs +libblkid
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: base
+Category: Base system
+Repository: base
+Title: kmod loader for ramdisk enviroment
+Maintainer: 
+Source: 
+License: GPLv3
+Type: ipkg
+Description:   Lightweight kmod loader for ramdisk enviroment,
+  support uuid-based rootfs mount
+
+@@
+
+

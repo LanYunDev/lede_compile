@@ -1,0 +1,11 @@
+./account.go
+./client.go
+./doc.go
+./error.go
+./events.go
+./files.go
+./friends.go
+./time.go
+./transfers.go
+./types.go
+./zips.go

@@ -1,0 +1,6 @@
+./blake2s.go
+./blake2s_amd64.go
+./blake2s_generic.go
+./blake2x.go
+./register.go
+./blake2s_amd64.s

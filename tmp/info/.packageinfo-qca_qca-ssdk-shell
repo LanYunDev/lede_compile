@@ -1,0 +1,20 @@
+Source-Makefile: package/qca/qca-ssdk-shell/Makefile
+
+Package: qca-ssdk-shell
+Version: 2022-01-24-01a60b45ac3498a40bbb011d0c3b7d5d3a1cc9cb-1
+Depends: +libc @(TARGET_ipq40xx||TARGET_ipq806x||TARGET_ipq807x)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: Shell application for QCA SSDK
+Maintainer: 
+Source: qca-ssdk-shell-2022-01-24-01a60b45ac3498a40bbb011d0c3b7d5d3a1cc9cb.tar.xz
+Type: ipkg
+Description: Shell application for QCA SSDK
+
+@@
+
+

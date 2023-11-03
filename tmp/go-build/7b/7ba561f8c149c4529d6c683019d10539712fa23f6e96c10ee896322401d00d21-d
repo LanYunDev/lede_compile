@@ -1,0 +1,4 @@
+./config.go
+./config.pb.go
+./dokodemo.go
+./errors.generated.go

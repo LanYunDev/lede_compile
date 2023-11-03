@@ -1,0 +1,26 @@
+Source-Makefile: package/lean/ps3netsrv/Makefile
+Build-Depends: mbedtls
+
+Package: ps3netsrv
+Submenu: File Transfer
+Version: 20190630-1
+Depends: +libc +libpthread +libstdcpp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: PS3 Game Server
+Maintainer: JCorrea
+Source: ps3netsrv-20190630-3107bba17870657c5bb3f7830657838d766a296c.tar.gz
+License: GPLv3
+LicenseFiles: COPYING
+Type: ipkg
+Description: ps3netsrv allows you to stream games and ISOs over the network to your CFW PlayStation(R) 3 system.
+This may be useful if you have a modified PS3, and your router has storage options.
+https://github.com/jhonathanc/ps3netsrv-openwrt/
+JCorrea
+@@
+
+

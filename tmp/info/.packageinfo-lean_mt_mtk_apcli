@@ -1,0 +1,21 @@
+Source-Makefile: package/lean/mt/mtk_apcli/Makefile
+
+Package: mtk_apcli
+Submenu: Wireless
+Version: 2
+Depends: +libc @TARGET_ramips +libiwinfo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: apcli for MTK
+Maintainer: 
+Source: 
+Type: ipkg
+Description: apcli for MTK
+
+@@
+
+

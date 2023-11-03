@@ -1,0 +1,24 @@
+Source-Makefile: package/lean/mt/drivers/mt7612e/Makefile
+
+Package: kmod-mt76x2e
+Menu: 1
+Submenu: Wireless Drivers
+Version: <LINUX_VERSION>+3.0.5.0-
+Depends: @TARGET_ramips
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: MTK MT76x2e wifi AP driver
+Maintainer: 
+Source: 
+Type: ipkg
+Description: MTK MT76x2e wifi AP driver
+
+@@
+Config:
+	source "package/lean/mt/drivers/mt7612e/config.in"
+@@
+
+

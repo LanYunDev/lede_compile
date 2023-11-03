@@ -1,0 +1,5 @@
+./doc.go
+./encode.go
+./peers.go
+./sign.go
+./verify.go

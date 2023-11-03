@@ -1,0 +1,4 @@
+./errors.go
+./method.go
+./method_none.go
+./method_registry.go

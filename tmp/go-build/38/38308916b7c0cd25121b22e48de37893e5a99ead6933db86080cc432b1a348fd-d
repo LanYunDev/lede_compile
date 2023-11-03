@@ -1,0 +1,8 @@
+./cmd.go
+./deltas.go
+./help.go
+./listing.go
+./log.go
+./operations.go
+./queue.go
+./rc.go

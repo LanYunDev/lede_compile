@@ -1,0 +1,10 @@
+./context.go
+./counting_reader.go
+./error.go
+./fakeseeker.go
+./gzip.go
+./limited.go
+./noclose.go
+./pattern_reader.go
+./readfill.go
+./repeatable.go

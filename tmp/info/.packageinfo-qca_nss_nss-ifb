@@ -1,0 +1,20 @@
+Source-Makefile: package/qca/nss/nss-ifb/Makefile
+
+Package: kmod-nss-ifb
+Submenu: Network Devices
+Version: <LINUX_VERSION>-1
+Depends: +kmod-qca-nss-drv @LINUX_5_4
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: NSS IFB Interface
+Maintainer: 
+Source: 
+Type: ipkg
+Description:  Kernel module to register a NSS aware IFB interface.
+
+@@
+
+

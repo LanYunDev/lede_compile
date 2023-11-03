@@ -1,0 +1,12 @@
+./auth.go
+./auth_v3.go
+./compatibility_1_1.go
+./compatibility_1_6.go
+./dlo.go
+./doc.go
+./largeobjects.go
+./meta.go
+./slo.go
+./swift.go
+./timeout_reader.go
+./watchdog_reader.go

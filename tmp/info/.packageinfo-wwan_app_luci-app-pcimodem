@@ -1,0 +1,41 @@
+Source-Makefile: package/wwan/app/luci-app-pcimodem/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-pcimodem
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +kmod-pcie_mhi +pciutils +quectel-CM-5G
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: PCI Modem Server
+Maintainer: 
+Source: 
+Type: ipkg
+Description: PCI Modem Server
+
+@@
+
+Package: luci-i18n-pcimodem-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-pcimodem
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-pcimodem - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-pcimodem - 简体中文 (Simplified Chinese)
+
+@@
+
+

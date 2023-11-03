@@ -1,0 +1,21 @@
+Source-Makefile: package/qca/qca-mcs/Makefile
+
+Package: kmod-qca-mcs
+Submenu: Network Support
+Version: <LINUX_VERSION>+2021-10-28-31f5cd4b83da5a7c0fdca240b4e72677e4523b6e-1
+Depends: @(TARGET_ipq806x||TARGET_ipq807x)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: QCA Multicast Snooping Support
+Maintainer: 
+Source: qca-mcs-2021-10-28-31f5cd4b83da5a7c0fdca240b4e72677e4523b6e.tar.xz
+Type: ipkg
+Kernel-Config: CONFIG_NETFILTER=y CONFIG_BRIDGE_NETFILTER=y
+Description:   This package installs the IGMP/MLD Snooping Module
+
+@@
+
+

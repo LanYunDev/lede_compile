@@ -1,0 +1,23 @@
+Source-Makefile: package/lean/libcryptopp/Makefile
+
+Package: libcryptopp
+Version: 8.5.0-1
+Depends: +libc +libpthread +libstdcpp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Repository: base
+Title: Free C++ class library of cryptographic schemes
+Maintainer: 
+Source: cryptopp850.zip
+Type: ipkg
+Description:   Crypto++ is library for creating C++ programs which use cryptographic
+  algorithms. The library uses a Pipes & Filters architecture with heavy
+  use of templates and abstract base classes.
+https://packages.debian.org/sid/libcrypto++-dev
+
+@@
+
+

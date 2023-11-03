@@ -1,0 +1,41 @@
+Source-Makefile: package/wwan/app/luci-app-spdmodem/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-spdmodem
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +luci-compat +kmod-sprd_pcie
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: SPD Modem Server
+Maintainer: 
+Source: 
+Type: ipkg
+Description: SPD Modem Server
+
+@@
+
+Package: luci-i18n-spdmodem-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-spdmodem
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-spdmodem - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-spdmodem - 简体中文 (Simplified Chinese)
+
+@@
+
+

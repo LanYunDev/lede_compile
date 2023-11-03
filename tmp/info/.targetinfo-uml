@@ -1,0 +1,18 @@
+Source-Makefile: target/linux/uml/Makefile
+Target: uml
+Target-Board: uml
+Target-Name: User Mode Linux
+Target-Arch: x86_64
+Target-Arch-Packages: x86_64
+Target-Features: audio ext4 source-only squashfs virtio
+Target-Depends: 
+Target-Optimization: -Os -pipe
+CPU-Type: 
+Linux-Version: 5.4.258
+Linux-Release: 1
+Linux-Kernel-Arch: um
+Target-Description:
+
+@@
+Default-Packages: base-files ca-bundle dropbear fstools libc libgcc libustream-openssl logd mtd netifd opkg uci uclient-fetch urandom-seed urngd busybox procd procd-ujail dnsmasq-full firewall iptables ppp ppp-mod-pppoe block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw kmod-tun iptables-mod-tproxy iptables-mod-extra ipset ip-full default-settings luci luci-newapi ddns-scripts_aliyun ddns-scripts_dnspod luci-app-ddns luci-app-upnp luci-app-autoreboot luci-app-arpbind luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-vlmcsd luci-app-accesscontrol luci-app-nlbwmon luci-app-turboacc luci-app-wol curl ca-certificates wpad-basic-wolfssl kmod-mac80211-hwsim mkf2fs e2fsprogs iwinfo
+

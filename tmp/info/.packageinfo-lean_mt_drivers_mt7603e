@@ -1,0 +1,24 @@
+Source-Makefile: package/lean/mt/drivers/mt7603e/Makefile
+
+Package: kmod-mt7603e
+Menu: 1
+Submenu: Wireless Drivers
+Version: <LINUX_VERSION>+4.1.2.0-
+Depends: @TARGET_ramips
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: MTK wifi AP driver
+Maintainer: 
+Source: 
+Type: ipkg
+Description: MTK wifi AP driver
+
+@@
+Config:
+	source "package/lean/mt/drivers/mt7603e/config.in"
+@@
+
+

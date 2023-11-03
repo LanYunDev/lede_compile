@@ -1,0 +1,20 @@
+Source-Makefile: package/wwan/app/quectel_cm_5G/Makefile
+
+Package: quectel-CM-5G
+Version: 1.6.4-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: quectel-CM-5G app
+Maintainer: 
+Source: 
+Type: ipkg
+Description: quectel-CM-5G app
+
+@@
+
+

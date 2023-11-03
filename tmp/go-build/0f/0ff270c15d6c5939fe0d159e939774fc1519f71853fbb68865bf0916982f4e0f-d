@@ -1,0 +1,10 @@
+./decoder.go
+./deserializer.go
+./errors.go
+./mmap_unix.go
+./node.go
+./reader.go
+./reader_mmap.go
+./set_zero_120.go
+./traverse.go
+./verifier.go

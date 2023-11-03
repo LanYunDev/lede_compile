@@ -1,0 +1,24 @@
+Source-Makefile: package/qat/kernel/kmod-crypto-crc32c-intel/Makefile
+
+Package: kmod-crypto-crc32c-intel
+Submenu: Cryptographic API modules
+Version: <LINUX_VERSION>+1.0-1
+Depends: +kmod-crypto-hash @TARGET_x86_64
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: CRC32c hardware acceleration (SSE4.2)
+Maintainer: dl12345 <dl12345@github.com>
+Source: 
+License: GPL v3
+Type: ipkg
+Kernel-Config: CONFIG_CRYPTO_CRC32C_INTEL
+Description:  In Intel processor with SSE4.2 supported, the processor will support CRC32C implementation using hardware accelerated CRC32 instruction. 
+ This option will create 'crc32c-intel' module, which will enable any routine to use the hardware accelerated CRC32 instruction
+ Module will be crc32c-intel
+dl12345 <dl12345@github.com>
+@@
+
+

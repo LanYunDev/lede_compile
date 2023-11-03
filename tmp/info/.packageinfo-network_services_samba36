@@ -1,0 +1,33 @@
+Source-Makefile: package/network/services/samba36/Makefile
+
+Package: samba36-server
+Version: 4.0.26-9
+Depends: +libc +libaio +libpthread +zlib +libpopt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: Samba 4.0.26 SMB/CIFS server
+Maintainer: 
+Source: samba-4.0.26.tar.gz
+License: GPLv3
+LicenseFiles: COPYING
+Type: ipkg
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+http://www.samba.org/
+
+@@
+Config:
+	config PACKAGE_SAMBA_MAX_DEBUG_LEVEL
+		int "Maximum level of compiled-in debug messages"
+		depends on PACKAGE_samba36-server
+		default -1
+
+@@
+
+

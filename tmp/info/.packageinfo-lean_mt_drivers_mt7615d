@@ -1,0 +1,50 @@
+Source-Makefile: package/lean/mt/drivers/mt7615d/Makefile
+
+Package: kmod-mt7615d
+Menu: 1
+Submenu: Wireless Drivers
+Version: <LINUX_VERSION>+5.0.4.0-
+Depends: @TARGET_ramips +MTK_CFG80211_SUPPORT:kmod-cfg80211 +@DRIVER_11AC_SUPPORT +@DRIVER_11N_SUPPORT +@DRIVER_11W_SUPPORT
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: MTK wifi AP driver
+Maintainer: 
+Source: 
+Type: ipkg
+Description: MTK wifi AP driver
+
+@@
+Config:
+	source "package/lean/mt/drivers/mt7615d/config.in"
+@@
+
+Package: kmod-mt7615d_dbdc
+Menu: 1
+Submenu: Wireless Drivers
+Version: <LINUX_VERSION>+5.0.4.0-
+Depends: @TARGET_ramips +kmod-mt7615d +maccalc +PACKAGE_firewall:kmod-br-netfilter
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: MTK wifi AP driver
+Maintainer: 
+Source: 
+Type: ipkg
+Description: MTK wifi AP driver
+
+@@
+Config:
+	select MTK_WIFI_DRIVER
+	select MTK_FIRST_IF_MT7615E
+	select MTK_MT_WIFI
+	select MTK_WIFI_MT_MAC
+	select MTK_CHIP_MT7615E
+	select MTK_DBDC_MODE
+@@
+
+

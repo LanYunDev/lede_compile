@@ -1,0 +1,6 @@
+./bao.go
+./blake3.go
+./compress_amd64.go
+./compress_generic.go
+./cpu.go
+./blake3_amd64.s

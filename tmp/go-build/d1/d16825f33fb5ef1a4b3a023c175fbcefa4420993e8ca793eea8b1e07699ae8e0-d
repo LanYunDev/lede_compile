@@ -1,0 +1,13 @@
+./GenericRefreshProtocol.pb.go
+./GetUserMappingsProtocol.pb.go
+./HAServiceProtocol.pb.go
+./IpcConnectionContext.pb.go
+./ProtobufRpcEngine.pb.go
+./ProtocolInfo.pb.go
+./RefreshAuthorizationPolicyProtocol.pb.go
+./RefreshCallQueueProtocol.pb.go
+./RefreshUserMappingsProtocol.pb.go
+./RpcHeader.pb.go
+./Security.pb.go
+./TraceAdmin.pb.go
+./ZKFCProtocol.pb.go

@@ -1,0 +1,6 @@
+./atomic.go
+./doc.go
+./editor.go
+./os.go
+./path.go
+./temp_data.go

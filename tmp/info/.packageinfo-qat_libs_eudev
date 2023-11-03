@@ -1,0 +1,49 @@
+Source-Makefile: package/qat/libs/eudev/Makefile
+Build-Depends: gperf/host
+
+Package: eudev
+Menu: 1
+Version: 3.2.10-1
+Depends: +libc +EUDEV_EXTRA_blkid:libblkid +EUDEV_EXTRA_kmod:libkmod +librt +libeudev
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: Libs
+Category: Libraries
+Repository: base
+Title: Dynamic device management subsystem
+Maintainer: Ian Cooper <iancooper@hotmail.com>
+Source: eudev-3.2.10.tar.gz
+License: GPL-2.0
+Type: ipkg
+Description: Eudev is the Gentoo Linux port of udev. This implementation installs only the libraries
+and a udevmonitor binary. This allows packages dependent on libudev to be compiled and
+run on OpenWrt. The udevmonitor binary can be used to see what events are tiggered so
+that an appropriate hotplug handler script can be installed.
+https://wiki.gentoo.org/wiki/Project:Eudev
+Ian Cooper <iancooper@hotmail.com>
+@@
+Config:
+	source "package/qat/libs/eudev/Config.in"
+@@
+
+Package: libeudev
+Version: 3.2.10-1
+Depends: +libc 
+Conflicts: libudev-zero udev
+Menu-Depends: 
+Provides: libudev
+Section: libs
+Category: Libraries
+Repository: base
+Title: Dynamic device management subsystem
+Maintainer: Ian Cooper <iancooper@hotmail.com>
+Source: eudev-3.2.10.tar.gz
+License: GPL-2.0
+Type: ipkg
+Description: Dynamic device management subsystem
+https://wiki.gentoo.org/wiki/Project:Eudev
+Ian Cooper <iancooper@hotmail.com>
+@@
+
+

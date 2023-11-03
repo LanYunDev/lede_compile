@@ -1,0 +1,60 @@
+Source-Makefile: package/feeds/luci/luci-app-design-config/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-design-config
+Submenu: 3. Applications
+Version: 1.3-20230306
+Depends: +libc +luci-compat
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: luci
+Title: LuCI page for Design Config
+Maintainer: gngpp <gngppz@gmail.com>
+Source: 
+Type: ipkg
+Description: LuCI page for Design Config
+gngpp <gngppz@gmail.com>
+@@
+
+Package: luci-i18n-design-config-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 1.3-20230306
+Depends: +libc luci-app-design-config
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: luci
+Title: luci-app-design-config - zh-cn translation
+Maintainer: gngpp <gngppz@gmail.com>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-design-config - 简体中文 (Simplified Chinese)
+gngpp <gngppz@gmail.com>
+@@
+
+Package: luci-i18n-design-config-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 1.3-20230306
+Depends: +libc luci-app-design-config
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: luci
+Title: luci-app-design-config - zh_Hans translation
+Maintainer: gngpp <gngppz@gmail.com>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-design-config - 
+gngpp <gngppz@gmail.com>
+@@
+
+

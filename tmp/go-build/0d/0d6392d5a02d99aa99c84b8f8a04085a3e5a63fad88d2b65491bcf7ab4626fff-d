@@ -1,0 +1,11 @@
+./about_unix.go
+./fadvise_unix.go
+./lchtimes_unix.go
+./local.go
+./metadata.go
+./metadata_linux.go
+./read_device_unix.go
+./remove_other.go
+./setbtime.go
+./symlink.go
+./xattr.go

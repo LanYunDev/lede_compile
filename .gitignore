@@ -8,7 +8,7 @@
 /bin
 /build_dir
 /staging_dir
-/tmp
+# /tmp
 /logs
 *.7z
 #/feeds

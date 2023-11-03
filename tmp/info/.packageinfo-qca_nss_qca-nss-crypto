@@ -1,0 +1,20 @@
+Source-Makefile: package/qca/nss/qca-nss-crypto/Makefile
+
+Package: kmod-qca-nss-crypto
+Submenu: Network Devices
+Version: <LINUX_VERSION>+e7651c2986d30b5e8ca5ad6b9a72c47febdf3cca-1
+Depends: @(TARGET_ipq806x||TARGET_ipq807x||TARGET_ipq50xx||TARGET_ipq60xx) +kmod-qca-nss-drv
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: Kernel driver for NSS crypto driver
+Maintainer: 
+Source: qca-nss-crypto-e7651c2986d30b5e8ca5ad6b9a72c47febdf3cca.tar.xz
+Type: ipkg
+Description: Kernel driver for NSS crypto driver
+
+@@
+
+

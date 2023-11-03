@@ -1,0 +1,41 @@
+Source-Makefile: package/qca/firmware/nss-firmware/Makefile
+
+Package: nss-firmware-ipq6018
+Version: 2021-03-12-73f378d6be21a9c20a69b77000dbb54a537006a9-0
+Depends: +libc @(TARGET_ipq807x||TARGET_ipq60xx)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: NSS firmware for IPQ6018 devices
+Maintainer: Robert Marko <robimarko@gmail.com>
+Source: nss-firmware-2021-03-12-73f378d6be21a9c20a69b77000dbb54a537006a9.tar.xz
+LicenseFiles: LICENSE.md
+Type: ipkg
+Description: NSS firmware for IPQ6018 devices
+https://github.com/quic/qca-sdk-nss-fw.git
+Robert Marko <robimarko@gmail.com>
+@@
+
+Package: nss-firmware-ipq8074
+Version: 2021-03-12-73f378d6be21a9c20a69b77000dbb54a537006a9-0
+Depends: +libc @(TARGET_ipq807x||TARGET_ipq60xx)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: firmware
+Category: Firmware
+Repository: base
+Title: NSS firmware for IPQ8074 devices
+Maintainer: Robert Marko <robimarko@gmail.com>
+Source: nss-firmware-2021-03-12-73f378d6be21a9c20a69b77000dbb54a537006a9.tar.xz
+LicenseFiles: LICENSE.md
+Type: ipkg
+Description: NSS firmware for IPQ8074 devices
+https://github.com/quic/qca-sdk-nss-fw.git
+Robert Marko <robimarko@gmail.com>
+@@
+
+

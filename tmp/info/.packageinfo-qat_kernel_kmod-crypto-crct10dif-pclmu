@@ -1,0 +1,23 @@
+Source-Makefile: package/qat/kernel/kmod-crypto-crct10dif-pclmu/Makefile
+
+Package: kmod-crypto-crct10dif-pclmu
+Submenu: Cryptographic API modules
+Version: <LINUX_VERSION>+1.0-1
+Depends: +kmod-crypto-hash @TARGET_x86_64
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: CRCT10DIF hardware acceleration
+Maintainer: dl12345 <dl12345@github.com>
+Source: 
+License: GPL v3
+Type: ipkg
+Kernel-Config: CONFIG_CRYPTO_CRCT10DIF_PCLMUL
+Description:  CRC T10 Data Integrity Field computation is being cast as a crypto transform. 
+ This allows for faster crc t10 diff transforms to be used if they are available.
+dl12345 <dl12345@github.com>
+@@
+
+

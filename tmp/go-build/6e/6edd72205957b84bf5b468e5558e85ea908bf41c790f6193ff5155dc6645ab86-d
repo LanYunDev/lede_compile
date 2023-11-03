@@ -1,0 +1,5 @@
+./caller_hook.go
+./log.go
+./redirect_stderr_unix.go
+./syslog_unix.go
+./systemd_unix.go

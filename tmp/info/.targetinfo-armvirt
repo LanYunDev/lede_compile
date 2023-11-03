@@ -1,0 +1,82 @@
+Source-Makefile: target/linux/armvirt/Makefile
+Target: armvirt
+Target-Board: armvirt
+Target-Name: QEMU ARM Virtual Machine
+Target-Arch: 
+Target-Arch-Packages: 
+Target-Features: boot-part cpiogz dt ext4 fpu pci pcie ramdisk rootfs-part rtc squashfs targz usb virtio vmdk
+Target-Depends: 
+Target-Optimization: -Os -pipe
+CPU-Type: 
+Linux-Version: 5.15.136
+Linux-Release: 1
+Linux-Kernel-Arch: arm64
+Target-Description:
+
+@@
+Default-Packages: base-files ca-bundle dropbear fstools libc libgcc libustream-openssl logd mtd netifd opkg uci uclient-fetch urandom-seed urngd busybox procd procd-ujail dnsmasq-full firewall iptables ppp ppp-mod-pppoe block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw kmod-tun iptables-mod-tproxy iptables-mod-extra ipset ip-full default-settings luci luci-newapi ddns-scripts_aliyun ddns-scripts_dnspod luci-app-ddns luci-app-upnp luci-app-autoreboot luci-app-arpbind luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-vlmcsd luci-app-accesscontrol luci-app-nlbwmon luci-app-turboacc luci-app-wol curl ca-certificates mkf2fs e2fsprogs 
+Target: armvirt/32
+Target-Board: armvirt
+Target-Name: 32-bit ARM QEMU Virtual Machine
+Target-Arch: arm
+Target-Arch-Packages: arm_cortex-a15_neon-vfpv4
+Target-Features: arm_v7 boot-part cpiogz dt ext4 fpu pci pcie ramdisk rootfs-part rtc squashfs targz usb virtio vmdk
+Target-Depends: 
+Target-Optimization: -Os -pipe
+CPU-Type: cortex-a15+neon-vfpv4
+Linux-Version: 5.15.136
+Linux-Release: 1
+Linux-Kernel-Arch: arm
+Target-Description:
+  Build images for 32-bit ARM QEMU Virtual Machine
+@@
+Default-Packages: base-files ca-bundle dropbear fstools libc libgcc libustream-openssl logd mtd netifd opkg uci uclient-fetch urandom-seed urngd busybox procd procd-ujail dnsmasq-full firewall iptables ppp ppp-mod-pppoe block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw kmod-tun iptables-mod-tproxy iptables-mod-extra ipset ip-full default-settings luci luci-newapi ddns-scripts_aliyun ddns-scripts_dnspod luci-app-ddns luci-app-upnp luci-app-autoreboot luci-app-arpbind luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-vlmcsd luci-app-accesscontrol luci-app-nlbwmon luci-app-turboacc luci-app-wol curl ca-certificates mkf2fs e2fsprogs 
+Target-Profile: DEVICE_generic
+Target-Profile-Name: Generic EFI Boot
+Target-Profile-Packages: kmod-amazon-ena kmod-e1000e kmod-mvpp2 kmod-vmxnet3 kmod-fsl-dpaa2-net kmod-sfp kmod-phy-aquantia kmod-phy-marvell kmod-dwmac-imx kmod-fsl-fec kmod-thunderx-net kmod-i2c-mux-pca954x kmod-gpio-pca953x kmod-rtc-rx8025 partx-utils
+Target-Profile-hasImageMetadata: 1
+Target-Profile-SupportedDevices: 
+
+
+Target-Profile-Description:
+Build firmware images for Generic EFI Boot
+
+
+
+
+
+@@
+
+Target: armvirt/64
+Target-Board: armvirt
+Target-Name: 64-bit ARM machines
+Target-Arch: aarch64
+Target-Arch-Packages: aarch64_generic
+Target-Features: boot-part cpiogz display dt ext4 fpu pci pcie ramdisk rootfs-part rtc squashfs targz usb virtio vmdk
+Target-Depends: 
+Target-Optimization: -Os -pipe -mcpu=generic
+CPU-Type: generic
+Linux-Version: 5.15.136
+Linux-Release: 1
+Linux-Kernel-Arch: arm64
+Target-Description:
+  Build multi-platform images for the ARMv8 instruction set architecture
+@@
+Default-Packages: base-files ca-bundle dropbear fstools libc libgcc libustream-openssl logd mtd netifd opkg uci uclient-fetch urandom-seed urngd busybox procd procd-ujail dnsmasq-full firewall iptables ppp ppp-mod-pppoe block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw kmod-tun iptables-mod-tproxy iptables-mod-extra ipset ip-full default-settings luci luci-newapi ddns-scripts_aliyun ddns-scripts_dnspod luci-app-ddns luci-app-upnp luci-app-autoreboot luci-app-arpbind luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-vlmcsd luci-app-accesscontrol luci-app-nlbwmon luci-app-turboacc luci-app-wol curl ca-certificates mkf2fs e2fsprogs 
+Target-Profile: DEVICE_generic
+Target-Profile-Name: Generic EFI Boot
+Target-Profile-Packages: kmod-amazon-ena kmod-e1000e kmod-mvpp2 kmod-vmxnet3 kmod-fsl-dpaa2-net kmod-sfp kmod-phy-aquantia kmod-phy-marvell kmod-dwmac-imx kmod-fsl-fec kmod-thunderx-net kmod-i2c-mux-pca954x kmod-gpio-pca953x kmod-rtc-rx8025 partx-utils
+Target-Profile-hasImageMetadata: 1
+Target-Profile-SupportedDevices: 
+
+
+Target-Profile-Description:
+Build firmware images for Generic EFI Boot
+
+
+
+
+
+@@
+
+

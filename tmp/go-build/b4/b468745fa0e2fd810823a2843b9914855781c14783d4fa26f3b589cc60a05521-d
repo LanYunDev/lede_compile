@@ -1,0 +1,3 @@
+./fs.go
+./hdfs.go
+./object.go

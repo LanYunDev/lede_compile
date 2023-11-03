@@ -1,0 +1,4 @@
+./addons.go
+./addons.pb.go
+./encoding.go
+./errors.generated.go

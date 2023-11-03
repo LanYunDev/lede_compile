@@ -1,0 +1,4 @@
+./canonical.go
+./files.go
+./names.go
+./output.go

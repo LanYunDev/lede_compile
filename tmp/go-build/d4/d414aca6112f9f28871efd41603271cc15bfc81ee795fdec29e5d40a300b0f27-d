@@ -1,0 +1,4 @@
+./eof.go
+./peek.go
+./size.go
+./store.go

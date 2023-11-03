@@ -1,0 +1,22 @@
+Source-Makefile: package/kernel/rtl8812au-ac/Makefile
+
+Package: kmod-rtl8812au-ac
+Submenu: Wireless Drivers
+Version: <LINUX_VERSION>+2023-01-23-e72dacdc4af7cf421484ce9567ef2cc995a16f3a-2
+Depends: +kmod-cfg80211 +kmod-usb-core +@DRIVER_11AC_SUPPORT
+Conflicts: kmod-rtl8812au-ct
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: Realtek RTL8812AU/21AU wireless drivers
+Maintainer: 
+Source: rtl8812au-ac-2023-01-23-e72dacdc4af7cf421484ce9567ef2cc995a16f3a.tar.xz
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Type: ipkg
+Description: Realtek RTL8812AU/21AU wireless drivers
+
+@@
+
+

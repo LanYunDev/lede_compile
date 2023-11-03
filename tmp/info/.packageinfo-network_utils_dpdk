@@ -1,0 +1,22 @@
+Source-Makefile: package/network/utils/dpdk/Makefile
+Build-Types: host
+
+Package: dpdk
+Version: 21.05
+Depends: +libc @(x86_64||arm||aarch64) +librt +libpthread +libbpf +libpcap +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: Data Plane Development Kit (DPDK)
+Maintainer: 
+Source: dpdk-21.05.tar.xz
+Type: ipkg
+Description:   DPDK consists of libraries to accelerate packet processing
+  workloads running on a wide variety of CPU architectures.
+
+@@
+
+

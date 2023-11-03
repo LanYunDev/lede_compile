@@ -1,0 +1,21 @@
+Source-Makefile: package/qca/nss/qca-nss-ecm-64/Makefile
+
+Package: kmod-qca-nss-ecm-64
+Submenu: Network Support
+Version: <LINUX_VERSION>+2021-04-29-c115aec34867b582e2e5ea79fc5315971e0e953c-0
+Depends: @(TARGET_ipq807x||TARGET_ipq60xx) +kmod-qca-nss-drv-64 +iptables-mod-extra +kmod-ipt-conntrack +kmod-ipt-physdev +iptables-mod-physdev +kmod-ppp +kmod-pppoe
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: QCA NSS Enhanced Connection Manager (ECM)
+Maintainer: 
+Source: qca-nss-ecm-64-2021-04-29-c115aec34867b582e2e5ea79fc5315971e0e953c.tar.xz
+Type: ipkg
+Kernel-Config: CONFIG_BRIDGE_NETFILTER=y CONFIG_NF_CONNTRACK_EVENTS=y CONFIG_NF_CONNTRACK_CHAIN_EVENTS=y CONFIG_NF_CONNTRACK_DSCPREMARK_EXT=n
+Description: QCA NSS Enhanced Connection Manager (ECM)
+
+@@
+
+

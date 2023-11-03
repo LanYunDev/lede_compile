@@ -1,0 +1,4 @@
+./command.go
+./config.pb.go
+./config_grpc.pb.go
+./errors.generated.go

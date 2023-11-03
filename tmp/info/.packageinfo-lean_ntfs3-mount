@@ -1,0 +1,21 @@
+Source-Makefile: package/lean/ntfs3-mount/Makefile
+
+Package: ntfs3-mount
+Submenu: Filesystem
+Version: 3
+Depends: +libc +kmod-fs-ntfs3
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: NTFS mount script for Paragon NTFS3 driver
+Maintainer: 
+Source: 
+Type: ipkg
+Description: NTFS mount script for Paragon NTFS3 driver
+
+@@
+
+

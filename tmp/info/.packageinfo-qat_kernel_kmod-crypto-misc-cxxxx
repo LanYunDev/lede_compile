@@ -1,0 +1,23 @@
+Source-Makefile: package/qat/kernel/kmod-crypto-misc-cxxxx/Makefile
+
+Package: kmod-crypto-misc-cxxxx
+Submenu: Cryptographic API modules
+Default: y if ((TARGET_x86_c2xxx||TARGET_x86_c3xxx) && PACKAGE_kmod-crypto-misc)
+Version: <LINUX_VERSION>+1.0-1
+Depends: kmod-crypto-misc @(TARGET_x86_c2xxx||TARGET_x86_c3xxx)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: kernel
+Category: Kernel modules
+Title: crypto-misc-cxxxx
+Maintainer: dl12345 <dl12345@github.com>
+Source: 
+License: GPL v3
+Type: ipkg
+Hidden: 1
+Description:  Camellia, Camellia-AESNI, Blowfish, Twofish, Serpent, Serpent SSE2, Serpent AVX2, Cast5, Cast6
+dl12345 <dl12345@github.com>
+@@
+
+

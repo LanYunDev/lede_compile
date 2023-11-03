@@ -1,0 +1,41 @@
+Source-Makefile: package/wwan/app/luci-app-usbmodem/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-usbmodem
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +luci-compat +quectel-CM-5G +kmod-usb-acm +kmod-usb-net-cdc-ether +kmod-usb-net-cdc-mbim +kmod-usb-net-qmi-wwan +kmod-usb-net-rndis +kmod-usb-serial-option +kmod-usb-wdm +kmod-qmi_wwan_f +kmod-qmi_wwan_q
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Modem Server
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Modem Server
+
+@@
+
+Package: luci-i18n-usbmodem-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-usbmodem
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-usbmodem - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-usbmodem - 简体中文 (Simplified Chinese)
+
+@@
+
+

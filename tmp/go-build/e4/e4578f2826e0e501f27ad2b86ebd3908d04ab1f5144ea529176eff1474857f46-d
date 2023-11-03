@@ -1,0 +1,10 @@
+./buf.go
+./buffer.go
+./copy.go
+./errors.generated.go
+./io.go
+./multi_buffer.go
+./reader.go
+./readv_posix.go
+./readv_reader.go
+./writer.go

@@ -1,0 +1,27 @@
+Source-Makefile: package/ddns-go/ddns-go/Makefile
+Build-Depends: golang/host
+
+Package: ddns-go
+Submenu: Web Servers/Proxies
+Version: 5.6.2-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: A Linux web GUI client of ddns-go
+Maintainer: herboy2008 <herboy2008@gmail.com>
+Require-User: ddns-go:ddns-go
+Source: ddns-go-5.6.2.tar.gz
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Type: ipkg
+Description:   ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
+  support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
+https://github.com/jeessy2/ddns-go
+herboy2008 <herboy2008@gmail.com>
+@@
+
+

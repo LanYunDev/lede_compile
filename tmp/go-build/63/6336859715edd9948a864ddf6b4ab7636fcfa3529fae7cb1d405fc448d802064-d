@@ -1,0 +1,6 @@
+./color.go
+./csort_unix.go
+./modes_unix.go
+./node.go
+./sort.go
+./stat_unix.go

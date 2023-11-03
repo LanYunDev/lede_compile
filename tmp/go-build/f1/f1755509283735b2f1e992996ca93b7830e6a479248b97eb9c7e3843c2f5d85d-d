@@ -1,0 +1,8 @@
+./default.go
+./default_go1.20.go
+./default_go1.21.go
+./detour.go
+./dialer.go
+./resolve.go
+./router.go
+./tfo.go

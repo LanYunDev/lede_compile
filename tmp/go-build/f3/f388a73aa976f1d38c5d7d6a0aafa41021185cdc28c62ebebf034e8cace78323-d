@@ -1,0 +1,9 @@
+./dnscrypt.go
+./doh.go
+./dot.go
+./dot_unix.go
+./parallel.go
+./plain.go
+./quic.go
+./upstream.go
+./upstreamresolver.go

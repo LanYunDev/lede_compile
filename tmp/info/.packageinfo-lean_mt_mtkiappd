@@ -1,0 +1,29 @@
+Source-Makefile: package/lean/mt/mtkiappd/Makefile
+
+Package: mtkiappd
+Submenu: Wireless
+Version: 1-1
+Depends: +libc @TARGET_ramips
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: MTK 802.11f supporting daemon
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	Mtkiappd is an optional user space component for MT76xx SoftAP driver.
+
+@@
+Config:
+config PACKAGE_mtkiappd_DUAL_BAND
+        bool "dual band"
+		depends on MTK_CHIP_MT7615E
+		default y if TARGET_ramips_mt7621_DEVICE_phicomm_k2p
+		default y if TARGET_ramips_mt7621_DEVICE_raisecom_msg1500-x-00
+		default n
+@@
+
+

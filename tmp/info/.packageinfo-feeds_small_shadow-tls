@@ -1,0 +1,23 @@
+Source-Makefile: package/feeds/small/shadow-tls/Makefile
+
+Package: shadow-tls
+Submenu: Web Servers/Proxies
+Version: 0.2.23-1
+Depends: +libc @USE_MUSL @(aarch64||arm||x86_64) @!(TARGET_x86_geode||TARGET_x86_legacy)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: small
+Title: A proxy to expose real tls handshake to the firewall.
+Maintainer: FluffyTigerFear
+Source: dummy
+LicenseFiles: LICENSE
+Type: ipkg
+Description: A proxy to expose real tls handshake to the firewall.
+https://github.com/ihciah/shadow-tls
+FluffyTigerFear
+@@
+
+
