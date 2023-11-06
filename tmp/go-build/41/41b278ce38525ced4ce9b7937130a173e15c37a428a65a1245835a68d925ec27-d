@@ -1,0 +1,6 @@
+./errors.go
+./filestore.go
+./httpstore.go
+./interfaces.go
+./memorystore.go
+./offlinestore.go

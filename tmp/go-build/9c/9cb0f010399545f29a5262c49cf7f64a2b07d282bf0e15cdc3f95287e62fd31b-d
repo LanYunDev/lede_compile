@@ -1,0 +1,10 @@
+./fmountat_linux.go
+./lookup_unix.go
+./losetup_linux.go
+./mount.go
+./mount_linux.go
+./mountinfo.go
+./subprocess_unsafe_linux.go
+./temp.go
+./temp_unix.go
+./subprocess_unsafe_linux.s

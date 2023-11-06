@@ -1,0 +1,3 @@
+./buildconfig.go
+./capture.go
+./predicate.go

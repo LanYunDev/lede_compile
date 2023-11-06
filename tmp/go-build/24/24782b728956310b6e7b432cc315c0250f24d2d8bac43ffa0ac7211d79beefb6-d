@@ -1,0 +1,6 @@
+./xor.go
+./xor_amd64.go
+./xoravx2_amd64.s
+./xoravx512_amd64.s
+./xorbytes_amd64.s
+./xorsse2_amd64.s

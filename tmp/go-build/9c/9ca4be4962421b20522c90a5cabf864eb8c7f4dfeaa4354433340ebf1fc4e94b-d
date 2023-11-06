@@ -1,0 +1,7 @@
+./decode.go
+./encode.go
+./fold.go
+./indent.go
+./scanner.go
+./stream.go
+./tags.go

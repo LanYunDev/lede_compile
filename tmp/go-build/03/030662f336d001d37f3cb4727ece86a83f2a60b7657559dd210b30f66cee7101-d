@@ -1,0 +1,5 @@
+./error.go
+./utils.go
+./utils_notsolaris.go
+./zfs.go
+./zpool.go

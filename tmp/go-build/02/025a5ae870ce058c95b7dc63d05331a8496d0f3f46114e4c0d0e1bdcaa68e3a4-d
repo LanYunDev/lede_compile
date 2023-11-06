@@ -1,0 +1,14 @@
+./cgroup.go
+./doc.go
+./freplace.go
+./iter.go
+./kprobe.go
+./link.go
+./netns.go
+./perf_event.go
+./platform.go
+./program.go
+./raw_tracepoint.go
+./syscalls.go
+./tracepoint.go
+./uprobe.go

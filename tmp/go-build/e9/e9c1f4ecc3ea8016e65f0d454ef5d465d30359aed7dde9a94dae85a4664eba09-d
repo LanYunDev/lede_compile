@@ -1,0 +1,3 @@
+./doc.go
+./transfer.pb.go
+./transfer_grpc.pb.go

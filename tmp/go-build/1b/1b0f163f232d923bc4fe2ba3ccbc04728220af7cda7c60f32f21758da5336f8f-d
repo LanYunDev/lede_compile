@@ -1,0 +1,5 @@
+./config.go
+./device_info.go
+./metadata.go
+./pool_device.go
+./snapshotter.go

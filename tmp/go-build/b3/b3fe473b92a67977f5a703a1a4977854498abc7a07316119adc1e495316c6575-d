@@ -1,0 +1,3 @@
+./generate.go
+./upload.go
+./upload.pb.go

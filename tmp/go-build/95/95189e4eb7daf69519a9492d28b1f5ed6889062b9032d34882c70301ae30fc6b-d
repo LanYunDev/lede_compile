@@ -1,0 +1,5 @@
+./build.go
+./estargz.go
+./gzip.go
+./testutil.go
+./types.go

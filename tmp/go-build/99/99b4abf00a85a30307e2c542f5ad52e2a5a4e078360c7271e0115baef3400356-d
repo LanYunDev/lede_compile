@@ -1,0 +1,13 @@
+./ca.pb.go
+./control.pb.go
+./dispatcher.pb.go
+./health.pb.go
+./logbroker.pb.go
+./objects.pb.go
+./raft.pb.go
+./resource.pb.go
+./snapshot.pb.go
+./specs.pb.go
+./storeobject.go
+./types.pb.go
+./watch.pb.go

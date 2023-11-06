@@ -1,0 +1,6 @@
+./fluent.go
+./proto.go
+./proto_gen.go
+./test_message.go
+./test_message_gen.go
+./version.go

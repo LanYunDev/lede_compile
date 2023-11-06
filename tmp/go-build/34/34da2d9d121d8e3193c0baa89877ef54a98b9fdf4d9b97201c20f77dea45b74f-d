@@ -1,0 +1,7 @@
+package patchbpf
+//go:cgo_import_dynamic __deregister_frame_info __deregister_frame_info#GCC_3.0 "libgcc_s.so.1"
+//go:cgo_import_dynamic __register_frame_info __register_frame_info#GCC_3.0 "libgcc_s.so.1"
+//go:cgo_import_dynamic __libc_start_main __libc_start_main ""
+//go:cgo_import_dynamic _ _ "libseccomp.so.2"
+//go:cgo_import_dynamic _ _ "libgcc_s.so.1"
+//go:cgo_import_dynamic _ _ "libc.so"

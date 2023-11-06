@@ -1,0 +1,7 @@
+./checksum.go
+./checksum.pb.go
+./filehash.go
+./filehash_unix.go
+./generate.go
+./path.go
+./tarsum.go

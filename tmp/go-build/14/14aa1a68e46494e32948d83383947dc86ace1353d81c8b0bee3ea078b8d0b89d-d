@@ -1,0 +1,6 @@
+./diffapply_unix.go
+./localmounter.go
+./localmounter_unix.go
+./merge.go
+./snapshotter.go
+./staticmountable.go

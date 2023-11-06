@@ -1,0 +1,10 @@
+./auto.go
+./builtin.go
+./config.go
+./doc.go
+./env.go
+./os.go
+./os_release_unix.go
+./os_unix.go
+./process.go
+./resource.go

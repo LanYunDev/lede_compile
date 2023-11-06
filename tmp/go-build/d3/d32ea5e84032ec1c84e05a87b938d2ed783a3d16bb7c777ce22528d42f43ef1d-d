@@ -1,0 +1,6 @@
+./doc.go
+./mounted_linux.go
+./mounted_unix.go
+./mountinfo.go
+./mountinfo_filters.go
+./mountinfo_linux.go

@@ -1,0 +1,6 @@
+./publisher.go
+./shim.go
+./shim_linux.go
+./shim_unix.go
+./util.go
+./util_unix.go

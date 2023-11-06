@@ -1,0 +1,4 @@
+./replicated.go
+./services.go
+./slot.go
+./tasks.go

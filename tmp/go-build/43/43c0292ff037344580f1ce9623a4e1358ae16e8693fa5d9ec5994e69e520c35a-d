@@ -1,0 +1,6 @@
+./client.go
+./discovery.go
+./discovery_unix.go
+./errors.go
+./plugins.go
+./plugins_unix.go

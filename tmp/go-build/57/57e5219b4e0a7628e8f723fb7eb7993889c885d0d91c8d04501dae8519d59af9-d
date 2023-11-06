@@ -1,0 +1,6 @@
+./doc.go
+./imagestore.pb.go
+./importexport.pb.go
+./progress.pb.go
+./registry.pb.go
+./streaming.pb.go

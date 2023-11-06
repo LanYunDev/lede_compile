@@ -1,0 +1,6 @@
+./annotations.go
+./attestations.go
+./export.go
+./opts.go
+./patch.go
+./writer.go

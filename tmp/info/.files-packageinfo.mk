@@ -1943,7 +1943,6 @@ $(eval $(call PackageDir,feeds_small_luci-app-bypass,feeds/small/luci-app-bypass
 $(eval $(call PackageDir,feeds_small_luci-app-passwall,feeds/small/luci-app-passwall,))
 $(eval $(call PackageDir,feeds_small_luci-app-passwall2,feeds/small/luci-app-passwall2,))
 $(eval $(call PackageDir,feeds_small_luci-app-ssr-plus,feeds/small/luci-app-ssr-plus,))
-$(eval $(call PackageDir,feeds_small_luci-app-vssr,feeds/small/luci-app-vssr,))
 $(eval $(call PackageDir,feeds_small_microsocks,feeds/small/microsocks,))
 $(eval $(call PackageDir,feeds_small_naiveproxy,feeds/small/naiveproxy,))
 $(eval $(call PackageDir,feeds_small_redsocks2,feeds/small/redsocks2,))

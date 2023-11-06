@@ -1,0 +1,10 @@
+./archive.go
+./detect.go
+./filehash.go
+./generate.go
+./git.go
+./lazycontext.go
+./mimetype.go
+./remote.go
+./tarsum.go
+./tarsum.pb.go

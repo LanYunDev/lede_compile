@@ -643,8 +643,8 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-ssr-plus
 Submenu: 3. Applications
-Version: 188-3
-Depends: +libc @(PACKAGE_libustream-mbedtls||PACKAGE_libustream-openssl||PACKAGE_libustream-wolfssl) +coreutils +coreutils-base64 +dns2socks +dns2tcp +dnsmasq-full +@PACKAGE_dnsmasq_full_ipset +ipset +kmod-ipt-nat +ip-full +iptables +iptables-mod-tproxy +lua +lua-neturl +libuci-lua +microsocks +tcping +resolveip +shadowsocksr-libev-ssr-check +uclient-fetch +PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray:curl +PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray:v2ray-core +PACKAGE_luci-app-ssr-plus_INCLUDE_Xray:curl +PACKAGE_luci-app-ssr-plus_INCLUDE_Xray:xray-core +PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG:chinadns-ng +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:mosdns +PACKAGE_luci-app-ssr-plus_INCLUDE_Hysteria:hysteria +PACKAGE_luci-app-ssr-plus_INCLUDE_Tuic_Client:tuic-client +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadow_TLS:shadow-tls +PACKAGE_luci-app-ssr-plus_INCLUDE_IPT2Socks:ipt2socks +PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun:kcptun-client +PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy:naiveproxy +PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2:redsocks2 +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-local +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-redir +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Server:shadowsocks-libev-ss-server +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Client:shadowsocks-rust-sslocal +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server:shadowsocks-rust-ssserver +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs:simple-obfs +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_V2ray_Plugin:v2ray-plugin +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client:shadowsocksr-libev-ssr-local +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client:shadowsocksr-libev-ssr-redir +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server:shadowsocksr-libev-ssr-server +PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan:trojan
+Version: 190-1
+Depends: +libc @(PACKAGE_libustream-mbedtls||PACKAGE_libustream-openssl||PACKAGE_libustream-wolfssl) +coreutils +coreutils-base64 +dns2socks +dns2tcp +dnsmasq-full +@PACKAGE_dnsmasq_full_ipset +ipset +kmod-ipt-nat +ip-full +iptables +iptables-mod-tproxy +lua +lua-neturl +libuci-lua +microsocks +tcping +resolveip +shadowsocksr-libev-ssr-check +uclient-fetch +PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray:curl +PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray:v2ray-core +PACKAGE_luci-app-ssr-plus_INCLUDE_Xray:curl +PACKAGE_luci-app-ssr-plus_INCLUDE_Xray:xray-core +PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG:chinadns-ng +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:mosdns +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:yq +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:v2dat +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:diffutils +PACKAGE_luci-app-ssr-plus_INCLUDE_Hysteria:hysteria +PACKAGE_luci-app-ssr-plus_INCLUDE_Tuic_Client:tuic-client +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadow_TLS:shadow-tls +PACKAGE_luci-app-ssr-plus_INCLUDE_IPT2Socks:ipt2socks +PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun:kcptun-client +PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy:naiveproxy +PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2:redsocks2 +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-local +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-redir +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Server:shadowsocks-libev-ss-server +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Client:shadowsocks-rust-sslocal +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server:shadowsocks-rust-ssserver +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs:simple-obfs +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_V2ray_Plugin:v2ray-plugin +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client:shadowsocksr-libev-ssr-local +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client:shadowsocksr-libev-ssr-redir +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server:shadowsocksr-libev-ssr-server +PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan:trojan
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -781,7 +781,7 @@ config PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan
 
 Package: luci-i18n-ssr-plus-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 188-3
+Version: 190-1
 Depends: +libc luci-app-ssr-plus
 Conflicts: 
 Menu-Depends: 
@@ -800,7 +800,7 @@ Description:     Translation for luci-app-ssr-plus - 简体中文 (Simplified Ch
 
 Package: luci-i18n-ssr-plus-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 188-3
+Version: 190-1
 Depends: +libc luci-app-ssr-plus
 Conflicts: 
 Menu-Depends: 
@@ -814,91 +814,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-ssr-plus - 
-
-@@
-
-
-Source-Makefile: feeds/small/luci-app-vssr/Makefile
-Build-Depends: lua/host luci-base/host 
-
-Package: luci-app-vssr
-Submenu: 3. Applications
-Version: 1.25-20220423
-Depends: +libc +ipset +ip-full +iptables-mod-tproxy +dnsmasq-full +coreutils +coreutils-base64 +bash +pdnsd-alt +wget-ssl +lua +luasocket +lua-maxminddb +lua-cjson +shadowsocks-libev-ss-local +shadowsocks-libev-ss-redir +shadowsocksr-libev-ssr-local +shadowsocksr-libev-ssr-redir +shadowsocksr-libev-ssr-check +simple-obfs +PACKAGE_luci-app-vssr_INCLUDE_Xray:xray-core +PACKAGE_luci-app-vssr_INCLUDE_Trojan:trojan +PACKAGE_luci-app-vssr_INCLUDE_Trojan:ipt2socks +PACKAGE_luci-app-vssr_INCLUDE_Kcptun:kcptun-client +PACKAGE_luci-app-vssr_INCLUDE_Xray_plugin:xray-plugin +PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server:shadowsocksr-libev-ssr-server +PACKAGE_luci-app-vssr_INCLUDE_Hysteria:hysteria
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: A New SS/SSR/Xray/Trojan LuCI interface
-Maintainer: 
-Source: 
-Type: ipkg
-Description: A New SS/SSR/Xray/Trojan LuCI interface
-
-@@
-Config:
-config PACKAGE_luci-app-vssr_INCLUDE_Xray
-	bool "Include Xray"
-	default y if i386||x86_64||arm||aarch64
-
-config PACKAGE_luci-app-vssr_INCLUDE_Trojan
-	bool "Include Trojan"
-	default y if i386||x86_64||arm||aarch64
-	
-config PACKAGE_luci-app-vssr_INCLUDE_Kcptun
-	bool "Include Kcptun"
-	default n
-
-config PACKAGE_luci-app-vssr_INCLUDE_Xray_plugin
-	bool "Include Shadowsocks Xray Plugin"
-	default y if i386||x86_64||arm||aarch64
-	
-config PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server
-	bool "Include ShadowsocksR Libev Server"
-	default y if i386||x86_64||arm||aarch64
-
-config PACKAGE_luci-app-vssr_INCLUDE_Hysteria
-	bool "Include Hysteria"
-	default y if i386||x86_64||arm||aarch64
-@@
-
-Package: luci-i18n-vssr-zh-cn
-Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.25-20220423
-Depends: +libc luci-app-vssr
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-vssr - zh-cn translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-vssr - 简体中文 (Simplified Chinese)
-
-@@
-
-Package: luci-i18n-vssr-zh_Hans
-Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.25-20220423
-Depends: +libc luci-app-vssr
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-vssr - zh_Hans translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-vssr - 
 
 @@
 
@@ -1300,7 +1215,7 @@ Build-Depends: golang/host
 
 Package: sing-box
 Submenu: Web Servers/Proxies
-Version: 1.7.0-alpha.1-1
+Version: 1.7.0-alpha.3-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle +kmod-inet-diag +kmod-netlink-diag +kmod-tun
 Conflicts: 
 Menu-Depends: 
@@ -1310,7 +1225,7 @@ Category: Network
 Repository: base
 Title: The universal proxy platform.
 Maintainer: 
-Source: sing-box-1.7.0-alpha.1.tar.gz
+Source: sing-box-1.7.0-alpha.3.tar.gz
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1546,11 +1461,34 @@ Tianling Shen <cnsztl@immortalwrt.org>
 @@
 
 
+Source-Makefile: feeds/small/v2dat/Makefile
+Build-Depends: golang/host
+
+Package: v2dat
+Version: 2022-12-15-47b8ee51fb528e11e1a83453b7e767a18d20d1f7-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: V2ray geo/ip data unpack tools
+Maintainer: sbwml <admin@cooluc.com>
+Source: v2dat-2022-12-15.tar.gz
+License: GPL-3.0
+Type: ipkg
+Description: V2ray geo/ip data unpack tools
+https://github.com/urlesistiana/v2dat
+sbwml <admin@cooluc.com>
+@@
+
+
 Source-Makefile: feeds/small/v2ray-core/Makefile
 Build-Depends: golang/host
 
 Package: v2ray-core
-Version: 5.10.1-1
+Version: 5.11.0-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -1560,7 +1498,7 @@ Category: Network
 Repository: base
 Title: A platform for building proxies to bypass network restrictions
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: v2ray-core-5.10.1.tar.gz
+Source: v2ray-core-5.11.0.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1571,7 +1509,7 @@ Tianling Shen <cnsztl@immortalwrt.org>
 @@
 
 Package: v2ray-extra
-Version: 5.10.1-1
+Version: 5.11.0-1
 Depends: +libc v2ray-core
 Conflicts: 
 Menu-Depends: 
@@ -1581,7 +1519,7 @@ Category: Network
 Repository: base
 Title: A platform for building proxies to bypass network restrictions (extra resources)
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: v2ray-core-5.10.1.tar.gz
+Source: v2ray-core-5.11.0.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1665,7 +1603,7 @@ Build-Depends: golang/host
 
 Package: v2ray-plugin
 Submenu: Web Servers/Proxies
-Version: 5.10.0-1
+Version: 5.11.0-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -1675,7 +1613,7 @@ Category: Network
 Repository: base
 Title: SIP003 plugin for shadowsocks, based on v2ray
 Maintainer: madeye <max.c.lv@gmail.com>
-Source: v2ray-plugin-5.10.0.tar.gz
+Source: v2ray-plugin-5.11.0.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg

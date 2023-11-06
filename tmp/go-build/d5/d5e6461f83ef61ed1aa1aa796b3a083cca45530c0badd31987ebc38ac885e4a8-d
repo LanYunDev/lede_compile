@@ -1,0 +1,7 @@
+./common.go
+./deploy.go
+./deploy_composefile.go
+./list.go
+./ps.go
+./remove.go
+./services.go

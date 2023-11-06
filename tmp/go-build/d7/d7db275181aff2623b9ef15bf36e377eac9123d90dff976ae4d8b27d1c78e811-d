@@ -1,0 +1,5 @@
+./nosimd.go
+./xor.go
+./xor_amd64.go
+./avx2_amd64.s
+./sse2_amd64.s

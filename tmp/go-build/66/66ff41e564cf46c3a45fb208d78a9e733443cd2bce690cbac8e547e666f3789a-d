@@ -1,0 +1,7 @@
+./counter.go
+./driver.go
+./driver_linux.go
+./errors.go
+./fsdiff.go
+./plugin.go
+./proxy.go

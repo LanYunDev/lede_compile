@@ -1,0 +1,4 @@
+./copy.go
+./generate.go
+./ssh.go
+./ssh.pb.go

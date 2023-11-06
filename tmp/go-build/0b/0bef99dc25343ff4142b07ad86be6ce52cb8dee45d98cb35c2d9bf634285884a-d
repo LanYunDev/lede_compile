@@ -1,0 +1,6 @@
+./locks.go
+./readerat.go
+./store.go
+./store_unix.go
+./test_helper.go
+./writer.go

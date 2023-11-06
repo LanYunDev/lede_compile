@@ -1,0 +1,4 @@
+./generate.go
+./stat.go
+./stat.pb.go
+./wire.pb.go

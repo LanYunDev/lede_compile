@@ -1,0 +1,3 @@
+./diff.go
+./stream.go
+./stream_unix.go

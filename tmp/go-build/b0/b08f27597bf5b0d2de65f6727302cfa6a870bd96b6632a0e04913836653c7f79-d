@@ -1,0 +1,4 @@
+_cgo_gotypes.go
+seccomp.cgo1.go
+seccomp_internal.cgo1.go
+_cgo_import.go

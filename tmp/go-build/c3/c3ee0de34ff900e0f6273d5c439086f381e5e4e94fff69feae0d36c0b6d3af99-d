@@ -1,0 +1,9 @@
+./client.go
+./delegations.go
+./errors.go
+./helpers.go
+./interface.go
+./reader.go
+./repo_pkcs11.go
+./tufclient.go
+./witness.go

@@ -1,0 +1,7 @@
+./client.go
+./cni.go
+./commands.go
+./commands_unix.go
+./resolver.go
+./signals.go
+./signals_linux.go

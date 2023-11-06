@@ -1,0 +1,6 @@
+./config_client.go
+./doc.go
+./info.go
+./logging_client.go
+./metrics_client.go
+./path_funcs.go

@@ -1,0 +1,13 @@
+./autotune.go
+./batchconn.go
+./crypt.go
+./entropy.go
+./fec.go
+./kcp.go
+./readloop.go
+./readloop_linux.go
+./sess.go
+./snmp.go
+./timedsched.go
+./tx.go
+./tx_linux.go

@@ -1,0 +1,7 @@
+./macvlan.go
+./macvlan_endpoint.go
+./macvlan_joinleave.go
+./macvlan_network.go
+./macvlan_setup.go
+./macvlan_state.go
+./macvlan_store.go

@@ -1,0 +1,3 @@
+./client.go
+./endpoint.go
+./fetcher.go

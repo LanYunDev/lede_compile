@@ -1,0 +1,10 @@
+./cmd.go
+./demote.go
+./formatter.go
+./inspect.go
+./list.go
+./opts.go
+./promote.go
+./ps.go
+./remove.go
+./update.go

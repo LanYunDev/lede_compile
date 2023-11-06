@@ -1,0 +1,5 @@
+./helpers.go
+./parse.go
+./resource_management.go
+./string.go
+./validate.go

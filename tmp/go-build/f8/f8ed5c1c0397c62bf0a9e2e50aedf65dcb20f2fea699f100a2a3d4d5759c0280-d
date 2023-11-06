@@ -1,0 +1,3 @@
+./auth.go
+./auth.pb.go
+./generate.go

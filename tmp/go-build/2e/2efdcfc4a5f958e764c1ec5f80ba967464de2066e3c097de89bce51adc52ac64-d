@@ -1,0 +1,10 @@
+./backend_linux.go
+./defs.go
+./errors.go
+./events.go
+./fetch_linux.go
+./manager.go
+./manager_linux.go
+./progress.go
+./registry.go
+./store.go

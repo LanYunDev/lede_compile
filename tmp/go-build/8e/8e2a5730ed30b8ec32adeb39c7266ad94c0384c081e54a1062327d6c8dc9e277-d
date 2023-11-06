@@ -1,0 +1,4 @@
+./aliases.go
+./builder.go
+./completions.go
+./docker.go

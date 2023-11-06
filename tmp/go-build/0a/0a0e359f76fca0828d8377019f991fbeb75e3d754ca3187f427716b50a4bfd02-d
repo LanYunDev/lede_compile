@@ -1,0 +1,4 @@
+./encryption.go
+./gpg.go
+./gpgvault.go
+./reader.go

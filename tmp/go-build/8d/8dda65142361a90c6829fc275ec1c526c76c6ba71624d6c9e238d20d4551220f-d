@@ -1,0 +1,12 @@
+./cmd.go
+./create.go
+./disable.go
+./enable.go
+./formatter.go
+./inspect.go
+./install.go
+./list.go
+./push.go
+./remove.go
+./set.go
+./upgrade.go

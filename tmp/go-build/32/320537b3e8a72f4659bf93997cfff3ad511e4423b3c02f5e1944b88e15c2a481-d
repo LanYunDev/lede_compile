@@ -1,0 +1,3 @@
+./defaults.go
+./defaults_unix.go
+./doc.go

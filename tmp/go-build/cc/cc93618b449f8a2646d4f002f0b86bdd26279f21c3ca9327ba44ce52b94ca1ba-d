@@ -1,0 +1,4 @@
+./default_linux.go
+./kernel_linux.go
+./seccomp.go
+./seccomp_linux.go

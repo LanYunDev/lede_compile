@@ -458,6 +458,30 @@ http://www.denx.de/wiki/U-Boot
 Build-Depends: !(TARGET_ramips||TARGET_mediatek_mt7623):arm-trusted-firmware-tools/host
 Build-Types: host
 
+Package: u-boot-mt7986_glinet_gl-mt6000
+Default: y if (TARGET_mediatek_filogic_Default || TARGET_mediatek_filogic_DEVICE_glinet_gl-mt6000 || TARGET_DEVICE_mediatek_filogic_DEVICE_glinet_gl-mt6000)
+Version: 2023.01
+Depends: +libc @!IN_SDK +trusted-firmware-a-mt7986-emmc-ddr4 @TARGET_mediatek_filogic
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: mt7986_glinet_gl-mt6000
+Section: boot
+Category: Boot Loaders
+Title: U-Boot for GL.iNet GL-MT6000
+Maintainer: 
+Source: u-boot-2023.01.tar.bz2
+License: GPL-2.0 GPL-2.0+
+LicenseFiles: Licenses/README
+Type: bin
+Description: U-Boot for GL.iNet GL-MT6000
+http://www.denx.de/wiki/U-Boot
+
+@@
+
+Build-Depends: !(TARGET_ramips||TARGET_mediatek_mt7623):arm-trusted-firmware-tools/host
+Build-Types: host
+
 Package: u-boot-mt7986_xiaomi_redmi-router-ax6000
 Default: y if (TARGET_mediatek_filogic_Default || TARGET_mediatek_filogic_DEVICE_xiaomi_redmi-router-ax6000-ubootmod || TARGET_DEVICE_mediatek_filogic_DEVICE_xiaomi_redmi-router-ax6000-ubootmod)
 Version: 2023.01

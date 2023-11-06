@@ -1,0 +1,7 @@
+./annotation.go
+./checksum.go
+./creation_info.go
+./external.go
+./identifier.go
+./package.go
+./snippet.go

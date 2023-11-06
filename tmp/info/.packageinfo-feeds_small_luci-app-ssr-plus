@@ -3,8 +3,8 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-ssr-plus
 Submenu: 3. Applications
-Version: 188-3
-Depends: +libc @(PACKAGE_libustream-mbedtls||PACKAGE_libustream-openssl||PACKAGE_libustream-wolfssl) +coreutils +coreutils-base64 +dns2socks +dns2tcp +dnsmasq-full +@PACKAGE_dnsmasq_full_ipset +ipset +kmod-ipt-nat +ip-full +iptables +iptables-mod-tproxy +lua +lua-neturl +libuci-lua +microsocks +tcping +resolveip +shadowsocksr-libev-ssr-check +uclient-fetch +PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray:curl +PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray:v2ray-core +PACKAGE_luci-app-ssr-plus_INCLUDE_Xray:curl +PACKAGE_luci-app-ssr-plus_INCLUDE_Xray:xray-core +PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG:chinadns-ng +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:mosdns +PACKAGE_luci-app-ssr-plus_INCLUDE_Hysteria:hysteria +PACKAGE_luci-app-ssr-plus_INCLUDE_Tuic_Client:tuic-client +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadow_TLS:shadow-tls +PACKAGE_luci-app-ssr-plus_INCLUDE_IPT2Socks:ipt2socks +PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun:kcptun-client +PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy:naiveproxy +PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2:redsocks2 +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-local +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-redir +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Server:shadowsocks-libev-ss-server +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Client:shadowsocks-rust-sslocal +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server:shadowsocks-rust-ssserver +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs:simple-obfs +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_V2ray_Plugin:v2ray-plugin +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client:shadowsocksr-libev-ssr-local +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client:shadowsocksr-libev-ssr-redir +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server:shadowsocksr-libev-ssr-server +PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan:trojan
+Version: 190-1
+Depends: +libc @(PACKAGE_libustream-mbedtls||PACKAGE_libustream-openssl||PACKAGE_libustream-wolfssl) +coreutils +coreutils-base64 +dns2socks +dns2tcp +dnsmasq-full +@PACKAGE_dnsmasq_full_ipset +ipset +kmod-ipt-nat +ip-full +iptables +iptables-mod-tproxy +lua +lua-neturl +libuci-lua +microsocks +tcping +resolveip +shadowsocksr-libev-ssr-check +uclient-fetch +PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray:curl +PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray:v2ray-core +PACKAGE_luci-app-ssr-plus_INCLUDE_Xray:curl +PACKAGE_luci-app-ssr-plus_INCLUDE_Xray:xray-core +PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG:chinadns-ng +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:mosdns +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:yq +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:v2dat +PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS:diffutils +PACKAGE_luci-app-ssr-plus_INCLUDE_Hysteria:hysteria +PACKAGE_luci-app-ssr-plus_INCLUDE_Tuic_Client:tuic-client +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadow_TLS:shadow-tls +PACKAGE_luci-app-ssr-plus_INCLUDE_IPT2Socks:ipt2socks +PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun:kcptun-client +PACKAGE_luci-app-ssr-plus_INCLUDE_NaiveProxy:naiveproxy +PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2:redsocks2 +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-local +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-redir +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Server:shadowsocks-libev-ss-server +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Client:shadowsocks-rust-sslocal +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server:shadowsocks-rust-ssserver +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs:simple-obfs +PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_V2ray_Plugin:v2ray-plugin +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client:shadowsocksr-libev-ssr-local +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client:shadowsocksr-libev-ssr-redir +PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server:shadowsocksr-libev-ssr-server +PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan:trojan
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -141,7 +141,7 @@ config PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan
 
 Package: luci-i18n-ssr-plus-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 188-3
+Version: 190-1
 Depends: +libc luci-app-ssr-plus
 Conflicts: 
 Menu-Depends: 
@@ -160,7 +160,7 @@ Description:     Translation for luci-app-ssr-plus - 简体中文 (Simplified Ch
 
 Package: luci-i18n-ssr-plus-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 188-3
+Version: 190-1
 Depends: +libc luci-app-ssr-plus
 Conflicts: 
 Menu-Depends: 

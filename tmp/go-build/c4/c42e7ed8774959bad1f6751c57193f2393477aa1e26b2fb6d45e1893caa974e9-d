@@ -1,0 +1,10 @@
+./binary.go
+./bridge.go
+./bundle.go
+./bundle_linux.go
+./manager.go
+./manager_unix.go
+./process.go
+./shim.go
+./shim_load.go
+./shim_unix.go

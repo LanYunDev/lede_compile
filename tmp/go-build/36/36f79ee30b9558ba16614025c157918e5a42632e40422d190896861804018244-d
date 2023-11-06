@@ -1,0 +1,13 @@
+./container.pb.go
+./container_fieldpath.pb.go
+./content.pb.go
+./content_fieldpath.pb.go
+./doc.go
+./image.pb.go
+./image_fieldpath.pb.go
+./namespace.pb.go
+./namespace_fieldpath.pb.go
+./snapshot.pb.go
+./snapshot_fieldpath.pb.go
+./task.pb.go
+./task_fieldpath.pb.go

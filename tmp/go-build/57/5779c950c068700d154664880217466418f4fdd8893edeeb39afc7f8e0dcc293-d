@@ -1,0 +1,6 @@
+./compare.go
+./cpuinfo.go
+./database.go
+./defaults.go
+./defaults_unix.go
+./platforms.go

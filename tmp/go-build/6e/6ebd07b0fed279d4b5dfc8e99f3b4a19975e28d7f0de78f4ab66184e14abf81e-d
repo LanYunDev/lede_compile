@@ -1,0 +1,4 @@
+./doc.go
+./sandbox.pb.go
+./sandbox_grpc.pb.go
+./sandbox_ttrpc.pb.go

@@ -1,0 +1,16 @@
+./apply.go
+./by.go
+./clusters.go
+./combinators.go
+./configs.go
+./doc.go
+./extensions.go
+./memory.go
+./networks.go
+./nodes.go
+./object.go
+./resources.go
+./secrets.go
+./services.go
+./tasks.go
+./volumes.go

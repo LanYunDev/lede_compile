@@ -1,0 +1,5 @@
+./config_builder.go
+./manifest.go
+./reference_builder.go
+./sign.go
+./verify.go

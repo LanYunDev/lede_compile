@@ -1,0 +1,14 @@
+./cmd.go
+./common.go
+./formatter.go
+./helpers.go
+./inspect.go
+./inspect_pretty.go
+./key.go
+./key_generate.go
+./key_load.go
+./revoke.go
+./sign.go
+./signer.go
+./signer_add.go
+./signer_remove.go

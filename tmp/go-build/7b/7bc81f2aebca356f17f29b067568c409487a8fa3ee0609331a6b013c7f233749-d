@@ -1,0 +1,15 @@
+./archive.go
+./archive_linux.go
+./archive_unix.go
+./changes.go
+./changes_linux.go
+./changes_unix.go
+./copy.go
+./copy_unix.go
+./diff.go
+./diff_unix.go
+./path.go
+./path_unix.go
+./time_linux.go
+./whiteouts.go
+./wrap.go

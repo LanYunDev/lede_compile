@@ -1,0 +1,9 @@
+./annotation.go
+./creation_info.go
+./document.go
+./file.go
+./other_license.go
+./package.go
+./relationship.go
+./review.go
+./snippet.go

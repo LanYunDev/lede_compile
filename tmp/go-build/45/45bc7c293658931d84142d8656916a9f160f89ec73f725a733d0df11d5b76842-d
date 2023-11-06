@@ -1,0 +1,13 @@
+./galois.go
+./galoisAvx512_amd64.go
+./galois_amd64.go
+./galois_gen_amd64.go
+./galois_gen_switch_amd64.go
+./inversion_tree.go
+./matrix.go
+./options.go
+./reedsolomon.go
+./streaming.go
+./galoisAvx512_amd64.s
+./galois_amd64.s
+./galois_gen_amd64.s

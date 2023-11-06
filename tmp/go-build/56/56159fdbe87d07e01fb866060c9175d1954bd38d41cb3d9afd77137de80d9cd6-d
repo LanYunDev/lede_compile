@@ -1,0 +1,6 @@
+./blobs.go
+./doc.go
+./errors.go
+./manifests.go
+./registry.go
+./tags.go

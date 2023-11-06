@@ -1,0 +1,7 @@
+./doc.go
+./info.go
+./ioctl.go
+_cgo_gotypes.go
+btrfs.cgo1.go
+helpers.cgo1.go
+_cgo_import.go

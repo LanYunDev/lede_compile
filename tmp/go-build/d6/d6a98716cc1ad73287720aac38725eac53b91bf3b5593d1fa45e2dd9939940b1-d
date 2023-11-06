@@ -1,0 +1,12 @@
+./build.go
+./client.go
+./client_unix.go
+./diskusage.go
+./exporters.go
+./filter.go
+./graph.go
+./info.go
+./prune.go
+./solve.go
+./status.go
+./workers.go

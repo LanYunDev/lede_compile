@@ -1,0 +1,3 @@
+./content_reader.go
+./content_store.go
+./content_writer.go

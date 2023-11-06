@@ -1,0 +1,15 @@
+./build.go
+./cmd.go
+./formatter_history.go
+./history.go
+./import.go
+./inspect.go
+./list.go
+./load.go
+./prune.go
+./pull.go
+./push.go
+./remove.go
+./save.go
+./tag.go
+./trust.go

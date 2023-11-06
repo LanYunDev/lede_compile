@@ -1,0 +1,8 @@
+./lcow_parser.go
+./linux_parser.go
+./mounts.go
+./parser.go
+./validate.go
+./volume_copy.go
+./volume_unix.go
+./windows_parser.go

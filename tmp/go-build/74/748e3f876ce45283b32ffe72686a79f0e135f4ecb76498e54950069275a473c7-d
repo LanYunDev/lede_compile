@@ -1,0 +1,3 @@
+./assemble.go
+./disassemble.go
+./doc.go
