@@ -1,7 +1,0 @@
-./bind_std.go
-./conn.go
-./controlfns.go
-./controlfns_linux.go
-./default.go
-./mark_unix.go
-./sticky_linux.go

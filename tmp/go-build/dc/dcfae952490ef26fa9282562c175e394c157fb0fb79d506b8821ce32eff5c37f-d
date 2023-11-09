@@ -1,0 +1,9 @@
+./parallel.go
+./upstream.go
+./upstream_dnscrypt.go
+./upstream_doh.go
+./upstream_dot.go
+./upstream_dot_unix.go
+./upstream_plain.go
+./upstream_quic.go
+./upstreamresolver.go

@@ -1,0 +1,3 @@
+def "".useVFPv1 ABI0
+def "".useVFPv3 ABI0
+def "".useARMv6K ABI0

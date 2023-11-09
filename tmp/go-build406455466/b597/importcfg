@@ -1,0 +1,13 @@
+# import config
+importmap golang.org/x/tools/go/analysis=cmd/vendor/golang.org/x/tools/go/analysis
+importmap golang.org/x/tools/go/analysis/passes/inspect=cmd/vendor/golang.org/x/tools/go/analysis/passes/inspect
+importmap golang.org/x/tools/go/ast/inspector=cmd/vendor/golang.org/x/tools/go/ast/inspector
+importmap golang.org/x/tools/internal/typeparams=cmd/vendor/golang.org/x/tools/internal/typeparams
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile go/ast=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/96/964517499761a6ee465bae43a39bac0c4144d69b113d7868c94e72111e56bf40-d
+packagefile go/types=/Volumes/2T/compile/lede/tmp/go-build406455466/b584/_pkg_.a
+packagefile cmd/vendor/golang.org/x/tools/go/analysis=/Volumes/2T/compile/lede/tmp/go-build406455466/b583/_pkg_.a
+packagefile cmd/vendor/golang.org/x/tools/go/analysis/passes/inspect=/Volumes/2T/compile/lede/tmp/go-build406455466/b590/_pkg_.a
+packagefile cmd/vendor/golang.org/x/tools/go/ast/inspector=/Volumes/2T/compile/lede/tmp/go-build406455466/b591/_pkg_.a
+packagefile cmd/vendor/golang.org/x/tools/internal/typeparams=/Volumes/2T/compile/lede/tmp/go-build406455466/b592/_pkg_.a
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dc99810a0592f36cff93e549140c11943a375c4fd2e66822141f89bc8e77753c-d

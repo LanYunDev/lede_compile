@@ -1,0 +1,4 @@
+./domainstable.go
+./lookup.go
+./seqscantable.go
+./shortcutstable.go

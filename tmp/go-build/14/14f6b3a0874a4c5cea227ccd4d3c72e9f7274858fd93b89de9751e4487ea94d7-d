@@ -1,6 +1,0 @@
-./ac_automaton_matcher.go
-./domain_matcher.go
-./full_matcher.go
-./matchers.go
-./mph_matcher.go
-./strmatcher.go

@@ -1,8 +1,0 @@
-./file_uploader.go
-./file_uploader_req_resp.go
-./multipart_manifest.go
-./mutipart_uploader.go
-./stream_uploader.go
-./stream_uploader_req_resp.go
-./upload_manager.go
-./upload_manager_req_resp.go

@@ -1,5 +1,0 @@
-./account.go
-./account.pb.go
-./errors.generated.go
-./validator.go
-./vless.go

@@ -1,0 +1,7 @@
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/fmt.a
+packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/os.a
+packagefile runtime=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/runtime.a
+packagefile sort=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/sort.a
+packagefile strconv=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/strconv.a
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/strings.a
+packagefile time=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/time.a

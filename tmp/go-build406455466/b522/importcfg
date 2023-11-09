@@ -1,0 +1,19 @@
+# import config
+importmap golang.org/x/mod/modfile=cmd/vendor/golang.org/x/mod/modfile
+importmap golang.org/x/mod/module=cmd/vendor/golang.org/x/mod/module
+packagefile cmd/go/internal/base=/Volumes/2T/compile/lede/tmp/go-build406455466/b403/_pkg_.a
+packagefile cmd/go/internal/fsys=/Volumes/2T/compile/lede/tmp/go-build406455466/b405/_pkg_.a
+packagefile cmd/go/internal/gover=/Volumes/2T/compile/lede/tmp/go-build406455466/b417/_pkg_.a
+packagefile cmd/go/internal/imports=/Volumes/2T/compile/lede/tmp/go-build406455466/b421/_pkg_.a
+packagefile cmd/go/internal/modload=/Volumes/2T/compile/lede/tmp/go-build406455466/b496/_pkg_.a
+packagefile cmd/go/internal/str=/Volumes/2T/compile/lede/tmp/go-build406455466/b408/_pkg_.a
+packagefile cmd/go/internal/toolchain=/Volumes/2T/compile/lede/tmp/go-build406455466/b512/_pkg_.a
+packagefile context=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/84/8410c5356c7aa64e6b447d766cba874e3057509435f1181107599355a8021a4e-d
+packagefile encoding/json=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/cf/cf53098c955125590af193cfc0eef68aaf25535b8d9f7ecb8ba6aa1a68561972-d
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile cmd/vendor/golang.org/x/mod/modfile=/Volumes/2T/compile/lede/tmp/go-build406455466/b418/_pkg_.a
+packagefile cmd/vendor/golang.org/x/mod/module=/Volumes/2T/compile/lede/tmp/go-build406455466/b420/_pkg_.a
+packagefile io/fs=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a1/a1294294e2afc7af627378a3877a8877fb31bc2b3ac779e9e7f48c466e6241f9-d
+packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e0/e03903bf3c249532d178e41807c337865145006a9107656d01eb650842ebe394-d
+packagefile path/filepath=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/4f/4f071e9a241e5bd48f80015ab306de3a1f03ea658b95cf9c6b5305f15baef865-d
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dc99810a0592f36cff93e549140c11943a375c4fd2e66822141f89bc8e77753c-d

@@ -1,0 +1,6 @@
+def "".addMulVVW1024 ABI0
+ref "".supportADX ABI0
+def "".addMulVVW1536 ABI0
+ref "".supportADX ABI0
+def "".addMulVVW2048 ABI0
+ref "".supportADX ABI0

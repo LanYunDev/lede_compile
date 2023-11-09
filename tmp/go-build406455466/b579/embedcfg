@@ -1,0 +1,14 @@
+{
+	"Patterns": {
+		"static/trace_viewer_full.html": [
+			"static/trace_viewer_full.html"
+		],
+		"static/webcomponents.min.js": [
+			"static/webcomponents.min.js"
+		]
+	},
+	"Files": {
+		"static/trace_viewer_full.html": "/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/src/cmd/trace/static/trace_viewer_full.html",
+		"static/webcomponents.min.js": "/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/src/cmd/trace/static/webcomponents.min.js"
+	}
+}

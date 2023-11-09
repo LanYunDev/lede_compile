@@ -1,6 +1,0 @@
-./apikey.go
-./caveat.go
-./doc.go
-./macaroon.go
-./serialize.go
-./types.pb.go

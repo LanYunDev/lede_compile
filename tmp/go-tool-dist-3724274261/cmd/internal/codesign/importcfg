@@ -1,0 +1,4 @@
+packagefile cmd/internal/notsha256=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/cmd/internal/notsha256.a
+packagefile debug/macho=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/debug/macho.a
+packagefile encoding/binary=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/encoding/binary.a
+packagefile io=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/io.a

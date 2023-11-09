@@ -1,4 +1,0 @@
-./commands.go
-./hasher.go
-./kv.go
-./object.go

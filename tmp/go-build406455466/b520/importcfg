@@ -1,0 +1,15 @@
+# import config
+packagefile bytes=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/be/be634f73cb84fb5cc04415fe54e7d6215ff62cf469c96b34297ef05f2e4b40ff-d
+packagefile debug/elf=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/70/70bf718e9001611190a3d9f73482c3ff33209c4cf3bb1a0e930e3bd5657405d6-d
+packagefile debug/macho=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dcdfbb5e19ea1d6603768df31b3385ffbba51da00086bd1233f08b362245a5ad-d
+packagefile debug/pe=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e5/e5bc04e2a32b9cb00f2cbab12513f49e12ea9d456de0260760d4a2da8a18a717-d
+packagefile debug/plan9obj=/Volumes/2T/compile/lede/tmp/go-build406455466/b073/_pkg_.a
+packagefile encoding/binary=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/5c/5c75cd9d67e9d9d451d549f0dcf54f8c6a4c928c4d1d523cdc6b038db3cda2d5-d
+packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile internal/saferio=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/cb/cb51336acce2b3110fc4ae5afd4b9bf57b454afa5525114f568ac9206bd84637-d
+packagefile internal/xcoff=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/5b/5bbc8af83fd92ce44ed57e17c3af7624626ed87ec92e4211e1139bf1666bcd43-d
+packagefile io=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a3/a3f50e1776bb9720e065665d9db65fdad6661e94b97c8d65801b04624eeef6c1-d
+packagefile io/fs=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a1/a1294294e2afc7af627378a3877a8877fb31bc2b3ac779e9e7f48c466e6241f9-d
+packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e0/e03903bf3c249532d178e41807c337865145006a9107656d01eb650842ebe394-d
+packagefile runtime/debug=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e1/e1bd29d0474bc397cead9205b2852e0d8f028c8c3625230ebe55de51f421782f-d

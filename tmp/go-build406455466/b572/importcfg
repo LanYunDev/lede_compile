@@ -1,0 +1,17 @@
+# import config
+importmap github.com/google/pprof/internal/binutils=cmd/vendor/github.com/google/pprof/internal/binutils
+importmap github.com/google/pprof/internal/plugin=cmd/vendor/github.com/google/pprof/internal/plugin
+importmap github.com/google/pprof/internal/symbolz=cmd/vendor/github.com/google/pprof/internal/symbolz
+importmap github.com/google/pprof/profile=cmd/vendor/github.com/google/pprof/profile
+importmap github.com/ianlancetaylor/demangle=cmd/vendor/github.com/ianlancetaylor/demangle
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile cmd/vendor/github.com/google/pprof/internal/binutils=/Volumes/2T/compile/lede/tmp/go-build406455466/b564/_pkg_.a
+packagefile cmd/vendor/github.com/google/pprof/internal/plugin=/Volumes/2T/compile/lede/tmp/go-build406455466/b566/_pkg_.a
+packagefile cmd/vendor/github.com/google/pprof/internal/symbolz=/Volumes/2T/compile/lede/tmp/go-build406455466/b573/_pkg_.a
+packagefile cmd/vendor/github.com/google/pprof/profile=/Volumes/2T/compile/lede/tmp/go-build406455466/b567/_pkg_.a
+packagefile cmd/vendor/github.com/ianlancetaylor/demangle=/Volumes/2T/compile/lede/tmp/go-build406455466/b568/_pkg_.a
+packagefile io=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a3/a3f50e1776bb9720e065665d9db65fdad6661e94b97c8d65801b04624eeef6c1-d
+packagefile net/http=/Volumes/2T/compile/lede/tmp/go-build406455466/b426/_pkg_.a
+packagefile net/url=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/bc/bc132a93cdb18cd883963e8e65b816659a832dc13f64881d730dcbb4c0a6d8ac-d
+packagefile path/filepath=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/4f/4f071e9a241e5bd48f80015ab306de3a1f03ea658b95cf9c6b5305f15baef865-d
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dc99810a0592f36cff93e549140c11943a375c4fd2e66822141f89bc8e77753c-d

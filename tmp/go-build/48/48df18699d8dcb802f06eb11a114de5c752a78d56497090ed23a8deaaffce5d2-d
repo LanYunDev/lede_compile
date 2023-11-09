@@ -1,5 +1,0 @@
-./icmp.go
-./igmp.go
-./ipv4.go
-./ipv4_state_autogen.go
-./stats.go

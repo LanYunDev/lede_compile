@@ -1,5 +1,0 @@
-./api.pb.go
-./api_grpc.pb.go
-./client.go
-./config.go
-./server.go

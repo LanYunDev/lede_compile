@@ -1,5 +1,0 @@
-./config.pb.go
-./errors.generated.go
-./explainErrors.go
-./observatory.go
-./observer.go

@@ -1,4 +1,0 @@
-./genautocomplete.go
-./genautocomplete_bash.go
-./genautocomplete_fish.go
-./genautocomplete_zsh.go

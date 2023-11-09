@@ -1,0 +1,12 @@
+# import config
+importmap golang.org/x/crypto/chacha20=vendor/golang.org/x/crypto/chacha20
+importmap golang.org/x/crypto/internal/alias=vendor/golang.org/x/crypto/internal/alias
+importmap golang.org/x/crypto/internal/poly1305=vendor/golang.org/x/crypto/internal/poly1305
+importmap golang.org/x/sys/cpu=vendor/golang.org/x/sys/cpu
+packagefile crypto/cipher=/Volumes/2T/compile/lede/tmp/go-build406455466/b112/_pkg_.a
+packagefile encoding/binary=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/5c/5c75cd9d67e9d9d451d549f0dcf54f8c6a4c928c4d1d523cdc6b038db3cda2d5-d
+packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
+packagefile vendor/golang.org/x/crypto/chacha20=/Volumes/2T/compile/lede/tmp/go-build406455466/b462/_pkg_.a
+packagefile vendor/golang.org/x/crypto/internal/alias=/Volumes/2T/compile/lede/tmp/go-build406455466/b463/_pkg_.a
+packagefile vendor/golang.org/x/crypto/internal/poly1305=/Volumes/2T/compile/lede/tmp/go-build406455466/b464/_pkg_.a
+packagefile vendor/golang.org/x/sys/cpu=/Volumes/2T/compile/lede/tmp/go-build406455466/b465/_pkg_.a

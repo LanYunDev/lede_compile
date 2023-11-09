@@ -1,0 +1,10 @@
+{
+	"Patterns": {
+		"p256_asm_table.bin": [
+			"p256_asm_table.bin"
+		]
+	},
+	"Files": {
+		"p256_asm_table.bin": "/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/src/crypto/internal/nistec/p256_asm_table.bin"
+	}
+}

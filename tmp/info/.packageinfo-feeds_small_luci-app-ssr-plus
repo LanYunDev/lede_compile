@@ -77,7 +77,7 @@ config PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG
 
 config PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS
 	bool "Include MosDNS"
-	default y if i386||x86_64||arm
+	default y if aarch64||arm||i386||x86_64
 
 config PACKAGE_luci-app-ssr-plus_INCLUDE_Hysteria
 	bool "Include Hysteria"

@@ -1,0 +1,13 @@
+./data_layer.go
+./error.go
+./exif.go
+./gps.go
+./ifd_builder.go
+./ifd_builder_encode.go
+./ifd_enumerate.go
+./ifd_tag_entry.go
+./package.go
+./tags.go
+./tags_data.go
+./testing_common.go
+./utility.go

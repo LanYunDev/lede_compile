@@ -1,0 +1,11 @@
+./filewalker.go
+./fswatcher.go
+./os.go
+./os_linux.go
+./os_unix.go
+./service.go
+./service_others.go
+./syslog.go
+./syslog_others.go
+./user.go
+./user_unix.go

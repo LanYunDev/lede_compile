@@ -1,0 +1,12 @@
+packagefile cmd/go/internal/base=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/cmd/go/internal/base.a
+packagefile cmd/go/internal/cfg=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/cmd/go/internal/cfg.a
+packagefile cmd/go/internal/fsys=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/cmd/go/internal/fsys.a
+packagefile cmd/go/internal/str=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/cmd/go/internal/str.a
+packagefile cmd/internal/pkgpattern=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/cmd/internal/pkgpattern.a
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/fmt.a
+packagefile go/build=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/go/build.a
+packagefile io/fs=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/io/fs.a
+packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/os.a
+packagefile path=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/path.a
+packagefile path/filepath=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/path/filepath.a
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-bootstrap/linux_amd64/strings.a

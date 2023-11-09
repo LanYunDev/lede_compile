@@ -1,0 +1,8 @@
+# import config
+importmap golang.org/x/tools/go/analysis=cmd/vendor/golang.org/x/tools/go/analysis
+importmap golang.org/x/tools/go/analysis/passes/internal/analysisutil=cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil
+packagefile go/build=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/4e/4ea46e588ff03a9a0031d37cd8fbf85837f32a07fba427b5377b2aaa6dbe323f-d
+packagefile cmd/vendor/golang.org/x/tools/go/analysis=/Volumes/2T/compile/lede/tmp/go-build406455466/b583/_pkg_.a
+packagefile cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil=/Volumes/2T/compile/lede/tmp/go-build406455466/b588/_pkg_.a
+packagefile regexp=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/31/3186cd6a29e198bb9fb03a7ec8a7641e72eccab6cac7ad3a9fd18f87244b0967-d
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dc99810a0592f36cff93e549140c11943a375c4fd2e66822141f89bc8e77753c-d

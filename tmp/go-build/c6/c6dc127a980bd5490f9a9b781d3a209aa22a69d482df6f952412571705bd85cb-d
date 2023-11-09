@@ -1,0 +1,4 @@
+./compare.go
+./fieldmatcher.go
+./regexp.go
+./tree.go

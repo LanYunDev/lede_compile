@@ -1,0 +1,17 @@
+# import config
+packagefile cmd/go/internal/vcs=/Volumes/2T/compile/lede/tmp/go-build406455466/b487/_pkg_.a
+packagefile cmd/go/internal/vcweb=/Volumes/2T/compile/lede/tmp/go-build406455466/b527/_pkg_.a
+packagefile cmd/go/internal/web=/Volumes/2T/compile/lede/tmp/go-build406455466/b424/_pkg_.a
+packagefile crypto/tls=/Volumes/2T/compile/lede/tmp/go-build406455466/b429/_pkg_.a
+packagefile crypto/x509=/Volumes/2T/compile/lede/tmp/go-build406455466/b451/_pkg_.a
+packagefile encoding/pem=/Volumes/2T/compile/lede/tmp/go-build406455466/b454/_pkg_.a
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile internal/testenv=/Volumes/2T/compile/lede/tmp/go-build406455466/b531/_pkg_.a
+packagefile io=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a3/a3f50e1776bb9720e065665d9db65fdad6661e94b97c8d65801b04624eeef6c1-d
+packagefile log=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/b0/b038170438ed7f78975beadce1e7fa86ee6241f703aed592564c756e3eded16d-d
+packagefile net/http=/Volumes/2T/compile/lede/tmp/go-build406455466/b426/_pkg_.a
+packagefile net/http/httptest=/Volumes/2T/compile/lede/tmp/go-build406455466/b532/_pkg_.a
+packagefile net/url=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/bc/bc132a93cdb18cd883963e8e65b816659a832dc13f64881d730dcbb4c0a6d8ac-d
+packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e0/e03903bf3c249532d178e41807c337865145006a9107656d01eb650842ebe394-d
+packagefile path/filepath=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/4f/4f071e9a241e5bd48f80015ab306de3a1f03ea658b95cf9c6b5305f15baef865-d
+packagefile testing=/Volumes/2T/compile/lede/tmp/go-build406455466/b130/_pkg_.a

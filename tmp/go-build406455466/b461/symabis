@@ -1,0 +1,4 @@
+def "".chacha20Poly1305Open ABI0
+ref "".useAVX2 ABI0
+def "".chacha20Poly1305Seal ABI0
+ref "".useAVX2 ABI0

@@ -1,0 +1,5 @@
+./errors.go
+./indexes.go
+./list.go
+./options.go
+./unique.go

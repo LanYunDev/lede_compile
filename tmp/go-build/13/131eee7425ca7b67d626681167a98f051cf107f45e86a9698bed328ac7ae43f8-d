@@ -1,7 +1,0 @@
-./closer.go
-./cond.go
-./context.go
-./context_compat.go
-./low_memory_stub.go
-./string.go
-./upstream.go

@@ -1,7 +1,0 @@
-./aes.go
-./auth.go
-./chacha20.go
-./chunk.go
-./crypto.go
-./errors.generated.go
-./io.go

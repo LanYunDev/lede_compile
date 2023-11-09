@@ -1,5 +1,0 @@
-./client.go
-./config.go
-./mock_udpIO.go
-./reconnect.go
-./udp.go

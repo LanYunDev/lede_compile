@@ -1,0 +1,17 @@
+# import config
+importmap golang.org/x/mod/internal/lazyregexp=cmd/vendor/golang.org/x/mod/internal/lazyregexp
+importmap golang.org/x/mod/module=cmd/vendor/golang.org/x/mod/module
+importmap golang.org/x/mod/semver=cmd/vendor/golang.org/x/mod/semver
+packagefile bytes=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/be/be634f73cb84fb5cc04415fe54e7d6215ff62cf469c96b34297ef05f2e4b40ff-d
+packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile cmd/vendor/golang.org/x/mod/internal/lazyregexp=/Volumes/2T/compile/lede/tmp/go-build406455466/b419/_pkg_.a
+packagefile cmd/vendor/golang.org/x/mod/module=/Volumes/2T/compile/lede/tmp/go-build406455466/b420/_pkg_.a
+packagefile cmd/vendor/golang.org/x/mod/semver=/Volumes/2T/compile/lede/tmp/go-build406455466/b399/_pkg_.a
+packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e0/e03903bf3c249532d178e41807c337865145006a9107656d01eb650842ebe394-d
+packagefile path/filepath=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/4f/4f071e9a241e5bd48f80015ab306de3a1f03ea658b95cf9c6b5305f15baef865-d
+packagefile sort=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/10/10ab1b092d78979cdf9e6d51c7999f99b376416fd814b92cdbb673691bcb828c-d
+packagefile strconv=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/fd/fde399dbdd24681836cf284cc0eb1f1d862a42bc15eb5333c873e8769b16ab75-d
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dc99810a0592f36cff93e549140c11943a375c4fd2e66822141f89bc8e77753c-d
+packagefile unicode=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/b1/b15d89eb5c1c52ef9992fce1f9a62003fe7c85015715eaccc3bcb118250d87fe-d
+packagefile unicode/utf8=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/20/20aca60756d31ff38c3ea64090fc0c259d90400c44d4f6a3867582218b5bda39-d

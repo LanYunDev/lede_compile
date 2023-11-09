@@ -1,0 +1,7 @@
+# import config
+importmap golang.org/x/net/idna=vendor/golang.org/x/net/idna
+packagefile vendor/golang.org/x/net/idna=/Volumes/2T/compile/lede/tmp/go-build406455466/b469/_pkg_.a
+packagefile net=/Volumes/2T/compile/lede/tmp/go-build406455466/b455/_pkg_.a
+packagefile net/textproto=/Volumes/2T/compile/lede/tmp/go-build406455466/b474/_pkg_.a
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dc99810a0592f36cff93e549140c11943a375c4fd2e66822141f89bc8e77753c-d
+packagefile unicode/utf8=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/20/20aca60756d31ff38c3ea64090fc0c259d90400c44d4f6a3867582218b5bda39-d

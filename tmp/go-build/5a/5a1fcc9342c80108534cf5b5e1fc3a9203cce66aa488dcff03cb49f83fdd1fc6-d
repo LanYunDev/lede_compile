@@ -1,4 +1,0 @@
-./content_type.go
-./decoder.go
-./render.go
-./responder.go

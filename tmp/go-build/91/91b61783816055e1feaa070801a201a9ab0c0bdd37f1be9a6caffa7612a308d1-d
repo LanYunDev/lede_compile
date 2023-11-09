@@ -1,0 +1,16 @@
+./access.go
+./clientid.go
+./config.go
+./dialcontext.go
+./dns64.go
+./dnsforward.go
+./dnsrewrite.go
+./filter.go
+./http.go
+./ipset.go
+./msg.go
+./process.go
+./recursiondetector.go
+./stats.go
+./svcbmsg.go
+./upstreams.go

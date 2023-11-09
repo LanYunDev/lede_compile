@@ -1,7 +1,0 @@
-./customSeviceName.go
-./encoding.go
-./errors.generated.go
-./hunkconn.go
-./multiconn.go
-./stream.pb.go
-./stream_grpc.pb.go

@@ -1,6 +1,0 @@
-./client.go
-./client_paclet.go
-./packet.go
-./salamander.go
-./service.go
-./service_packet.go

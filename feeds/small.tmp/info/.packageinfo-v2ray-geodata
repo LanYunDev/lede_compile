@@ -23,7 +23,7 @@ Tianling Shen <cnsztl@immortalwrt.org>
 
 Package: v2ray-geosite
 Submenu: IP Addresses and Names
-Version: 20231031055637-1
+Version: 20231107072417-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -44,7 +44,7 @@ Tianling Shen <cnsztl@immortalwrt.org>
 
 Package: v2ray-geosite-ir
 Submenu: IP Addresses and Names
-Version: 202310270925-1
+Version: 202311071100-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 

@@ -1,0 +1,17 @@
+./bounceback.go
+./boundedreadwriteseekcloser.go
+./boundedreadwriteseeker.go
+./calculate_seek.go
+./common.go
+./copy_bytes_between_positions.go
+./does_exist.go
+./graceful_copy.go
+./list_files.go
+./progress_wrapper.go
+./read_counter.go
+./readseeker_to_readerat.go
+./readwriteseekcloser.go
+./seekable_buffer.go
+./simplefileinfo.go
+./utility.go
+./write_counter.go

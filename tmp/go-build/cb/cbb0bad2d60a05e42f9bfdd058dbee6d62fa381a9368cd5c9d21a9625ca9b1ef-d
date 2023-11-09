@@ -1,5 +1,0 @@
-./config.go
-./domains.go
-./netInterface.go
-./user.go
-./webhook.go

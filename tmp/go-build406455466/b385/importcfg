@@ -1,0 +1,3 @@
+# import config
+packagefile cmp=/Volumes/2T/compile/lede/tmp/go-build406455466/b386/_pkg_.a
+packagefile math/bits=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/38/385248d4eae8d3ba5544b56ea0dec6a09f03d7186cf9ace92f2cd9e33dc21466-d

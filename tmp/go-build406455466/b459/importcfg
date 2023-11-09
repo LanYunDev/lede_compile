@@ -1,0 +1,8 @@
+# import config
+packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
+packagefile internal/bytealg=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/06/06d408b5c8ce80f7775093b8421535ee1c4d5229aec165fc529fd10e7eac386b-d
+packagefile internal/intern=/Volumes/2T/compile/lede/tmp/go-build406455466/b460/_pkg_.a
+packagefile internal/itoa=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/89/8998e3fe74faa83d300ad69a1c81e6d6bacee1d24d7004c607ab5dd8410f7380-d
+packagefile math=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/8c/8c8c82d33cf26917fe1c91528a323b631aead96150fa26ba1fe7e94cbe8c23d9-d
+packagefile math/bits=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/38/385248d4eae8d3ba5544b56ea0dec6a09f03d7186cf9ace92f2cd9e33dc21466-d
+packagefile strconv=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/fd/fde399dbdd24681836cf284cc0eb1f1d862a42bc15eb5333c873e8769b16ab75-d

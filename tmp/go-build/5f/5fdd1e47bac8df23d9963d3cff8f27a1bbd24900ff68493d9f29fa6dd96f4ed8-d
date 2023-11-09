@@ -1,0 +1,11 @@
+./decode.go
+./doc.go
+./errors.go
+./localtime.go
+./marshaler.go
+./parser.go
+./scanner.go
+./strict.go
+./types.go
+./unmarshaler.go
+./utf8.go

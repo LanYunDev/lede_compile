@@ -28620,7 +28620,7 @@ W. Michael Petullo <mike@flyn.org>
 Source-Makefile: feeds/packages/libs/libdaq3/Makefile
 
 Package: libdaq3
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: +libc +libdnet +libpcap +libstdcpp +libmnl +libnetfilter-queue
 Conflicts: 
 Menu-Depends: 
@@ -28630,11 +28630,11 @@ Category: Libraries
 Repository: base
 Title: DAQ library
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: libdaq-3.0.10.tar.gz
+Source: libdaq-3.0.11.tar.gz
 License: GPL-2.0-only
 Type: ipkg
 Description:  Data Acquisition library for packet I/O.
-https://codeload.github.com/snort3/libdaq/tar.gz/v3.0.10?
+https://codeload.github.com/snort3/libdaq/tar.gz/v3.0.11?
 W. Michael Petullo <mike@flyn.org>
 @@
 
@@ -73854,7 +73854,7 @@ Source-Makefile: feeds/packages/net/squid/Makefile
 Package: squid
 Menu: 1
 Submenu: Web Servers/Proxies
-Version: 4.17-0
+Version: 5.7-1
 Depends: +libc +libpthread +librt +libltdl +libstdcpp +libatomic +USE_GLIBC:libbsd +SQUID_use-gnutls:libgnutls +SQUID_use-openssl:libopenssl +SQUID_with-libcap:libcap +SQUID_with-nettle:libnettle +SQUID_with-expat:libexpat +SQUID_with-libxml2:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -73865,7 +73865,7 @@ Repository: base
 Title: full-featured Web proxy cache
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
 Require-User: squid=137:squid=137
-Source: squid-4.17.tar.xz
+Source: squid-5.7.tar.xz
 License: GPL-2.0-or-later
 Type: ipkg
 Description:   Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
@@ -73880,7 +73880,7 @@ Config:
 
 Package: squid-mod-cachemgr
 Submenu: Web Servers/Proxies
-Version: 4.17-0
+Version: 5.7-1
 Depends: +libc squid
 Conflicts: 
 Menu-Depends: 
@@ -73890,7 +73890,7 @@ Category: Network
 Repository: base
 Title: Web based proxy manager and reporting tool
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
-Source: squid-4.17.tar.xz
+Source: squid-5.7.tar.xz
 License: GPL-2.0-or-later
 Type: ipkg
 Description: Web based proxy manager and reporting tool

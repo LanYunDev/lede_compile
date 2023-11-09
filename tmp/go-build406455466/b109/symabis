@@ -1,0 +1,3 @@
+def "".block ABI0
+ref "".useSHA ABI0
+ref "".useAVX2 ABI0

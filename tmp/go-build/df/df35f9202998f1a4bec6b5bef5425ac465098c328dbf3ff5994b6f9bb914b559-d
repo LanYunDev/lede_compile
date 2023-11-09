@@ -1,0 +1,15 @@
+./auth.go
+./commands.go
+./data.go
+./http.go
+./preview.go
+./preview_enum.go
+./public.go
+./raw.go
+./resource.go
+./search.go
+./settings.go
+./share.go
+./static.go
+./users.go
+./utils.go

@@ -1,0 +1,3 @@
+def "".BoringCrypto ABI0
+def "".StandardCrypto ABI0
+def "".FIPSOnly ABI0

@@ -1,6 +1,0 @@
-./auth.go
-./client.go
-./commands.go
-./encoding.go
-./errors.generated.go
-./server.go

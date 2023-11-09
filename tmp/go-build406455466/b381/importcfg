@@ -1,0 +1,4 @@
+# import config
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile internal/coverage=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/d5/d5c7fe4ea5342e1853773d72961d95677f0283715bb94ac0ccd70bf8df743232-d
+packagefile math=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/8c/8c8c82d33cf26917fe1c91528a323b631aead96150fa26ba1fe7e94cbe8c23d9-d

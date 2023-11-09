@@ -2,7 +2,7 @@ Source-Makefile: package/lean/r8168/Makefile
 
 Package: kmod-r8168
 Submenu: Network Devices
-Version: <LINUX_VERSION>+8.051.02--1
+Version: <LINUX_VERSION>+8.052.01--1
 Depends: 
 Conflicts: kmod-r8169
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: kernel
 Category: Kernel modules
 Title: Driver for Realtek r8168 chipsets
 Maintainer: 
-Source: r8168-8.051.02.tar.xz
+Source: r8168-8.052.01.tar.gz
 Type: ipkg
 Description: Driver for Realtek r8168 chipsets
 

@@ -1,5 +1,0 @@
-./common.go
-./error.go
-./io.go
-./net.go
-./sync.go

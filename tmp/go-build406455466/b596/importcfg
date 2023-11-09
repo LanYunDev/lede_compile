@@ -1,0 +1,14 @@
+# import config
+importmap golang.org/x/tools/go/analysis=cmd/vendor/golang.org/x/tools/go/analysis
+importmap golang.org/x/tools/go/analysis/passes/internal/analysisutil=cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile go/ast=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/96/964517499761a6ee465bae43a39bac0c4144d69b113d7868c94e72111e56bf40-d
+packagefile go/format=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/ed/edb7ae7af74a6936c96f7b7f1487d887d56490e470745347622b39ad10a4ed5f-d
+packagefile go/parser=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/94/94914b64109f6c9fb43c6fec385285b5ccab700510e084604ea118a875ce8026-d
+packagefile go/token=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e2/e2f03386730fe0d370a2fbb9239edd2aff104a4c767bb275162bff114a6b703b-d
+packagefile go/types=/Volumes/2T/compile/lede/tmp/go-build406455466/b584/_pkg_.a
+packagefile cmd/vendor/golang.org/x/tools/go/analysis=/Volumes/2T/compile/lede/tmp/go-build406455466/b583/_pkg_.a
+packagefile cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil=/Volumes/2T/compile/lede/tmp/go-build406455466/b588/_pkg_.a
+packagefile log=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/b0/b038170438ed7f78975beadce1e7fa86ee6241f703aed592564c756e3eded16d-d
+packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e0/e03903bf3c249532d178e41807c337865145006a9107656d01eb650842ebe394-d
+packagefile strconv=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/fd/fde399dbdd24681836cf284cc0eb1f1d862a42bc15eb5333c873e8769b16ab75-d

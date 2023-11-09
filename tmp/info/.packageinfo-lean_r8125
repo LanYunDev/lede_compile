@@ -2,7 +2,7 @@ Source-Makefile: package/lean/r8125/Makefile
 
 Package: kmod-r8125
 Submenu: Network Devices
-Version: <LINUX_VERSION>+9.010.01-2--0
+Version: <LINUX_VERSION>+9.012.03-1--0
 Depends: 
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: kernel
 Category: Kernel modules
 Title: Driver for Realtek r8125 chipsets
 Maintainer: 
-Source: r8125-9.010.01-2.tar.gz
+Source: r8125-9.012.03-1.tar.gz
 License: GPL-2.0-only
 Type: ipkg
 Description: Driver for Realtek r8125 chipsets

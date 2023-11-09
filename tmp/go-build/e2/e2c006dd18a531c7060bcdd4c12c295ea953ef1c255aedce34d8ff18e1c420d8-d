@@ -1,6 +1,0 @@
-./client.go
-./constant.go
-./protocol.go
-./service.go
-./vision.go
-./vision_utls.go

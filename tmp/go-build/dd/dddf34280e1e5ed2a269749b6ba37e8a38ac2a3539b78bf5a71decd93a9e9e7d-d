@@ -1,4 +1,0 @@
-./config.pb.go
-./connection_adaptor.go
-./packetaddr.go
-./special_address.go

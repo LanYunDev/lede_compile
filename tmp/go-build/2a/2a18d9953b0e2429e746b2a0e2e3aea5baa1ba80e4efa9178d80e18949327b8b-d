@@ -1,7 +1,0 @@
-./hosts.go
-./listenconfig.go
-./listenconfig_unix.go
-./netutil.go
-./udp.go
-./udp_unix.go
-./udpoob_others.go

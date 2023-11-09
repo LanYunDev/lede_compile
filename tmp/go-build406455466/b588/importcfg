@@ -1,0 +1,10 @@
+# import config
+packagefile bytes=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/be/be634f73cb84fb5cc04415fe54e7d6215ff62cf469c96b34297ef05f2e4b40ff-d
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile go/ast=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/96/964517499761a6ee465bae43a39bac0c4144d69b113d7868c94e72111e56bf40-d
+packagefile go/parser=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/94/94914b64109f6c9fb43c6fec385285b5ccab700510e084604ea118a875ce8026-d
+packagefile go/printer=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/d0/d0aa6647e5331b7b5e1d109cb60e29433e11dd017c5654186b1c8b4a7c6b8e69-d
+packagefile go/token=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e2/e2f03386730fe0d370a2fbb9239edd2aff104a4c767bb275162bff114a6b703b-d
+packagefile go/types=/Volumes/2T/compile/lede/tmp/go-build406455466/b584/_pkg_.a
+packagefile io/ioutil=/Volumes/2T/compile/lede/tmp/go-build406455466/b466/_pkg_.a
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dc99810a0592f36cff93e549140c11943a375c4fd2e66822141f89bc8e77753c-d

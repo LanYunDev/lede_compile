@@ -1,6 +1,0 @@
-./connection_tracer.go
-./frame.go
-./interface.go
-./packet_header.go
-./tracer.go
-./types.go

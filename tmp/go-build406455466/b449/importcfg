@@ -1,0 +1,14 @@
+# import config
+packagefile bytes=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/be/be634f73cb84fb5cc04415fe54e7d6215ff62cf469c96b34297ef05f2e4b40ff-d
+packagefile crypto=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/46/469d3407405772e4a737b1b9de28efa18a35389816ced5505498f85fbb34a307-d
+packagefile crypto/internal/bigmod=/Volumes/2T/compile/lede/tmp/go-build406455466/b439/_pkg_.a
+packagefile crypto/internal/boring=/Volumes/2T/compile/lede/tmp/go-build406455466/b111/_pkg_.a
+packagefile crypto/internal/boring/bbig=/Volumes/2T/compile/lede/tmp/go-build406455466/b440/_pkg_.a
+packagefile crypto/internal/randutil=/Volumes/2T/compile/lede/tmp/go-build406455466/b428/_pkg_.a
+packagefile crypto/rand=/Volumes/2T/compile/lede/tmp/go-build406455466/b427/_pkg_.a
+packagefile crypto/subtle=/Volumes/2T/compile/lede/tmp/go-build406455466/b114/_pkg_.a
+packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
+packagefile hash=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/25/25b00822b07bdcc111e5ccd26a31f369042633cfd880f53c3b5d8f6ee9ed4f37-d
+packagefile io=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a3/a3f50e1776bb9720e065665d9db65fdad6661e94b97c8d65801b04624eeef6c1-d
+packagefile math=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/8c/8c8c82d33cf26917fe1c91528a323b631aead96150fa26ba1fe7e94cbe8c23d9-d
+packagefile math/big=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/d1/d13b80031fa4844dbbd9583bc33813c3ee519f1adc18e8cce77088c0b1da2f35-d

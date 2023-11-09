@@ -1,5 +1,0 @@
-./batch_transfer.go
-./bytes_writer.go
-./section_writer.go
-./shared.go
-./transfer_manager.go

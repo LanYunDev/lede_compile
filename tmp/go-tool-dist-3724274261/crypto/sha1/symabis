@@ -1,0 +1,2 @@
+def "".blockAMD64 ABI0
+def "".blockAVX2 ABI0

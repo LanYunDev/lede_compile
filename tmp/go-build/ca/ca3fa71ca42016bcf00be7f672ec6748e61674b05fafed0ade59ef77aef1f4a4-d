@@ -1,7 +1,0 @@
-./client.go
-./errors.go
-./ping.go
-./root.go
-./server.go
-./update.go
-./version.go

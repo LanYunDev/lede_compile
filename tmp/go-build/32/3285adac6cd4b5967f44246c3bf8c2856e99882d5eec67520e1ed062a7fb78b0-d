@@ -1,6 +1,0 @@
-./event.go
-./frame.go
-./packet_header.go
-./qlog.go
-./trace.go
-./types.go

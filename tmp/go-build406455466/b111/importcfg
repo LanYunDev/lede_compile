@@ -1,0 +1,5 @@
+# import config
+packagefile crypto=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/46/469d3407405772e4a737b1b9de28efa18a35389816ced5505498f85fbb34a307-d
+packagefile crypto/cipher=/Volumes/2T/compile/lede/tmp/go-build406455466/b112/_pkg_.a
+packagefile crypto/internal/boring/sig=/Volumes/2T/compile/lede/tmp/go-build406455466/b115/_pkg_.a
+packagefile hash=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/25/25b00822b07bdcc111e5ccd26a31f369042633cfd880f53c3b5d8f6ee9ed4f37-d

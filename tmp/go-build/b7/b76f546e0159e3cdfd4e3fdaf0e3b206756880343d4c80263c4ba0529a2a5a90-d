@@ -1,7 +1,0 @@
-./common.go
-./decode.go
-./encode.go
-./piecebuf.go
-./rs.go
-./stripe.go
-./unsafe_rs.go

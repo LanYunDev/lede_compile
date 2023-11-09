@@ -2,8 +2,8 @@ Source-Makefile: feeds/telephony/net/sipgrep/Makefile
 
 Package: sipgrep
 Submenu: Telephony
-Version: 2019-06-27-1cc00079cd80310f7e8b1a696e9a02b8a2b25e04-2
-Depends: +libc +libpcap +libpcre
+Version: 2019-06-27-1cc00079cd80310f7e8b1a696e9a02b8a2b25e04-3
+Depends: +libc +libpcap +libpcre2
 Conflicts: 
 Menu-Depends: 
 Provides: 

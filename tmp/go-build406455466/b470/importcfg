@@ -1,0 +1,7 @@
+# import config
+importmap golang.org/x/text/transform=vendor/golang.org/x/text/transform
+importmap golang.org/x/text/unicode/bidi=vendor/golang.org/x/text/unicode/bidi
+packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
+packagefile vendor/golang.org/x/text/transform=/Volumes/2T/compile/lede/tmp/go-build406455466/b471/_pkg_.a
+packagefile vendor/golang.org/x/text/unicode/bidi=/Volumes/2T/compile/lede/tmp/go-build406455466/b472/_pkg_.a
+packagefile unicode/utf8=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/20/20aca60756d31ff38c3ea64090fc0c259d90400c44d4f6a3867582218b5bda39-d

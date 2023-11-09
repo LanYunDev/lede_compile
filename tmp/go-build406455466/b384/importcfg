@@ -1,0 +1,12 @@
+# import config
+packagefile bufio=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/30/30dc2a47a6cc5fba770e3dbaa9ae6793bbc702072bd6125ff47d2b15cf03ba90-d
+packagefile bytes=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/be/be634f73cb84fb5cc04415fe54e7d6215ff62cf469c96b34297ef05f2e4b40ff-d
+packagefile crypto/md5=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dd/dd2d8f72a635c40547aa21d8a637f451f61ac23f53d48665526cdbc76a238593-d
+packagefile encoding/binary=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/5c/5c75cd9d67e9d9d451d549f0dcf54f8c6a4c928c4d1d523cdc6b038db3cda2d5-d
+packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
+packagefile hash=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/25/25b00822b07bdcc111e5ccd26a31f369042633cfd880f53c3b5d8f6ee9ed4f37-d
+packagefile internal/coverage=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/d5/d5c7fe4ea5342e1853773d72961d95677f0283715bb94ac0ccd70bf8df743232-d
+packagefile internal/coverage/stringtab=/Volumes/2T/compile/lede/tmp/go-build406455466/b374/_pkg_.a
+packagefile internal/coverage/uleb128=/Volumes/2T/compile/lede/tmp/go-build406455466/b375/_pkg_.a
+packagefile io=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a3/a3f50e1776bb9720e065665d9db65fdad6661e94b97c8d65801b04624eeef6c1-d
+packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e0/e03903bf3c249532d178e41807c337865145006a9107656d01eb650842ebe394-d

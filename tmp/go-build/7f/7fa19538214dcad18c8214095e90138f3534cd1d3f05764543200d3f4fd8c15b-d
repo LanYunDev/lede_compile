@@ -1,5 +1,0 @@
-./client_bind.go
-./device.go
-./device_stack_stub.go
-./device_system.go
-./endpoint.go

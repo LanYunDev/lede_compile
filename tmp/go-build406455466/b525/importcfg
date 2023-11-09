@@ -1,0 +1,8 @@
+# import config
+packagefile bufio=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/30/30dc2a47a6cc5fba770e3dbaa9ae6793bbc702072bd6125ff47d2b15cf03ba90-d
+packagefile cmd/go/internal/script=/Volumes/2T/compile/lede/tmp/go-build406455466/b523/_pkg_.a
+packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
+packagefile io=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a3/a3f50e1776bb9720e065665d9db65fdad6661e94b97c8d65801b04624eeef6c1-d
+packagefile os/exec=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/18/18d568bf2686b56ee285d7aadced737e910ab99c3a9c0a03501c39e572cac1f2-d
+packagefile strings=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/dc/dc99810a0592f36cff93e549140c11943a375c4fd2e66822141f89bc8e77753c-d
+packagefile testing=/Volumes/2T/compile/lede/tmp/go-build406455466/b130/_pkg_.a
