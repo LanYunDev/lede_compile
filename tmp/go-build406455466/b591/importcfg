@@ -1,5 +1,0 @@
-# import config
-importmap golang.org/x/tools/internal/typeparams=cmd/vendor/golang.org/x/tools/internal/typeparams
-packagefile go/ast=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/96/964517499761a6ee465bae43a39bac0c4144d69b113d7868c94e72111e56bf40-d
-packagefile cmd/vendor/golang.org/x/tools/internal/typeparams=/Volumes/2T/compile/lede/tmp/go-build406455466/b592/_pkg_.a
-packagefile math=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/8c/8c8c82d33cf26917fe1c91528a323b631aead96150fa26ba1fe7e94cbe8c23d9-d

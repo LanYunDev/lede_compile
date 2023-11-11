@@ -1,0 +1,5 @@
+./config.go
+./config.pb.go
+./errors.generated.go
+./manager.go
+./policy.go

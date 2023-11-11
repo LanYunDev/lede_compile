@@ -1,9 +1,0 @@
-# import config
-packagefile cmd/internal/bio=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/0e/0ecab4313734e7be26da7e276c14495cb0ca9a302e04c72d4491ced3eaf5d2c9-d
-packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
-packagefile internal/coverage=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/d5/d5c7fe4ea5342e1853773d72961d95677f0283715bb94ac0ccd70bf8df743232-d
-packagefile internal/coverage/decodecounter=/Volumes/2T/compile/lede/tmp/go-build406455466/b372/_pkg_.a
-packagefile internal/coverage/decodemeta=/Volumes/2T/compile/lede/tmp/go-build406455466/b376/_pkg_.a
-packagefile internal/coverage/pods=/Volumes/2T/compile/lede/tmp/go-build406455466/b377/_pkg_.a
-packagefile io=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/a3/a3f50e1776bb9720e065665d9db65fdad6661e94b97c8d65801b04624eeef6c1-d
-packagefile os=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/e0/e03903bf3c249532d178e41807c337865145006a9107656d01eb650842ebe394-d

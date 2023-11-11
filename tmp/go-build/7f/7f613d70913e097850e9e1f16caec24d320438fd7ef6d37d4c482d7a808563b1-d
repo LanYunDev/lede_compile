@@ -1,0 +1,4 @@
+./errors.generated.go
+./fake.go
+./fakedns.go
+./fakedns.pb.go

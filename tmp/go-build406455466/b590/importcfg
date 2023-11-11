@@ -1,6 +1,0 @@
-# import config
-importmap golang.org/x/tools/go/analysis=cmd/vendor/golang.org/x/tools/go/analysis
-importmap golang.org/x/tools/go/ast/inspector=cmd/vendor/golang.org/x/tools/go/ast/inspector
-packagefile cmd/vendor/golang.org/x/tools/go/analysis=/Volumes/2T/compile/lede/tmp/go-build406455466/b583/_pkg_.a
-packagefile cmd/vendor/golang.org/x/tools/go/ast/inspector=/Volumes/2T/compile/lede/tmp/go-build406455466/b591/_pkg_.a
-packagefile reflect=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/0e/0eb5bddc8e09132ed420379891c777a8145ad96402a0fb01f12b6a1726b35d7d-d

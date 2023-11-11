@@ -1,0 +1,5 @@
+./command.go
+./command.pb.go
+./command_grpc.pb.go
+./doc.go
+./errors.generated.go

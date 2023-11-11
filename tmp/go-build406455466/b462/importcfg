@@ -1,8 +1,0 @@
-# import config
-importmap golang.org/x/crypto/internal/alias=vendor/golang.org/x/crypto/internal/alias
-packagefile crypto/cipher=/Volumes/2T/compile/lede/tmp/go-build406455466/b112/_pkg_.a
-packagefile encoding/binary=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/5c/5c75cd9d67e9d9d451d549f0dcf54f8c6a4c928c4d1d523cdc6b038db3cda2d5-d
-packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
-packagefile vendor/golang.org/x/crypto/internal/alias=/Volumes/2T/compile/lede/tmp/go-build406455466/b463/_pkg_.a
-packagefile math/bits=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/38/385248d4eae8d3ba5544b56ea0dec6a09f03d7186cf9ace92f2cd9e33dc21466-d
-packagefile runtime=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/c0/c050eb55bad9423873f69c1c29039e9d1fc5a53c66b2450cf301987a192c412e-d

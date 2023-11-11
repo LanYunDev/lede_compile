@@ -1,4 +1,0 @@
-# import config
-packagefile cmd/go/internal/base=/Volumes/2T/compile/lede/tmp/go-build406455466/b403/_pkg_.a
-packagefile cmd/go/internal/cfg=/Volumes/2T/compile/lede/tmp/go-build406455466/b404/_pkg_.a
-packagefile context=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/84/8410c5356c7aa64e6b447d766cba874e3057509435f1181107599355a8021a4e-d

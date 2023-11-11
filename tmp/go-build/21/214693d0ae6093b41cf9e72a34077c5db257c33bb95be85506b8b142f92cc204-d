@@ -1,0 +1,12 @@
+./batch.go
+./client.go
+./client_copy.go
+./client_move.go
+./interface.go
+./metainfo.go
+./movecopy.go
+./objects.go
+./paths.go
+./retry.go
+./stream.go
+./types.go

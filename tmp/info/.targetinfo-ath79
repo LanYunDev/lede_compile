@@ -8,7 +8,7 @@ Target-Features: dt gpio mips16 pci ramdisk squashfs usb usbgadget
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:
@@ -24,7 +24,7 @@ Target-Features: dt gpio mips16 pci ramdisk squashfs testing-kernel usb usbgadge
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.15.136
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -5250,7 +5250,7 @@ Target-Features: dt gpio minor mips16 nand pci ramdisk squashfs usb usbgadget
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:
@@ -5427,7 +5427,7 @@ Target-Features: dt gpio mips16 nand pci ramdisk squashfs usb usbgadget
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:
@@ -5864,7 +5864,7 @@ Target-Features: dt gpio mips16 pci ramdisk small_flash squashfs usb usbgadget
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:

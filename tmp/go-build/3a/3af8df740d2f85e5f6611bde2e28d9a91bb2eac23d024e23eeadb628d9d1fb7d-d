@@ -1,0 +1,10 @@
+./api.go
+./inbounds_add.go
+./inbounds_remove.go
+./logger_restart.go
+./outbounds_add.go
+./outbounds_remove.go
+./shared.go
+./stats_get.go
+./stats_query.go
+./stats_sys.go

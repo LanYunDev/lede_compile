@@ -1,3 +1,0 @@
-def "".blockAMD64 ABI0
-def "".blockAVX2 ABI0
-ref ""._K ABI0

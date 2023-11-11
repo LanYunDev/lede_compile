@@ -1,0 +1,9 @@
+./addmul_amd64.go
+./addmul_tables_amd64.go
+./berlekamp_welch.go
+./common.go
+./fec.go
+./gf_alg.go
+./math.go
+./tables.go
+./addmul_amd64.s

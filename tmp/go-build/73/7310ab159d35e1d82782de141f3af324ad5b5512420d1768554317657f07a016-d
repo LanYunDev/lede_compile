@@ -1,0 +1,8 @@
+./api.go
+./codegen.go
+./doc.go
+./errors.go
+./peek.go
+./simple.go
+./stateful.go
+./text_scanner.go

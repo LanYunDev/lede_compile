@@ -8,7 +8,7 @@ Target-Features: arm_v7 boot-part dt fpu gpio legacy-sdcard nand pci pcie ramdis
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: 
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.15.136
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
@@ -25,7 +25,7 @@ Target-Features: arm_v7 boot-part dt fpu gpio legacy-sdcard nand pci pcie ramdis
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a9+vfpv3-d16
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.15.136
 Linux-Release: 1
 Linux-Kernel-Arch: arm
@@ -503,7 +503,7 @@ Target-Features: arm_v7 boot-part dt ext4 fpu gpio legacy-sdcard nand pci pcie r
 Target-Depends: 
 Target-Optimization: -Os -pipe -mcpu=cortex-a53
 CPU-Type: cortex-a53
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.15.136
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
@@ -736,7 +736,7 @@ Target-Features: arm_v7 boot-part dt ext4 fpu gpio legacy-sdcard nand pci pcie r
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a72
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.15.136
 Linux-Release: 1
 Linux-Kernel-Arch: arm64

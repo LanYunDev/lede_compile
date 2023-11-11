@@ -1,0 +1,5 @@
+./bucket.go
+./cuckoofilter.go
+./doc.go
+./scalable_cuckoofilter.go
+./util.go

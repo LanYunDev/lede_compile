@@ -1,0 +1,10 @@
+./apply.go
+./arch.go
+./arm.go
+./decompress.go
+./detect.go
+./errors.go
+./latest.go
+./package.go
+./release.go
+./update.go

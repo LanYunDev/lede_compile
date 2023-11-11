@@ -8,7 +8,7 @@ Target-Features: arm_v7 display dt ext4 fpu rootfs-part rtc squashfs testing-ker
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: xscale
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.4.258
 Linux-Release: 1
 Linux-Kernel-Arch: arm
@@ -33,7 +33,7 @@ Target-Features: arm_v7 display dt ext4 fpu rootfs-part rtc squashfs testing-ker
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a8+vfpv3
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.4.258
 Linux-Release: 1
 Linux-Kernel-Arch: arm
@@ -154,7 +154,7 @@ Target-Features: arm_v7 display dt ext4 fpu rootfs-part rtc squashfs testing-ker
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a7+neon-vfpv4
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.4.258
 Linux-Release: 1
 Linux-Kernel-Arch: arm
@@ -611,7 +611,7 @@ Target-Features: arm_v7 display dt ext4 fpu rootfs-part rtc squashfs testing-ker
 Target-Depends: 
 Target-Optimization: -Os -pipe -mcpu=cortex-a53
 CPU-Type: cortex-a53
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Testing-Version: 5.4.258
 Linux-Release: 1
 Linux-Kernel-Arch: arm64

@@ -1,9 +1,0 @@
-# import config
-importmap golang.org/x/crypto/cryptobyte/asn1=vendor/golang.org/x/crypto/cryptobyte/asn1
-packagefile encoding/asn1=/Volumes/2T/compile/lede/tmp/go-build406455466/b443/_pkg_.a
-packagefile errors=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/f5/f5de343879e98ba9b05dfa382a58c86167dccb64c002e0f8ff7fbfe5d4715b1a-d
-packagefile fmt=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/53/53e0d7bf3667d4e22fa3bbfbe89981299cdaa2d9ce7495066bff98fbe299ad51-d
-packagefile vendor/golang.org/x/crypto/cryptobyte/asn1=/Volumes/2T/compile/lede/tmp/go-build406455466/b444/_pkg_.a
-packagefile math/big=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/d1/d13b80031fa4844dbbd9583bc33813c3ee519f1adc18e8cce77088c0b1da2f35-d
-packagefile reflect=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/0e/0eb5bddc8e09132ed420379891c777a8145ad96402a0fb01f12b6a1726b35d7d-d
-packagefile time=/Volumes/2T/compile/lede/build_dir/hostpkg/go-1.21.3/pkg/obj/go-build/81/8165f1dbd777566bd68cab18e758ad0a670666fc06e96357f6a20299c828bb02-d

@@ -9,7 +9,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32 -mtune=mips32
 CPU-Type: mips32
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:
@@ -36,7 +36,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32 -mtune=mips32
 CPU-Type: mips32
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:
@@ -1775,7 +1775,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32 -mtune=mips32
 CPU-Type: mips32
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:

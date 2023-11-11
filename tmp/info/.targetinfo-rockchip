@@ -9,7 +9,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe
 CPU-Type: 
 Linux-Version: 5.15.136
-Linux-Testing-Version: 6.1.60
+Linux-Testing-Version: 6.1.61
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
 Target-Description:
@@ -26,7 +26,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mcpu=generic
 CPU-Type: generic
 Linux-Version: 5.15.136
-Linux-Testing-Version: 6.1.60
+Linux-Testing-Version: 6.1.61
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
 Target-Description:

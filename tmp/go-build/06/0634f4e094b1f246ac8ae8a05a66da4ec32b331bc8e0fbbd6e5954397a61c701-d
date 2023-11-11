@@ -1,0 +1,6 @@
+./error.go
+./hostsfile.go
+./parse.go
+./paths.go
+./paths_others.go
+./record.go

@@ -8,7 +8,7 @@ Target-Features: boot-part display dt ext4 gpio pci rootfs-part rtc squashfs usb
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: fa526
-Linux-Version: 5.10.198
+Linux-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:

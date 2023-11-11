@@ -9,7 +9,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a9+vfpv3-d16
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:

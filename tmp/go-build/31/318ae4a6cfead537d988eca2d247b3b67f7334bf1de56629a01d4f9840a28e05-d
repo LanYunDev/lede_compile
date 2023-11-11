@@ -1,0 +1,7 @@
+./client.go
+./config.go
+./config.pb.go
+./errors.generated.go
+./protocol.go
+./server.go
+./socks.go

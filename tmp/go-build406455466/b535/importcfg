@@ -1,3 +1,0 @@
-# import config
-importmap golang.org/x/sys/unix=cmd/vendor/golang.org/x/sys/unix
-packagefile cmd/vendor/golang.org/x/sys/unix=/Volumes/2T/compile/lede/tmp/go-build406455466/b536/_pkg_.a

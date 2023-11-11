@@ -9,7 +9,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe
 CPU-Type: 
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
 Target-Description:
@@ -26,7 +26,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:
@@ -44,7 +44,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:
@@ -62,7 +62,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mno-branch-likely -mips64r2 -mtune=mips64r2 -mabi=64
 CPU-Type: mips64r2
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:
@@ -80,7 +80,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mno-branch-likely -mips64r2 -mtune=mips64r2 -mabi=64
 CPU-Type: mips64r2
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:

@@ -1,0 +1,7 @@
+./count.go
+./duplex.go
+./file.go
+./read.go
+./varint.go
+./write.go
+./writev_posix.go

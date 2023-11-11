@@ -2,7 +2,7 @@
 .DS_Store
 #.*.swp
 /env
-/.config
+#/.config
 #/.config.old
 /dl
 /bin

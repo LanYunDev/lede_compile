@@ -1,0 +1,6 @@
+./debug.go
+./ftp.go
+./parse.go
+./scanner.go
+./status.go
+./walker.go

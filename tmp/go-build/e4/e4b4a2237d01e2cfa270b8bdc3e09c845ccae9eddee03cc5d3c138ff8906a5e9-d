@@ -1,0 +1,3 @@
+./config.go
+./config.pb.go
+./link.go

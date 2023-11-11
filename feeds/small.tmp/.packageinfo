@@ -849,7 +849,7 @@ Build-Depends: gn/host
 Package: naiveproxy
 Submenu: Web Servers/Proxies
 Version: 118.0.5993.65-1-1
-Depends: +libc @!(arc||mips||mips64||powerpc||TARGET_gemini) +libatomic
+Depends: +libc @!(arc||armeb||mips||mips64||powerpc||TARGET_gemini) +libatomic
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1536,7 +1536,7 @@ Source-Makefile: feeds/small/v2ray-geodata/Makefile
 
 Package: v2ray-geoip
 Submenu: IP Addresses and Names
-Version: 202311020038-1
+Version: 202311090038-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 

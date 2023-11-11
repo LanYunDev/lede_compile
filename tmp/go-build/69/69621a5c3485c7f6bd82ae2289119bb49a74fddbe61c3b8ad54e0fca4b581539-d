@@ -1,0 +1,11 @@
+./aesgcm.go
+./bits.go
+./common.go
+./encryption.go
+./pad.go
+./password.go
+./path.go
+./prefix.go
+./secretbox.go
+./store.go
+./transform.go

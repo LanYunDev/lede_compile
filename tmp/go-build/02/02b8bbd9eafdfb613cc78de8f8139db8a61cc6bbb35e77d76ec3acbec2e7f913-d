@@ -1,0 +1,8 @@
+./constant.go
+./evaluate_all_command.go
+./evalute_sequence_command.go
+./root.go
+./shell-completion.go
+./unwrap_flag.go
+./utils.go
+./version.go

@@ -1,0 +1,5 @@
+./commands.go
+./convert.go
+./errors.generated.go
+./uuid.go
+./x25519.go

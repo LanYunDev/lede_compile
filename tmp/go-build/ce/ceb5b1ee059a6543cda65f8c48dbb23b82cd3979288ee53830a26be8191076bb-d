@@ -1,0 +1,5 @@
+./common.go
+./doc.go
+./encoding.go
+./hashing.go
+./signing.go

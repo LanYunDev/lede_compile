@@ -1,8 +1,0 @@
-def "".encryptBlockAsm ABI0
-def "".decryptBlockAsm ABI0
-def "".expandKeyAsm ABI0
-def "".gcmAesFinish ABI0
-def "".gcmAesInit ABI0
-def "".gcmAesData ABI0
-def "".gcmAesEnc ABI0
-def "".gcmAesDec ABI0

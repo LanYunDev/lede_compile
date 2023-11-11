@@ -8,8 +8,8 @@ Target-Features: arm_v7 dt fpu gpio nand pci pcie ramdisk rtc squashfs usb
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a7+neon-vfpv4
-Linux-Version: 5.10.198
-Linux-Testing-Version: 5.10.198
+Linux-Version: 5.10.199
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -25,8 +25,8 @@ Target-Features: arm_v7 dt emmc fpu gpio nand pci pcie ramdisk rtc squashfs usb
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a7+neon-vfpv4
-Linux-Version: 5.10.198
-Linux-Testing-Version: 5.10.198
+Linux-Version: 5.10.199
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -1121,8 +1121,8 @@ Target-Features: arm_v7 dt fpu gpio minor nand pci pcie ramdisk rtc squashfs usb
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a7+neon-vfpv4
-Linux-Version: 5.10.198
-Linux-Testing-Version: 5.10.198
+Linux-Version: 5.10.199
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:

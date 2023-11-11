@@ -1,0 +1,3 @@
+./bootstrap.go
+./hostsresolver.go
+./resolver.go

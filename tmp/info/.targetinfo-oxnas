@@ -9,7 +9,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe
 CPU-Type: xscale
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -26,7 +26,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe
 CPU-Type: arm926ej-s
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -67,7 +67,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe
 CPU-Type: mpcore
 Linux-Version: 5.4.258
-Linux-Testing-Version: 5.10.198
+Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:

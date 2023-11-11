@@ -1,0 +1,5 @@
+./bucket.go
+./convert_types.go
+./object.go
+./qingstor.go
+./types.go
