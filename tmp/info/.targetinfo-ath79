@@ -25,7 +25,7 @@ Target-Depends:
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
 Linux-Version: 5.10.199
-Linux-Testing-Version: 5.15.136
+Linux-Testing-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: mips
 Target-Description:

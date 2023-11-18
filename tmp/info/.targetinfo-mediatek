@@ -8,7 +8,7 @@ Target-Features: dt-overlay emmc fpu gpio nand pci pcie rootfs-part separate_ram
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: xscale
-Linux-Version: 5.15.136
+Linux-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -24,7 +24,7 @@ Target-Features: dt dt-overlay emmc fpu gpio nand pci pcie rootfs-part rtc separ
 Target-Depends: 
 Target-Optimization: -Os -pipe -mcpu=cortex-a53
 CPU-Type: cortex-a53
-Linux-Version: 5.15.136
+Linux-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
 Target-Description:
@@ -350,7 +350,7 @@ Target-Features: arm_v7 display dt dt-overlay emmc fpu gpio nand pci pcie rootfs
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a7+neon-vfpv4
-Linux-Version: 5.15.136
+Linux-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -414,7 +414,7 @@ Target-Features: arm_v7 dt nand pci pcie ramdisk squashfs usb
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a7
-Linux-Version: 5.15.136
+Linux-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -446,7 +446,7 @@ Target-Features: dt dt-overlay emmc fpu gpio nand pci pcie rootfs-part rtc separ
 Target-Depends: 
 Target-Optimization: -Os -pipe -mcpu=cortex-a53
 CPU-Type: cortex-a53
-Linux-Version: 5.15.136
+Linux-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
 Target-Description:
@@ -510,38 +510,6 @@ Target-Profile-SupportedDevices: cetron,ct3003-mod
 
 Target-Profile-Description:
 Build firmware images for Cetron CT3003 (U-Boot mod)
-
-
-
-
-
-@@
-
-Target-Profile: DEVICE_glinet_gl-mt3000
-Target-Profile-Name: GL.iNet GL-MT3000
-Target-Profile-Packages: kmod-mt7981-firmware mt7981-wo-firmware kmod-hwmon-pwmfan kmod-usb3
-Target-Profile-hasImageMetadata: 1
-Target-Profile-SupportedDevices: glinet,gl-mt3000
-
-
-Target-Profile-Description:
-Build firmware images for GL.iNet GL-MT3000
-
-
-
-
-
-@@
-
-Target-Profile: DEVICE_glinet_gl-mt6000
-Target-Profile-Name: GL.iNet GL-MT6000
-Target-Profile-Packages: kmod-usb2 kmod-usb3 kmod-mt7986-firmware mt7986-wo-firmware e2fsprogs f2fsck mkf2fs
-Target-Profile-hasImageMetadata: 0
-Target-Profile-SupportedDevices: glinet,gl-mt6000
-
-
-Target-Profile-Description:
-Build firmware images for GL.iNet GL-MT6000
 
 
 

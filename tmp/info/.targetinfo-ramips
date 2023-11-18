@@ -8,7 +8,7 @@ Target-Features: boot-part gpio rootfs-part squashfs testing-kernel
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32 -mtune=mips32
 CPU-Type: mips32
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -25,7 +25,7 @@ Target-Features: boot-part dt gpio mips16 nand pci ramdisk rootfs-part squashfs 
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -1898,7 +1898,7 @@ Target-Features: boot-part dt gpio minor mips16 nand pci ramdisk rootfs-part rtc
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -2673,22 +2673,6 @@ Target-Profile-SupportedDevices: gehua,ghl-r-001
 
 Target-Profile-Description:
 Build firmware images for GeHua GHL-R-001
-
-
-
-
-
-@@
-
-Target-Profile: DEVICE_glinet_gl-mt1300
-Target-Profile-Name: GL.iNet GL-MT1300
-Target-Profile-Packages: kmod-mt7615d_dbdc kmod-usb3 -luci-newapi -wpad-openssl
-Target-Profile-hasImageMetadata: 1
-Target-Profile-SupportedDevices: glinet,gl-mt1300
-
-
-Target-Profile-Description:
-Build firmware images for GL.iNet GL-MT1300
 
 
 
@@ -4342,7 +4326,7 @@ Target-Features: boot-part dt gpio mips16 pci ramdisk rootfs-part squashfs testi
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -5659,7 +5643,7 @@ Target-Features: boot-part dt gpio mips16 pci rootfs-part small_flash squashfs t
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -5804,7 +5788,7 @@ Target-Features: boot-part dt gpio mips16 ramdisk rootfs-part small_flash squash
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -7551,7 +7535,7 @@ Target-Features: boot-part dt gpio mips16 pci rootfs-part small_flash squashfs t
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=74kc
 CPU-Type: 74kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips

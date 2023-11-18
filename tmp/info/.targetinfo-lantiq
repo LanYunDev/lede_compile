@@ -8,7 +8,7 @@ Target-Features: dt gpio mips16 squashfs testing-kernel
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: 
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
@@ -25,7 +25,7 @@ Target-Features: atm dt gpio mips16 nand pci pcie ramdisk squashfs testing-kerne
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -591,7 +591,7 @@ Target-Features: atm dt gpio mips16 nand pci ramdisk squashfs testing-kernel usb
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -1199,7 +1199,7 @@ Target-Features: atm dt gpio mips16 pci ramdisk small_flash squashfs testing-ker
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -1375,7 +1375,7 @@ Target-Features: dt gpio mips16 nand source-only squashfs testing-kernel
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -1592,7 +1592,7 @@ Target-Features: atm dt gpio mips16 small_flash squashfs testing-kernel usb
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32 -mtune=mips32
 CPU-Type: mips32
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips

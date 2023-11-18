@@ -8,8 +8,8 @@ Target-Features: audio boot-part display ext4 fpu gpio pci pcie rootfs-part squa
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: 
-Linux-Version: 5.15.136
-Linux-Testing-Version: 6.1.61
+Linux-Version: 5.15.138
+Linux-Testing-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
 Target-Description:
@@ -25,8 +25,8 @@ Target-Features: audio boot-part display dt ext4 fpu gpio pci pcie rootfs-part r
 Target-Depends: 
 Target-Optimization: -Os -pipe -mcpu=generic
 CPU-Type: generic
-Linux-Version: 5.15.136
-Linux-Testing-Version: 6.1.61
+Linux-Version: 5.15.138
+Linux-Testing-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
 Target-Description:

@@ -8,7 +8,7 @@ Target-Features: audio boot-part ext4 fpu gpio squashfs usbgadget
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: xscale
-Linux-Version: 6.1.61
+Linux-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -24,7 +24,7 @@ Target-Features: audio boot-part ext4 fpu gpio squashfs usbgadget
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: xscale
-Linux-Version: 6.1.61
+Linux-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:

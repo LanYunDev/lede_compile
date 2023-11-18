@@ -1,5 +1,4 @@
 Source-Makefile: package/feeds/luci/luci-theme-argon/Makefile
-Override: lean/luci-theme-argon
 Build-Depends: lua/host luci-base/host 
 
 Package: luci-theme-argon

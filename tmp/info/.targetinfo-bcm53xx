@@ -8,8 +8,8 @@ Target-Features: arm_v7 dt gpio nand pci pcie pwm squashfs testing-kernel usb
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a9
-Linux-Version: 5.4.258
-Linux-Testing-Version: 5.15.136
+Linux-Version: 5.4.260
+Linux-Testing-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -34,8 +34,8 @@ Target-Features: arm_v7 dt gpio nand pci pcie pwm squashfs testing-kernel usb
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a9
-Linux-Version: 5.4.258
-Linux-Testing-Version: 5.15.136
+Linux-Version: 5.4.260
+Linux-Testing-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:

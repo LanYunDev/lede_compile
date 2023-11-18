@@ -2834,7 +2834,7 @@ Build-Types: host
 
 Package: golang
 Submenu: Go
-Version: 1.21.3-1
+Version: 1.21.4-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +golang-src
 Conflicts: 
 Menu-Depends: 
@@ -2844,7 +2844,7 @@ Category: Languages
 Repository: base
 Title: Go programming language (compiler)
 Maintainer: Jeffery To <jeffery.to@gmail.com>
-Source: go1.21.3.src.tar.gz
+Source: go1.21.4.src.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -2870,7 +2870,7 @@ Config:
 
 Package: golang-doc
 Submenu: Go
-Version: 1.21.3-1
+Version: 1.21.4-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -2880,7 +2880,7 @@ Category: Languages
 Repository: base
 Title: Go programming language (documentation)
 Maintainer: Jeffery To <jeffery.to@gmail.com>
-Source: go1.21.3.src.tar.gz
+Source: go1.21.4.src.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -2902,7 +2902,7 @@ Jeffery To <jeffery.to@gmail.com>
 
 Package: golang-src
 Submenu: Go
-Version: 1.21.3-1
+Version: 1.21.4-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -2912,7 +2912,7 @@ Category: Languages
 Repository: base
 Title: Go programming language (source files)
 Maintainer: Jeffery To <jeffery.to@gmail.com>
-Source: go1.21.3.src.tar.gz
+Source: go1.21.4.src.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -85850,7 +85850,7 @@ Build-Depends: golang/host
 
 Package: containerd
 Menu: 1
-Version: 1.7.1-1
+Version: 1.7.6-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +btrfs-progs +runc
 Conflicts: 
 Menu-Depends: 
@@ -85860,7 +85860,7 @@ Category: Utilities
 Repository: base
 Title: containerd container runtime
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Source: containerd-1.7.1.tar.gz
+Source: containerd-1.7.6.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -88427,7 +88427,7 @@ Source-Makefile: feeds/packages/utils/docker/Makefile
 Build-Depends: golang/host
 
 Package: docker
-Version: 24.0.5-0
+Version: 24.0.7-0
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -88437,7 +88437,7 @@ Category: Utilities
 Repository: base
 Title: Docker Community Edition CLI
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Source: docker-24.0.5.tar.gz
+Source: docker-24.0.7.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -88451,7 +88451,7 @@ Source-Makefile: feeds/packages/utils/docker-compose/Makefile
 Build-Depends: golang/host
 
 Package: docker-compose
-Version: 2.22.0-1
+Version: 2.23.0-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +docker
 Conflicts: 
 Menu-Depends: 
@@ -88461,7 +88461,7 @@ Category: Utilities
 Repository: base
 Title: Docker Compose
 Maintainer: Javier Marcet <javier@marcet.info>
-Source: v2.22.0.tar.gz
+Source: v2.23.0.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -88476,7 +88476,7 @@ Build-Depends: golang/host
 
 Package: dockerd
 Menu: 1
-Version: 24.0.5-0
+Version: 24.0.7-0
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-certificates +containerd +iptables +iptables-mod-extra +IPV6:ip6tables +IPV6:kmod-ipt-nat6 +KERNEL_SECCOMP:libseccomp +kmod-ipt-nat +kmod-ipt-physdev +kmod-nf-ipvs +kmod-veth +tini @!(mips||mipsel)
 Conflicts: 
 Menu-Depends: 
@@ -88487,7 +88487,7 @@ Repository: base
 Title: Docker Community Edition Daemon
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Require-User: docker:docker
-Source: dockerd-24.0.5.tar.gz
+Source: dockerd-24.0.7.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -99352,7 +99352,7 @@ Source-Makefile: feeds/packages/utils/runc/Makefile
 Build-Depends: golang/host
 
 Package: runc
-Version: 1.1.8-1
+Version: 1.1.9-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +KERNEL_SECCOMP_FILTER:libseccomp
 Conflicts: 
 Menu-Depends: 
@@ -99362,7 +99362,7 @@ Category: Utilities
 Repository: base
 Title: runc container runtime
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Source: runc-1.1.8.tar.gz
+Source: runc-1.1.9.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg

@@ -8,7 +8,7 @@ Target-Features: cpiogz dt ext4 pci ramdisk rtc squashfs targz testing-kernel us
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: 
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm64
@@ -25,7 +25,7 @@ Target-Features: cpiogz dt ext4 mips16 pci ramdisk rtc source-only squashfs targ
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -43,7 +43,7 @@ Target-Features: cpiogz dt ext4 mips16 pci ramdisk rtc squashfs targz testing-ke
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc
 CPU-Type: 24kc
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -61,7 +61,7 @@ Target-Features: cpiogz dt ext4 pci ramdisk rtc source-only squashfs targz testi
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips64r2 -mtune=mips64r2 -mabi=64
 CPU-Type: mips64r2
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips
@@ -79,7 +79,7 @@ Target-Features: cpiogz dt ext4 pci ramdisk rtc source-only squashfs targz testi
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -mips64r2 -mtune=mips64r2 -mabi=64
 CPU-Type: mips64r2
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: mips

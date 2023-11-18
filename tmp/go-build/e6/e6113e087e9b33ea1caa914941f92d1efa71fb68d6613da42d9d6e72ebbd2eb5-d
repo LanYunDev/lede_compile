@@ -1,0 +1,14 @@
+./copy.go
+./copy_irregular_unix.go
+./copy_linux.go
+./copy_nondarwin.go
+./diff.go
+./diff_unix.go
+./dtype_linux.go
+./du.go
+./du_unix.go
+./hardlink.go
+./hardlink_unix.go
+./path.go
+./stat_atim.go
+./time.go

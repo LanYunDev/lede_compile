@@ -8,7 +8,7 @@ Target-Features: arm_v7 dt gpio nand pci pcie ramdisk source-only squashfs usb
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a7
-Linux-Version: 5.15.136
+Linux-Version: 5.15.138
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:

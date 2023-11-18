@@ -8,7 +8,7 @@ Target-Features: boot-part ext4 fpu gpio legacy-sdcard squashfs usbgadget
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: xscale
-Linux-Version: 6.1.61
+Linux-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:
@@ -25,7 +25,7 @@ Target-Features: arm_v7 boot-part dt ext4 fpu gpio legacy-sdcard rtc squashfs us
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: cortex-a5+vfpv4
-Linux-Version: 6.1.61
+Linux-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: arm
 Target-Description:

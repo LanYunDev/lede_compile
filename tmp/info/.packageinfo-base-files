@@ -2,7 +2,7 @@ Source-Makefile: package/base-files/Makefile
 Build-Depends: usign/host ucert/host
 
 Package: base-files
-Version: 0-r6243+4-bc4708a64
+Version: 0-r6254-22bf7e0ca
 Depends: +libc +netifd +jsonfilter +SIGNED_PACKAGES:usign +SIGNED_PACKAGES:openwrt-keyring +NAND_SUPPORT:ubi-utils +fstools +fwtool
 Conflicts: 
 Menu-Depends: 

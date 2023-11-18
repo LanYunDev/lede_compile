@@ -8,7 +8,7 @@ Target-Features: dt ext4 gpio rtc testing-kernel usb usbgadget
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: arm926ej-s
-Linux-Version: 5.4.258
+Linux-Version: 5.4.260
 Linux-Testing-Version: 5.10.199
 Linux-Release: 1
 Linux-Kernel-Arch: arm
