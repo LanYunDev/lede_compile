@@ -1221,7 +1221,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-lucky
 Submenu: 3. Applications
-Version: 1.1.1-5
+Version: 1.1.2-7
 Depends: +libc +lucky
 Conflicts: 
 Menu-Depends: 
@@ -1239,7 +1239,7 @@ Description: LuCI Support for Dynamic lucky Client
 
 Package: luci-i18n-lucky-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.1.1-5
+Version: 1.1.2-7
 Depends: +libc luci-app-lucky
 Conflicts: 
 Menu-Depends: 
@@ -1258,7 +1258,7 @@ Description:     Translation for luci-app-lucky - 简体中文 (Simplified Chine
 
 Package: luci-i18n-lucky-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.1.1-5
+Version: 1.1.2-7
 Depends: +libc luci-app-lucky
 Conflicts: 
 Menu-Depends: 
@@ -1363,7 +1363,7 @@ Source-Makefile: feeds/kenzo/luci-app-openclash/Makefile
 
 Package: luci-app-openclash
 Submenu: 3. Applications
-Version: 0.45.141-beta
+Version: 0.45.152-beta
 Depends: +libc +dnsmasq-full +coreutils +coreutils-nohup +bash +curl +ca-bundle +ipset +ip-full +libcap +libcap-bin +libcap-bin +ruby +ruby-yaml +kmod-tun +unzip
 Conflicts: 
 Menu-Depends: 
@@ -1380,6 +1380,9 @@ vernesong
 @@
 Config:
 	config PACKAGE_kmod-inet-diag
+	default y if PACKAGE_luci-app-openclash
+
+	config PACKAGE_luci-compat
 	default y if PACKAGE_luci-app-openclash
 
 	config PACKAGE_kmod-nft-tproxy
@@ -1571,7 +1574,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-wechatpush
 Submenu: 3. Applications
-Version: 3.4.1
+Version: 3.4.2
 Depends: +libc +iputils-arping +curl +jq +bash +PACKAGE_luci-app-wechatpush_Enable_Traffic_Monitoring:wrtbwmon +PACKAGE_luci-app-wechatpush_Enable_Local_Disk_Information_Detection:lsblk +PACKAGE_luci-app-wechatpush_Enable_Local_Disk_Information_Detection:smartmontools +PACKAGE_luci-app-wechatpush_Enable_Local_Disk_Information_Detection:smartmontools-drivedb +PACKAGE_luci-app-wechatpush_Enable_Host_Information_Detection:openssh-client +PACKAGE_luci-app-wechatpush_Enable_Host_Information_Detection:openssh-keygen
 Conflicts: 
 Menu-Depends: 
@@ -1615,7 +1618,7 @@ config PACKAGE_luci-app-wechatpush_Host_Information_Detection
 
 Package: luci-i18n-wechatpush-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 3.4.1
+Version: 3.4.2
 Depends: +libc luci-app-wechatpush
 Conflicts: 
 Menu-Depends: 
@@ -1634,7 +1637,7 @@ tty228 <tty228@yeah.net>
 
 Package: luci-i18n-wechatpush-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 3.4.1
+Version: 3.4.2
 Depends: +libc luci-app-wechatpush
 Conflicts: 
 Menu-Depends: 

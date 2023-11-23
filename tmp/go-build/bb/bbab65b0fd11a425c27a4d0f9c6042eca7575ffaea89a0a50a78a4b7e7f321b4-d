@@ -1,5 +1,0 @@
-./checksum.go
-./checksum_amd64.go
-./checksum_amd64_state_autogen.go
-./checksum_state_autogen.go
-./checksum_amd64.s

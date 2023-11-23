@@ -1,0 +1,12 @@
+./config.go
+./config.pb.go
+./copy.go
+./dialer.go
+./dispatcher.go
+./dispatcher_packetaddr.go
+./dispatcher_split.go
+./errors.generated.go
+./hub.go
+./hub_linux.go
+./monodest.go
+./udp.go

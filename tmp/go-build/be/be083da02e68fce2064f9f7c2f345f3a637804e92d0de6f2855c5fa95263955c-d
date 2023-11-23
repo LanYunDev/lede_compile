@@ -1,0 +1,9 @@
+./bind.go
+./client.go
+./config.go
+./config.pb.go
+./errors.generated.go
+./server.go
+./tun.go
+./tun_linux.go
+./wireguard.go

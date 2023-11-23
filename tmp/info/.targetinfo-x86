@@ -4,12 +4,12 @@ Target-Board: x86
 Target-Name: x86
 Target-Arch: i386
 Target-Arch-Packages: i386_pentium-mmx
-Target-Features: boot-part display fpu gpio pci pcmcia rootfs-part rtc squashfs testing-kernel usb vdi vhdx vmdk
+Target-Features: boot-part display fpu gpio pci pcmcia rootfs-part rtc squashfs usb vdi vhdx vmdk
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=pentium-mmx
 CPU-Type: pentium-mmx
 Linux-Version: 6.1.62
-Linux-Testing-Version: 5.15.138
+Linux-Testing-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: x86
 Target-Description:
@@ -21,12 +21,12 @@ Target-Board: x86
 Target-Name: x86_64
 Target-Arch: x86_64
 Target-Arch-Packages: x86_64
-Target-Features: boot-part display fpu gpio pci pcie pcmcia rootfs-part rtc squashfs testing-kernel usb vdi vhdx virtio vmdk
+Target-Features: boot-part display fpu gpio pci pcie pcmcia rootfs-part rtc squashfs usb vdi vhdx virtio vmdk
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: 
 Linux-Version: 6.1.62
-Linux-Testing-Version: 5.15.138
+Linux-Testing-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: x86
 Target-Description:
@@ -54,12 +54,12 @@ Target-Board: x86
 Target-Name: Generic
 Target-Arch: i386
 Target-Arch-Packages: i386_pentium4
-Target-Features: audio boot-part display fpu gpio pci pcie pcmcia rootfs-part rtc squashfs testing-kernel usb vdi vhdx virtio vmdk
+Target-Features: audio boot-part display fpu gpio pci pcie pcmcia rootfs-part rtc squashfs usb vdi vhdx virtio vmdk
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=pentium4
 CPU-Type: pentium4
 Linux-Version: 6.1.62
-Linux-Testing-Version: 5.15.138
+Linux-Testing-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: x86
 Target-Description:
@@ -89,12 +89,12 @@ Target-Board: x86
 Target-Name: Legacy
 Target-Arch: i386
 Target-Arch-Packages: i386_pentium-mmx
-Target-Features: boot-part display fpu gpio pci pcie pcmcia rootfs-part rtc squashfs testing-kernel usb vdi vhdx vmdk
+Target-Features: boot-part display fpu gpio pci pcie pcmcia rootfs-part rtc squashfs usb vdi vhdx vmdk
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=pentium-mmx
 CPU-Type: pentium-mmx
 Linux-Version: 6.1.62
-Linux-Testing-Version: 5.15.138
+Linux-Testing-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: x86
 Target-Description:
@@ -123,12 +123,12 @@ Target-Board: x86
 Target-Name: AMD Geode based systems
 Target-Arch: i386
 Target-Arch-Packages: i386_pentium-mmx
-Target-Features: boot-part display fpu gpio pci pcmcia rootfs-part rtc squashfs testing-kernel usb vdi vhdx vmdk
+Target-Features: boot-part display fpu gpio pci pcmcia rootfs-part rtc squashfs usb vdi vhdx vmdk
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=pentium-mmx
 CPU-Type: pentium-mmx
 Linux-Version: 6.1.62
-Linux-Testing-Version: 5.15.138
+Linux-Testing-Version: 6.1.62
 Linux-Release: 1
 Linux-Kernel-Arch: x86
 Target-Description:

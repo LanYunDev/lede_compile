@@ -1,6 +1,0 @@
-./edns0.go
-./edns0_ecs.go
-./edns0_padding.go
-./msg.go
-./net_io.go
-./ptr_parser.go
