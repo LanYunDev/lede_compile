@@ -83,7 +83,6 @@ $(eval $(call PackageDir,applications_luci-app-privoxy,applications/luci-app-pri
 $(eval $(call PackageDir,applications_luci-app-ps3netsrv,applications/luci-app-ps3netsrv,))
 $(eval $(call PackageDir,applications_luci-app-pushbot,applications/luci-app-pushbot,))
 $(eval $(call PackageDir,applications_luci-app-qbittorrent,applications/luci-app-qbittorrent,))
-$(eval $(call PackageDir,applications_luci-app-qbittorrent-simple,applications/luci-app-qbittorrent-simple,))
 $(eval $(call PackageDir,applications_luci-app-qos,applications/luci-app-qos,))
 $(eval $(call PackageDir,applications_luci-app-radicale,applications/luci-app-radicale,))
 $(eval $(call PackageDir,applications_luci-app-ramfree,applications/luci-app-ramfree,))

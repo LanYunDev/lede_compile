@@ -2,7 +2,7 @@ Source-Makefile: package/feeds/telephony/sofia-sip/Makefile
 
 Package: sofia-sip
 Submenu: Telephony
-Version: 1.13.16-1
+Version: 1.13.17-1
 Depends: +libc +libopenssl +zlib
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Category: Libraries
 Repository: telephony
 Title: Sofia-SIP open-source SIP User-Agent library
 Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
-Source: sofia-sip-1.13.16.tar.gz
+Source: sofia-sip-1.13.17.tar.gz
 License: LGPL-2.1+
 LicenseFiles: COPYING
 Type: ipkg

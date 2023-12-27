@@ -3,7 +3,7 @@ Build-Depends: golang/host
 
 Package: sing-box
 Submenu: Web Servers/Proxies
-Version: 1.6.5-1
+Version: 1.7.6-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle +kmod-inet-diag +kmod-netlink-diag +kmod-tun
 Conflicts: 
 Menu-Depends: 
@@ -13,12 +13,12 @@ Category: Network
 Repository: small
 Title: The universal proxy platform.
 Maintainer: 
-Source: sing-box-1.6.5.tar.gz
+Source: sing-box-1.7.6.tar.gz
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Type: ipkg
-Description:   Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
-  ShadowsocksR, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+Description:   Sing-box is a universal proxy platform which supports hysteria, SOCKS,
+  Shadowsocks, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 https://sing-box.sagernet.org
 
 @@
@@ -62,10 +62,6 @@ Config:
 
     config SING_BOX_WITH_REALITY_SERVER
       bool "Build with reality TLS server support"
-      default n
-
-    config SING_BOX_WITH_SHADOWSOCKSR
-      bool "Build with ShadowsockR support"
       default n
 
     config SING_BOX_WITH_UTLS

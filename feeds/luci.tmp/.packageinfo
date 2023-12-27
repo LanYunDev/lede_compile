@@ -3746,7 +3746,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-cpufreq
 Submenu: 3. Applications
-Version: 5-0
+Version: 7-0
 Depends: +libc @(arm||aarch64)
 Conflicts: 
 Menu-Depends: 
@@ -3764,7 +3764,7 @@ Description: LuCI for CPU Freq Setting
 
 Package: luci-i18n-cpufreq-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 5-0
+Version: 7-0
 Depends: +libc luci-app-cpufreq
 Conflicts: 
 Menu-Depends: 
@@ -5471,7 +5471,7 @@ Build-Depends: lua/host luci-base/host
 Package: luci-app-easymesh
 Submenu: 3. Applications
 Version: 2.0-1
-Depends: +libc +kmod-cfg80211 +batctl-default +kmod-batman-adv +wpad-openssl +dawn
+Depends: +libc +kmod-cfg80211 +batctl-default +kmod-batman-adv +dawn
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -11397,7 +11397,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-qbittorrent
 Submenu: 3. Applications
-Version: 1.0-23
+Version: 1.0.0-3
 Depends: +libc +PACKAGE_luci-app-qbittorrent_static:qBittorrent-static +PACKAGE_luci-app-qbittorrent_dynamic:qbittorrent
 Conflicts: 
 Menu-Depends: 
@@ -11415,8 +11415,7 @@ Description: LuCI support for qBittorrent
 Config:
 	choice
 		prompt "Build Version Selection"
-		default PACKAGE_luci-app-qbittorrent_static if arm||aarch64||x86_64
-		default PACKAGE_luci-app-qbittorrent_dynamic if !(arm||aarch64||x86_64)
+		default PACKAGE_luci-app-qbittorrent_dynamic
 
 		config PACKAGE_luci-app-qbittorrent_static
 			bool "Static Build"
@@ -11424,13 +11423,13 @@ Config:
 
 		config PACKAGE_luci-app-qbittorrent_dynamic
 			bool "Dynamic Build"
-			
+
 	endchoice
 @@
 
 Package: luci-i18n-qbittorrent-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.0-23
+Version: 1.0.0-3
 Depends: +libc luci-app-qbittorrent
 Conflicts: 
 Menu-Depends: 
@@ -11444,61 +11443,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-qbittorrent - 简体中文 (Simplified Chinese)
-
-@@
-
-
-Source-Makefile: feeds/luci/applications/luci-app-qbittorrent-simple/Makefile
-Build-Depends: lua/host luci-base/host 
-
-Package: luci-app-qbittorrent-simple
-Submenu: 3. Applications
-Version: 1.0.0-3
-Depends: +libc +PACKAGE_luci-app-qbittorrent-simple_static:qBittorrent-static +PACKAGE_luci-app-qbittorrent-simple_dynamic:qbittorrent
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: LuCI support for qBittorrent
-Maintainer: 
-Source: 
-Type: ipkg
-Description: LuCI support for qBittorrent
-
-@@
-Config:
-	choice
-		prompt "Build Version Selection"
-		default PACKAGE_luci-app-qbittorrent-simple_dynamic
-
-		config PACKAGE_luci-app-qbittorrent-simple_static
-			bool "Static Build"
-			depends on arm||aarch64||x86_64
-
-		config PACKAGE_luci-app-qbittorrent-simple_dynamic
-			bool "Dynamic Build"
-
-	endchoice
-@@
-
-Package: luci-i18n-qbittorrent-simple-zh-cn
-Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.0.0-3
-Depends: +libc luci-app-qbittorrent-simple
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-qbittorrent-simple - zh-cn translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-qbittorrent-simple - 简体中文 (Simplified Chinese)
 
 @@
 
@@ -19589,7 +19533,7 @@ Build-Depends: lua/host luci-base/host
 Package: luci
 Submenu: 1. Collections
 Version: x-1
-Depends: +libc +uhttpd +uhttpd-mod-ubus +luci-mod-admin-full +luci-theme-bootstrap +luci-app-firewall +luci-proto-ppp +libiwinfo-lua +rpcd-mod-rrdns
+Depends: +libc +uhttpd +uhttpd-mod-ubus +luci-mod-admin-full +luci-theme-argone +luci-app-firewall +luci-proto-ppp +libiwinfo-lua +rpcd-mod-rrdns
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -21280,7 +21224,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-theme-design
 Submenu: 4. Themes
-Version: 5.7.6-20231017-1
+Version: 5.7.6-20231212-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 

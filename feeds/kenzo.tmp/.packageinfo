@@ -1,7 +1,7 @@
 Source-Makefile: feeds/kenzo/UnblockNeteaseMusic/Makefile
 
 Package: UnblockNeteaseMusic
-Version: 0.27.4-2022-10-09-253dc89329ebd16ff22175d9d0ab9382ed8aaccc-0
+Version: 0.27.4-patch.1-2022-10-09-253dc89329ebd16ff22175d9d0ab9382ed8aaccc-0
 Depends: +libc +node
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Multimedia
 Repository: base
 Title: Revive Netease Cloud Music (NodeJS)
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: UnblockNeteaseMusic-0.27.4-2022-10-09-253dc89329ebd16ff22175d9d0ab9382ed8aaccc.tar.xz
+Source: UnblockNeteaseMusic-0.27.4-patch.1-2022-10-09-253dc89329ebd16ff22175d9d0ab9382ed8aaccc.tar.xz
 License: LGPL-3.0-only
 Type: ipkg
 Description: Revive Netease Cloud Music (NodeJS)
@@ -24,7 +24,7 @@ Source-Makefile: feeds/kenzo/adguardhome/Makefile
 Build-Depends: golang/host
 
 Package: adguardhome
-Version: 0.107.41-1
+Version: 0.107.43-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -34,7 +34,7 @@ Category: Network
 Repository: base
 Title: Network-wide ads and trackers blocking DNS server
 Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
-Source: adguardhome-0.107.41.tar.gz
+Source: adguardhome-0.107.43.tar.gz
 License: GPL-3.0-only
 LicenseFiles: LICENSE.txt
 Type: ipkg
@@ -49,7 +49,7 @@ Build-Depends: golang/host
 
 Package: alist
 Submenu: Web Servers/Proxies
-Version: 3.28.0-2
+Version: 3.29.1-2
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -59,7 +59,7 @@ Category: Network
 Repository: base
 Title: A file list program that supports multiple storage
 Maintainer: sbwml <admin@cooluc.com>
-Source: alist-3.28.0.tar.gz
+Source: alist-3.29.1.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description:   A file list program that supports multiple storage, powered by Gin and Solidjs.
@@ -276,7 +276,7 @@ Source-Makefile: feeds/kenzo/luci-app-aliddns/Makefile
 
 Package: luci-app-aliddns
 Submenu: 3. Applications
-Version: 0.4.0-1
+Version: 0.4.1-1
 Depends: +libc +openssl-util +curl
 Conflicts: 
 Menu-Depends: 
@@ -423,8 +423,8 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-amlogic
 Submenu: 3. Applications
-Version: 3.1.211-1
-Depends: +libc @(aarch64||arm) +luci +luci-lib-nixio +block-mount +blkid +parted +dosfstools +e2fsprogs +jq +lsblk +pv +losetup +uuidgen +bash +perl +fdisk
+Version: 3.1.217-1
+Depends: +libc @(aarch64||arm) +luci +luci-lib-nixio +block-mount +blkid +parted +curl +dosfstools +e2fsprogs +jq +lsblk +pv +losetup +uuidgen +bash +perl +fdisk
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -442,7 +442,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 3.1.211-1
+Version: 3.1.217-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -462,7 +462,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 3.1.211-1
+Version: 3.1.217-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -1363,7 +1363,7 @@ Source-Makefile: feeds/kenzo/luci-app-openclash/Makefile
 
 Package: luci-app-openclash
 Submenu: 3. Applications
-Version: 0.45.152-beta
+Version: 0.45.157-beta
 Depends: +libc +dnsmasq-full +coreutils +coreutils-nohup +bash +curl +ca-bundle +ipset +ip-full +libcap +libcap-bin +libcap-bin +ruby +ruby-yaml +kmod-tun +unzip
 Conflicts: 
 Menu-Depends: 
@@ -1572,85 +1572,21 @@ Tianling Shen <cnsztl@immortalwrt.org>
 Source-Makefile: feeds/kenzo/luci-app-wechatpush/Makefile
 Build-Depends: lua/host luci-base/host 
 
-Package: luci-app-wechatpush
+Package: luci-app-serverchan
 Submenu: 3. Applications
-Version: 3.4.2
-Depends: +libc +iputils-arping +curl +jq +bash +PACKAGE_luci-app-wechatpush_Enable_Traffic_Monitoring:wrtbwmon +PACKAGE_luci-app-wechatpush_Enable_Local_Disk_Information_Detection:lsblk +PACKAGE_luci-app-wechatpush_Enable_Local_Disk_Information_Detection:smartmontools +PACKAGE_luci-app-wechatpush_Enable_Local_Disk_Information_Detection:smartmontools-drivedb +PACKAGE_luci-app-wechatpush_Enable_Host_Information_Detection:openssh-client +PACKAGE_luci-app-wechatpush_Enable_Host_Information_Detection:openssh-keygen
+Version: 2.06.2-10
+Depends: +libc +iputils-arping +curl +jq
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Section: luci
 Category: LuCI
 Repository: base
-Title: LuCI support for wechatpush
+Title: LuCI support for serverchan
 Maintainer: tty228 <tty228@yeah.net>
 Source: 
 Type: ipkg
-Description: LuCI support for wechatpush
-tty228 <tty228@yeah.net>
-@@
-Config:
-config PACKAGE_luci-app-wechatpush_Enable_Traffic_Monitoring
-        bool "Enable Traffic Monitoring"
-        help
-                The traffic statistics feature relies on the wrtbwmon package. This plugin may conflict with Routing/NAT, Flow Offloading, and proxy internet access plugins, potentially leading to an inability to retrieve traffic information.
-        select PACKAGE_wrtbwmon
-        depends on PACKAGE_luci-app-wechatpush
-        default n
-config PACKAGE_luci-app-wechatpush_Local_Disk_Information_Detection
-        bool "Local Disk Information Detection"
-        help
-                If the lsblk package is not installed, the total disk capacity information might be inconsistent with actual values. When smartctl is not installed, information about disk temperature, power-on time, health status, and more will be unavailable. If you are using a virtual machine or have not installed a physical disk, this feature is typically unnecessary.
-        select PACKAGE_lsblk
-        select PACKAGE_smartmontools
-        select PACKAGE_smartmontools-drivedb
-        depends on PACKAGE_luci-app-wechatpush
-        default n
-config PACKAGE_luci-app-wechatpush_Host_Information_Detection
-        bool "Host Information Detection"
-        help
-                When using a virtual machine and requiring information about the host machine's temperature and disk details, you need to install openssh-client and openssh-keygen for SSH connections.
-        select PACKAGE_openssh-client
-        select PACKAGE_openssh-keygen
-        depends on PACKAGE_luci-app-wechatpush
-        default n
-@@
-
-Package: luci-i18n-wechatpush-zh-cn
-Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 3.4.2
-Depends: +libc luci-app-wechatpush
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-wechatpush - zh-cn translation
-Maintainer: tty228 <tty228@yeah.net>
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-wechatpush - 简体中文 (Simplified Chinese)
-tty228 <tty228@yeah.net>
-@@
-
-Package: luci-i18n-wechatpush-zh_Hans
-Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 3.4.2
-Depends: +libc luci-app-wechatpush
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-wechatpush - zh_Hans translation
-Maintainer: tty228 <tty228@yeah.net>
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-wechatpush - 
+Description: LuCI support for serverchan
 tty228 <tty228@yeah.net>
 @@
 
@@ -1793,7 +1729,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-theme-design
 Submenu: 4. Themes
-Version: 5.7.8-20231102-1
+Version: 5.7.9-20231122-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 

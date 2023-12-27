@@ -459,7 +459,6 @@ $(eval $(call PackageDir,feeds_luci_luci-app-privoxy,feeds/luci/luci-app-privoxy
 $(eval $(call PackageDir,feeds_luci_luci-app-ps3netsrv,feeds/luci/luci-app-ps3netsrv,))
 $(eval $(call PackageDir,feeds_luci_luci-app-pushbot,feeds/luci/luci-app-pushbot,))
 $(eval $(call PackageDir,feeds_luci_luci-app-qbittorrent,feeds/luci/luci-app-qbittorrent,))
-$(eval $(call PackageDir,feeds_luci_luci-app-qbittorrent-simple,feeds/luci/luci-app-qbittorrent-simple,))
 $(eval $(call PackageDir,feeds_luci_luci-app-qos,feeds/luci/luci-app-qos,))
 $(eval $(call PackageDir,feeds_luci_luci-app-radicale,feeds/luci/luci-app-radicale,))
 $(eval $(call PackageDir,feeds_luci_luci-app-ramfree,feeds/luci/luci-app-ramfree,))

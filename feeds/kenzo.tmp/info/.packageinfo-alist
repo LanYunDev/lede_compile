@@ -3,7 +3,7 @@ Build-Depends: golang/host
 
 Package: alist
 Submenu: Web Servers/Proxies
-Version: 3.28.0-2
+Version: 3.29.1-2
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -13,7 +13,7 @@ Category: Network
 Repository: base
 Title: A file list program that supports multiple storage
 Maintainer: sbwml <admin@cooluc.com>
-Source: alist-3.28.0.tar.gz
+Source: alist-3.29.1.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description:   A file list program that supports multiple storage, powered by Gin and Solidjs.

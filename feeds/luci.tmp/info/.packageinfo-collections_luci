@@ -4,7 +4,7 @@ Build-Depends: lua/host luci-base/host
 Package: luci
 Submenu: 1. Collections
 Version: x-1
-Depends: +libc +uhttpd +uhttpd-mod-ubus +luci-mod-admin-full +luci-theme-bootstrap +luci-app-firewall +luci-proto-ppp +libiwinfo-lua +rpcd-mod-rrdns
+Depends: +libc +uhttpd +uhttpd-mod-ubus +luci-mod-admin-full +luci-theme-argone +luci-app-firewall +luci-proto-ppp +libiwinfo-lua +rpcd-mod-rrdns
 Conflicts: 
 Menu-Depends: 
 Provides: 

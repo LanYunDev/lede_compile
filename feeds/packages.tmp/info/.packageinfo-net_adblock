@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/adblock/Makefile
 
 Package: adblock
-Version: 4.1.5-8
+Version: 4.1.5-9
 Depends: +libc +jshn +jsonfilter
 Conflicts: 
 Menu-Depends: 

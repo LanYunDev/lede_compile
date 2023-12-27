@@ -2,7 +2,7 @@ Source-Makefile: package/feeds/kenzo/luci-app-openclash/Makefile
 
 Package: luci-app-openclash
 Submenu: 3. Applications
-Version: 0.45.152-beta
+Version: 0.45.157-beta
 Depends: +libc +dnsmasq-full +coreutils +coreutils-nohup +bash +curl +ca-bundle +ipset +ip-full +libcap +libcap-bin +libcap-bin +ruby +ruby-yaml +kmod-tun +unzip
 Conflicts: 
 Menu-Depends: 

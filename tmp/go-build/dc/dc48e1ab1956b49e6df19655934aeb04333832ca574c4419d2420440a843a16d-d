@@ -1,6 +1,0 @@
-./client.go
-./conn.go
-./deadline.go
-./mask.go
-./server.go
-./writer.go

@@ -2,7 +2,7 @@ Source-Makefile: feeds/kenzo/luci-app-aliddns/Makefile
 
 Package: luci-app-aliddns
 Submenu: 3. Applications
-Version: 0.4.0-1
+Version: 0.4.1-1
 Depends: +libc +openssl-util +curl
 Conflicts: 
 Menu-Depends: 
