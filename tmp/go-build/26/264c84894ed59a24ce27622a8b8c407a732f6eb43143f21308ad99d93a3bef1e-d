@@ -1,5 +1,0 @@
-./command.go
-./config.go
-./config.pb.go
-./errors.generated.go
-./outbound.go

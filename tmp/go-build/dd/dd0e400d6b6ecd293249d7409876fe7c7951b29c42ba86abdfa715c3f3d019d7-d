@@ -1,7 +1,0 @@
-./addr.go
-./domain.go
-./family.go
-./metadata.go
-./network.go
-./serializer.go
-./socksaddr.go

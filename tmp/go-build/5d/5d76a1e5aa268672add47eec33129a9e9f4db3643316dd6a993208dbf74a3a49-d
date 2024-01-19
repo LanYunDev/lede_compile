@@ -1,5 +1,0 @@
-./alloc.go
-./buffer.go
-./buffer_standard.go
-./multi.go
-./pool.go

@@ -1,7 +1,0 @@
-./client.go
-./command.go
-./copy.go
-./object.go
-./options.go
-./oracleobjectstorage.go
-./waiter.go

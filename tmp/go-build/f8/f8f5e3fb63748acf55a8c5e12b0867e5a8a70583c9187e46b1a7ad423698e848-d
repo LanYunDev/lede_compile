@@ -1,5 +1,0 @@
-./locks.go
-./readerat.go
-./store.go
-./store_unix.go
-./writer.go

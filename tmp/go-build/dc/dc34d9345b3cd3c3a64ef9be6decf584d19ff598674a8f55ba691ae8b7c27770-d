@@ -1,4 +1,0 @@
-./detect.go
-./otlp.go
-./recorder.go
-./threadsafe.go

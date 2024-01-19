@@ -1,6 +1,0 @@
-./client.go
-./mounts.go
-./spec.go
-./spec_opts.go
-./spec_opts_linux.go
-./utils_unix.go

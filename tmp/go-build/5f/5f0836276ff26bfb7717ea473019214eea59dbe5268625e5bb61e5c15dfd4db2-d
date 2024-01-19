@@ -1,5 +1,0 @@
-./config.go
-./config.pb.go
-./dokodemo.go
-./errors.generated.go
-./fakeudp_linux.go

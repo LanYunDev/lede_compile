@@ -1,6 +1,0 @@
-./errors.go
-./httpclient.go
-./requestdata.go
-./requestdata_upload.go
-./transport.go
-./utils.go

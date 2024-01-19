@@ -1,7 +1,0 @@
-./authorize.go
-./config.go
-./config_read_password.go
-./crypt.go
-./default_storage.go
-./rc.go
-./ui.go

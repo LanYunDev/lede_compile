@@ -1,6 +1,0 @@
-./ed25519.go
-./errors.go
-./interface.go
-./sign.go
-./verifiers.go
-./verify.go

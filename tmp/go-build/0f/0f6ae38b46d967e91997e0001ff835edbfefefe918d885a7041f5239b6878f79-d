@@ -1,5 +1,0 @@
-./remote_daemon.go
-./remote_daemon_linux.go
-./remote_daemon_options.go
-./remote_daemon_options_linux.go
-./utils_linux.go

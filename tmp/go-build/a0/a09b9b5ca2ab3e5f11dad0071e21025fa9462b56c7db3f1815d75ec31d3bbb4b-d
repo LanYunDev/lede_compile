@@ -1,6 +1,0 @@
-./check_linux.go
-./help.go
-./mount.go
-./rc.go
-./sighup.go
-./utils.go

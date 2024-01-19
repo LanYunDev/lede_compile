@@ -2,7 +2,7 @@ Source-Makefile: feeds/packages/utils/coreutils/Makefile
 
 Package: coreutils
 Menu: 1
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Category: Utilities
 Repository: base
 Title: The GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -24,7 +24,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-base32
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -34,7 +34,7 @@ Category: Utilities
 Repository: base
 Title: Utility base32 from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -44,7 +44,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-base64
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -54,7 +54,7 @@ Category: Utilities
 Repository: base
 Title: Utility base64 from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -64,7 +64,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-basename
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -74,7 +74,7 @@ Category: Utilities
 Repository: base
 Title: Utility basename from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -84,7 +84,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-basenc
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -94,7 +94,7 @@ Category: Utilities
 Repository: base
 Title: Utility basenc from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -104,7 +104,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-b2sum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -114,7 +114,7 @@ Category: Utilities
 Repository: base
 Title: Utility b2sum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -124,7 +124,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-cat
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -134,7 +134,7 @@ Category: Utilities
 Repository: base
 Title: Utility cat from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -144,7 +144,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chcon
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -154,7 +154,7 @@ Category: Utilities
 Repository: base
 Title: Utility chcon from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -164,7 +164,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chgrp
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -174,7 +174,7 @@ Category: Utilities
 Repository: base
 Title: Utility chgrp from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -184,7 +184,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chmod
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -194,7 +194,7 @@ Category: Utilities
 Repository: base
 Title: Utility chmod from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -204,7 +204,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chown
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -214,7 +214,7 @@ Category: Utilities
 Repository: base
 Title: Utility chown from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -224,7 +224,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chroot
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -234,7 +234,7 @@ Category: Utilities
 Repository: base
 Title: Utility chroot from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -244,7 +244,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-cksum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -254,7 +254,7 @@ Category: Utilities
 Repository: base
 Title: Utility cksum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -264,7 +264,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-comm
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -274,7 +274,7 @@ Category: Utilities
 Repository: base
 Title: Utility comm from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -284,7 +284,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-cp
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libacl
 Conflicts: 
 Menu-Depends: 
@@ -294,7 +294,7 @@ Category: Utilities
 Repository: base
 Title: Utility cp from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -304,7 +304,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-csplit
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -314,7 +314,7 @@ Category: Utilities
 Repository: base
 Title: Utility csplit from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -324,7 +324,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-cut
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -334,7 +334,7 @@ Category: Utilities
 Repository: base
 Title: Utility cut from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -344,7 +344,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-date
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -354,7 +354,7 @@ Category: Utilities
 Repository: base
 Title: Utility date from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -364,7 +364,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-dd
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -374,7 +374,7 @@ Category: Utilities
 Repository: base
 Title: Utility dd from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -384,7 +384,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-df
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -394,7 +394,7 @@ Category: Utilities
 Repository: base
 Title: Utility df from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -404,7 +404,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-dir
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libacl +libcap
 Conflicts: 
 Menu-Depends: 
@@ -414,7 +414,7 @@ Category: Utilities
 Repository: base
 Title: Utility dir from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -424,7 +424,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-dircolors
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -434,7 +434,7 @@ Category: Utilities
 Repository: base
 Title: Utility dircolors from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -444,7 +444,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-dirname
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -454,7 +454,7 @@ Category: Utilities
 Repository: base
 Title: Utility dirname from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -464,7 +464,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-du
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -474,7 +474,7 @@ Category: Utilities
 Repository: base
 Title: Utility du from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -484,7 +484,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-echo
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -494,7 +494,7 @@ Category: Utilities
 Repository: base
 Title: Utility echo from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -504,7 +504,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-env
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -514,7 +514,7 @@ Category: Utilities
 Repository: base
 Title: Utility env from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -524,7 +524,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-expand
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -534,7 +534,7 @@ Category: Utilities
 Repository: base
 Title: Utility expand from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -544,7 +544,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-expr
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libgmp
 Conflicts: 
 Menu-Depends: 
@@ -554,7 +554,7 @@ Category: Utilities
 Repository: base
 Title: Utility expr from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -564,7 +564,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-factor
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libgmp
 Conflicts: 
 Menu-Depends: 
@@ -574,7 +574,7 @@ Category: Utilities
 Repository: base
 Title: Utility factor from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -584,7 +584,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-false
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -594,7 +594,7 @@ Category: Utilities
 Repository: base
 Title: Utility false from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -604,7 +604,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-fmt
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -614,7 +614,7 @@ Category: Utilities
 Repository: base
 Title: Utility fmt from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -624,7 +624,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-fold
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -634,7 +634,7 @@ Category: Utilities
 Repository: base
 Title: Utility fold from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -644,7 +644,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-groups
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -654,7 +654,7 @@ Category: Utilities
 Repository: base
 Title: Utility groups from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -664,7 +664,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-head
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -674,7 +674,7 @@ Category: Utilities
 Repository: base
 Title: Utility head from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -684,7 +684,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-hostid
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -694,7 +694,7 @@ Category: Utilities
 Repository: base
 Title: Utility hostid from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -704,7 +704,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-id
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -714,7 +714,7 @@ Category: Utilities
 Repository: base
 Title: Utility id from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -724,7 +724,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-install
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libacl
 Conflicts: 
 Menu-Depends: 
@@ -734,7 +734,7 @@ Category: Utilities
 Repository: base
 Title: Utility install from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -744,7 +744,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-join
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -754,7 +754,7 @@ Category: Utilities
 Repository: base
 Title: Utility join from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -764,7 +764,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-kill
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -774,7 +774,7 @@ Category: Utilities
 Repository: base
 Title: Utility kill from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -784,7 +784,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-link
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -794,7 +794,7 @@ Category: Utilities
 Repository: base
 Title: Utility link from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -804,7 +804,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-ln
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -814,7 +814,7 @@ Category: Utilities
 Repository: base
 Title: Utility ln from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -824,7 +824,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-logname
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -834,7 +834,7 @@ Category: Utilities
 Repository: base
 Title: Utility logname from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -844,7 +844,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-ls
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libacl +libcap
 Conflicts: 
 Menu-Depends: 
@@ -854,7 +854,7 @@ Category: Utilities
 Repository: base
 Title: Utility ls from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -864,7 +864,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-md5sum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -874,7 +874,7 @@ Category: Utilities
 Repository: base
 Title: Utility md5sum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -884,7 +884,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mkdir
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -894,7 +894,7 @@ Category: Utilities
 Repository: base
 Title: Utility mkdir from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -904,7 +904,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mkfifo
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -914,7 +914,7 @@ Category: Utilities
 Repository: base
 Title: Utility mkfifo from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -924,7 +924,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mknod
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -934,7 +934,7 @@ Category: Utilities
 Repository: base
 Title: Utility mknod from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -944,7 +944,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mktemp
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -954,7 +954,7 @@ Category: Utilities
 Repository: base
 Title: Utility mktemp from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -964,7 +964,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mv
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libacl
 Conflicts: 
 Menu-Depends: 
@@ -974,7 +974,7 @@ Category: Utilities
 Repository: base
 Title: Utility mv from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -984,7 +984,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-nice
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -994,7 +994,7 @@ Category: Utilities
 Repository: base
 Title: Utility nice from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1004,7 +1004,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-nl
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1014,7 +1014,7 @@ Category: Utilities
 Repository: base
 Title: Utility nl from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1024,7 +1024,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-nohup
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1034,7 +1034,7 @@ Category: Utilities
 Repository: base
 Title: Utility nohup from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1044,7 +1044,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-nproc
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1054,7 +1054,7 @@ Category: Utilities
 Repository: base
 Title: Utility nproc from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1064,7 +1064,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-numfmt
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1074,7 +1074,7 @@ Category: Utilities
 Repository: base
 Title: Utility numfmt from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1084,7 +1084,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-od
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1094,7 +1094,7 @@ Category: Utilities
 Repository: base
 Title: Utility od from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1104,7 +1104,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-paste
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1114,7 +1114,7 @@ Category: Utilities
 Repository: base
 Title: Utility paste from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1124,7 +1124,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-pathchk
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1134,7 +1134,7 @@ Category: Utilities
 Repository: base
 Title: Utility pathchk from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1144,7 +1144,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-pinky
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1154,7 +1154,7 @@ Category: Utilities
 Repository: base
 Title: Utility pinky from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1164,7 +1164,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-pr
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1174,7 +1174,7 @@ Category: Utilities
 Repository: base
 Title: Utility pr from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1184,7 +1184,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-printenv
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1194,7 +1194,7 @@ Category: Utilities
 Repository: base
 Title: Utility printenv from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1204,7 +1204,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-printf
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1214,7 +1214,7 @@ Category: Utilities
 Repository: base
 Title: Utility printf from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1224,7 +1224,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-ptx
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1234,7 +1234,7 @@ Category: Utilities
 Repository: base
 Title: Utility ptx from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1244,7 +1244,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-pwd
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1254,7 +1254,7 @@ Category: Utilities
 Repository: base
 Title: Utility pwd from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1264,7 +1264,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-readlink
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1274,7 +1274,7 @@ Category: Utilities
 Repository: base
 Title: Utility readlink from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1284,7 +1284,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-realpath
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1294,7 +1294,7 @@ Category: Utilities
 Repository: base
 Title: Utility realpath from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1304,7 +1304,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-rm
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1314,7 +1314,7 @@ Category: Utilities
 Repository: base
 Title: Utility rm from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1324,7 +1324,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-rmdir
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1334,7 +1334,7 @@ Category: Utilities
 Repository: base
 Title: Utility rmdir from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1344,7 +1344,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-runcon
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1354,7 +1354,7 @@ Category: Utilities
 Repository: base
 Title: Utility runcon from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1364,7 +1364,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-seq
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1374,7 +1374,7 @@ Category: Utilities
 Repository: base
 Title: Utility seq from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1384,7 +1384,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha1sum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1394,7 +1394,7 @@ Category: Utilities
 Repository: base
 Title: Utility sha1sum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1404,7 +1404,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha224sum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1414,7 +1414,7 @@ Category: Utilities
 Repository: base
 Title: Utility sha224sum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1424,7 +1424,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha256sum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1434,7 +1434,7 @@ Category: Utilities
 Repository: base
 Title: Utility sha256sum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1444,7 +1444,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha384sum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1454,7 +1454,7 @@ Category: Utilities
 Repository: base
 Title: Utility sha384sum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1464,7 +1464,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha512sum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1474,7 +1474,7 @@ Category: Utilities
 Repository: base
 Title: Utility sha512sum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1484,7 +1484,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-shred
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1494,7 +1494,7 @@ Category: Utilities
 Repository: base
 Title: Utility shred from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1504,7 +1504,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-shuf
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1514,7 +1514,7 @@ Category: Utilities
 Repository: base
 Title: Utility shuf from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1524,7 +1524,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sleep
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1534,7 +1534,7 @@ Category: Utilities
 Repository: base
 Title: Utility sleep from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1544,7 +1544,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sort
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -1554,7 +1554,7 @@ Category: Utilities
 Repository: base
 Title: Utility sort from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1564,7 +1564,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-split
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1574,7 +1574,7 @@ Category: Utilities
 Repository: base
 Title: Utility split from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1584,7 +1584,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-stat
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1594,7 +1594,7 @@ Category: Utilities
 Repository: base
 Title: Utility stat from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1604,7 +1604,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-stdbuf
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1614,7 +1614,7 @@ Category: Utilities
 Repository: base
 Title: Utility stdbuf from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1624,7 +1624,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-stty
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1634,7 +1634,7 @@ Category: Utilities
 Repository: base
 Title: Utility stty from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1644,7 +1644,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sum
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1654,7 +1654,7 @@ Category: Utilities
 Repository: base
 Title: Utility sum from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1664,7 +1664,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sync
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1674,7 +1674,7 @@ Category: Utilities
 Repository: base
 Title: Utility sync from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1684,7 +1684,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tac
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1694,7 +1694,7 @@ Category: Utilities
 Repository: base
 Title: Utility tac from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1704,7 +1704,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tail
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1714,7 +1714,7 @@ Category: Utilities
 Repository: base
 Title: Utility tail from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1724,7 +1724,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tee
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1734,7 +1734,7 @@ Category: Utilities
 Repository: base
 Title: Utility tee from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1744,7 +1744,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-test
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1754,7 +1754,7 @@ Category: Utilities
 Repository: base
 Title: Utility test from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1764,7 +1764,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-timeout
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +librt
 Conflicts: 
 Menu-Depends: 
@@ -1774,7 +1774,7 @@ Category: Utilities
 Repository: base
 Title: Utility timeout from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1784,7 +1784,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-touch
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1794,7 +1794,7 @@ Category: Utilities
 Repository: base
 Title: Utility touch from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1804,7 +1804,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tr
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1814,7 +1814,7 @@ Category: Utilities
 Repository: base
 Title: Utility tr from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1824,7 +1824,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-true
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1834,7 +1834,7 @@ Category: Utilities
 Repository: base
 Title: Utility true from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1844,7 +1844,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-truncate
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1854,7 +1854,7 @@ Category: Utilities
 Repository: base
 Title: Utility truncate from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1864,7 +1864,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tsort
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1874,7 +1874,7 @@ Category: Utilities
 Repository: base
 Title: Utility tsort from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1884,7 +1884,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tty
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1894,7 +1894,7 @@ Category: Utilities
 Repository: base
 Title: Utility tty from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1904,7 +1904,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-uname
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1914,7 +1914,7 @@ Category: Utilities
 Repository: base
 Title: Utility uname from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1924,7 +1924,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-unexpand
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1934,7 +1934,7 @@ Category: Utilities
 Repository: base
 Title: Utility unexpand from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1944,7 +1944,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-uniq
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1954,7 +1954,7 @@ Category: Utilities
 Repository: base
 Title: Utility uniq from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1964,7 +1964,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-unlink
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1974,7 +1974,7 @@ Category: Utilities
 Repository: base
 Title: Utility unlink from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -1984,7 +1984,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-uptime
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -1994,7 +1994,7 @@ Category: Utilities
 Repository: base
 Title: Utility uptime from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -2004,7 +2004,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-users
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -2014,7 +2014,7 @@ Category: Utilities
 Repository: base
 Title: Utility users from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -2024,7 +2024,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-vdir
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils +libacl +libcap
 Conflicts: 
 Menu-Depends: 
@@ -2034,7 +2034,7 @@ Category: Utilities
 Repository: base
 Title: Utility vdir from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -2044,7 +2044,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-wc
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -2054,7 +2054,7 @@ Category: Utilities
 Repository: base
 Title: Utility wc from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -2064,7 +2064,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-who
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -2074,7 +2074,7 @@ Category: Utilities
 Repository: base
 Title: Utility who from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -2084,7 +2084,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-whoami
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -2094,7 +2094,7 @@ Category: Utilities
 Repository: base
 Title: Utility whoami from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -2104,7 +2104,7 @@ Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-yes
-Version: 9.1-1
+Version: 9.3-1
 Depends: +libc coreutils
 Conflicts: 
 Menu-Depends: 
@@ -2114,7 +2114,7 @@ Category: Utilities
 Repository: base
 Title: Utility yes from the GNU core utilities
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: coreutils-9.1.tar.xz
+Source: coreutils-9.3.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Type: ipkg

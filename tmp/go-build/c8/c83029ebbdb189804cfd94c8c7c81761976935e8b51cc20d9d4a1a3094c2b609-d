@@ -1,4 +1,0 @@
-./handshake_ntor.go
-./obfs4.go
-./packet.go
-./statefile.go

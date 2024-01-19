@@ -1,8 +1,0 @@
-./address.go
-./client.go
-./client_packet.go
-./congestion.go
-./packet.go
-./protocol.go
-./service.go
-./service_packet.go

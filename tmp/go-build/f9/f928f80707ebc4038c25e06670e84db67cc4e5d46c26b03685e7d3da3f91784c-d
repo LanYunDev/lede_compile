@@ -1,5 +1,0 @@
-./config.go
-./mosdns.go
-./plugin.go
-./run.go
-./service.go

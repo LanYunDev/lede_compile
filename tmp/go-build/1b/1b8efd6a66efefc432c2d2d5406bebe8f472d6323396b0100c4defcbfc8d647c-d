@@ -1,8 +1,0 @@
-./empty.go
-./filestore.go
-./layer.go
-./layer_store.go
-./layer_unix.go
-./migration.go
-./mounted_layer.go
-./ro_layer.go

@@ -1,5 +1,0 @@
-./config.go
-./doc.go
-./metric.go
-./metric_instrument.go
-./noop.go

@@ -1,9 +1,0 @@
-./const.go
-./dtyp.go
-./fscc.go
-./iface.go
-./packet.go
-./request.go
-./response.go
-./smb2.go
-./util.go

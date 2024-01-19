@@ -1,7 +1,0 @@
-./doc.go
-./flags_linux.go
-./flags_unix.go
-./mount_errors.go
-./mount_unix.go
-./mounter_linux.go
-./sharedsubtree_linux.go

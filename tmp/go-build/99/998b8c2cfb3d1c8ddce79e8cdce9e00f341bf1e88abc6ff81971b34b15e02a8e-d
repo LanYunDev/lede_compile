@@ -1,3 +1,0 @@
-./signal.go
-./signal_linux.go
-./signal_unix.go

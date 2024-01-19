@@ -1,8 +1,0 @@
-./cli.go
-./cli_options.go
-./context.go
-./defaultcontextstore.go
-./events_utils.go
-./registry.go
-./trust.go
-./utils.go

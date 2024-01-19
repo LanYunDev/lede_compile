@@ -1,7 +1,0 @@
-./client.go
-./common.go
-./plugin.go
-./proxy.go
-./server.go
-./validation.go
-./visitor.go

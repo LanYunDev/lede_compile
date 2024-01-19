@@ -2,7 +2,7 @@ Source-Makefile: feeds/small/v2ray-geodata/Makefile
 
 Package: v2ray-geoip
 Submenu: IP Addresses and Names
-Version: 202312210040-1
+Version: 202401110041-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -23,7 +23,7 @@ Tianling Shen <cnsztl@immortalwrt.org>
 
 Package: v2ray-geosite
 Submenu: IP Addresses and Names
-Version: 20231223093928-1
+Version: 20240105034708-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -44,7 +44,7 @@ Tianling Shen <cnsztl@immortalwrt.org>
 
 Package: v2ray-geosite-ir
 Submenu: IP Addresses and Names
-Version: 202312250026-1
+Version: 202401150027-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 

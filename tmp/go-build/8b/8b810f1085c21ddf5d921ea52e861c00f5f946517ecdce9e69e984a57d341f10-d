@@ -1,9 +1,0 @@
-./errors.go
-./keys.go
-./roles.go
-./root.go
-./serializer.go
-./snapshot.go
-./targets.go
-./timestamp.go
-./types.go

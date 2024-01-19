@@ -1,5 +1,0 @@
-./file_unix.go
-./follow.go
-./log_tag.go
-./logfile.go
-./sharedtemp.go

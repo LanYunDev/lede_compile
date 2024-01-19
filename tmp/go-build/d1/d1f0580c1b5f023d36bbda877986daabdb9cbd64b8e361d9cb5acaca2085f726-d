@@ -1,6 +1,0 @@
-./access_conditions.go
-./access_policy.go
-./exported.go
-./shared_key_credential.go
-./user_delegation_credential.go
-./version.go

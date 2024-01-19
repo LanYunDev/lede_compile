@@ -1,8 +1,0 @@
-./client.go
-./conversion.go
-./parse.go
-./proxy.go
-./server.go
-./utils.go
-./value.go
-./visitor.go

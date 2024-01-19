@@ -1,4 +1,0 @@
-./auth.go
-./oidc.go
-./pass.go
-./token.go

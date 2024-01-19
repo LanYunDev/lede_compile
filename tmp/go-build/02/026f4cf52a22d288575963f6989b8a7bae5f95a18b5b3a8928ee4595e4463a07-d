@@ -1,7 +1,0 @@
-./driveletter_other.go
-./file.go
-./file_other.go
-./mkdir_other.go
-./preallocate.go
-./preallocate_unix.go
-./unc.go

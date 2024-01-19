@@ -1,7 +1,0 @@
-./api_scheme.go
-./client.go
-./client_device.go
-./client_files.go
-./client_mount.go
-./client_shared.go
-./client_user.go

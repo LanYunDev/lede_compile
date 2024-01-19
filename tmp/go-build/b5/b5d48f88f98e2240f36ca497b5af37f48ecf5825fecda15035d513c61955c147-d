@@ -1,7 +1,0 @@
-./check.go
-./dedupe.go
-./lsjson.go
-./multithread.go
-./operations.go
-./rc.go
-./reopen.go

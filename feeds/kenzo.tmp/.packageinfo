@@ -49,7 +49,7 @@ Build-Depends: golang/host
 
 Package: alist
 Submenu: Web Servers/Proxies
-Version: 3.29.1-2
+Version: 3.30.0-2
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -59,7 +59,7 @@ Category: Network
 Repository: base
 Title: A file list program that supports multiple storage
 Maintainer: sbwml <admin@cooluc.com>
-Source: alist-3.29.1.tar.gz
+Source: alist-3.30.0.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description:   A file list program that supports multiple storage, powered by Gin and Solidjs.
@@ -116,7 +116,7 @@ Source-Makefile: feeds/kenzo/filebrowser/Makefile
 Build-Depends: golang/host node/host
 
 Package: filebrowser
-Version: 2.26.0-0
+Version: 2.27.0-0
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -126,7 +126,7 @@ Category: Utilities
 Repository: base
 Title: Web File Browser
 Maintainer: CN_SZTL <cnsztl@immortalwrt.org>
-Source: filebrowser-2.26.0.tar.xz
+Source: filebrowser-2.27.0.tar.xz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1067,89 +1067,6 @@ Description: LuCI support for Fileassistant
 @@
 
 
-Source-Makefile: feeds/kenzo/luci-app-filebrowser/Makefile
-Build-Depends: lua/host luci-base/host 
-
-Package: luci-app-filebrowser
-Submenu: 3. Applications
-Version: snapshot-118071b
-Depends: +libc +filebrowser
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: LuCI Support for FileBrowser
-Maintainer: 
-Source: 
-License: GPLv3
-Type: ipkg
-Description: LuCI Support for FileBrowser
-
-@@
-
-
-Source-Makefile: feeds/kenzo/luci-app-gost/Makefile
-Build-Depends: lua/host luci-base/host 
-
-Package: luci-app-gost
-Submenu: 3. Applications
-Version: 1.0-1
-Depends: +libc +gost
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: LuCI support for Gost
-Maintainer: ImmortalWrt
-Source: 
-Type: ipkg
-Description: LuCI support for Gost
-ImmortalWrt
-@@
-
-Package: luci-i18n-gost-zh-cn
-Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.0-1
-Depends: +libc luci-app-gost
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-gost - zh-cn translation
-Maintainer: ImmortalWrt
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-gost - 简体中文 (Simplified Chinese)
-ImmortalWrt
-@@
-
-Package: luci-i18n-gost-zh_Hans
-Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.0-1
-Depends: +libc luci-app-gost
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-gost - zh_Hans translation
-Maintainer: ImmortalWrt
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-gost - 
-ImmortalWrt
-@@
-
-
 Source-Makefile: feeds/kenzo/luci-app-ikoolproxy/Makefile
 Build-Depends: lua/host luci-base/host 
 
@@ -1279,7 +1196,7 @@ Description:     Translation for luci-app-lucky -
 Source-Makefile: feeds/kenzo/luci-app-lucky/lucky/Makefile
 
 Package: lucky
-Version: 2.4.8-1
+Version: 2.5.3-1
 Depends: +libc @(i386||x86_64||arm||aarch64||mipsel||mips)
 Conflicts: 
 Menu-Depends: 
@@ -1289,7 +1206,7 @@ Category: Network
 Repository: base
 Title: Lucky dynamic domain name ddns-go service, socat,frp 
 Maintainer: GDY666 <gdy666@foxmail.com>
-Source: lucky-2.4.8.tar.xz
+Source: lucky-2.5.3.tar.xz
 License: GPL-3.0-only
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1591,28 +1508,6 @@ tty228 <tty228@yeah.net>
 @@
 
 
-Source-Makefile: feeds/kenzo/luci-lib-ipkg/Makefile
-Build-Depends: lua/host luci-base/host 
-
-Package: luci-lib-ipkg
-Submenu: 6. Libraries
-Version: x-1
-Depends: +libc +luci-base
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: Legacy opkg interface class
-Maintainer: 
-Source: 
-Type: ipkg
-Description: Legacy opkg interface class
-
-@@
-
-
 Source-Makefile: feeds/kenzo/luci-lib-taskd/Makefile
 Build-Depends: lua/host luci-base/host 
 
@@ -1729,7 +1624,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-theme-design
 Submenu: 4. Themes
-Version: 5.7.9-20231122-1
+Version: 5.8.0-20240106-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 

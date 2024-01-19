@@ -1,6 +1,0 @@
-./client.go
-./config.go
-./config.pb.go
-./errors.generated.go
-./http.go
-./server.go

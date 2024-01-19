@@ -1,9 +1,0 @@
-./config.go
-./container.go
-./network.go
-./node.go
-./secret.go
-./service.go
-./swarm.go
-./task.go
-./volume.go

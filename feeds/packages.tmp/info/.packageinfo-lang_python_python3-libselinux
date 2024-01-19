@@ -3,7 +3,7 @@ Build-Depends: swig/host
 
 Package: python3-libselinux
 Submenu: Python
-Version: 3.3-2
+Version: 3.3-3
 Depends: +libc +libpcre +musl-fts +python3 +libselinux
 Conflicts: 
 Menu-Depends: 

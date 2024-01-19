@@ -1,7 +1,0 @@
-./config.go
-./copy.go
-./mock_UDPConn.go
-./mock_udpEventLogger.go
-./mock_udpIO.go
-./server.go
-./udp.go

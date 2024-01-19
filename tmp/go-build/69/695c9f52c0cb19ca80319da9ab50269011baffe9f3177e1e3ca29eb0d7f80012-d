@@ -1,8 +1,0 @@
-./changes.go
-./filter.go
-./index.go
-./memdb.go
-./schema.go
-./txn.go
-./watch.go
-./watch_few.go

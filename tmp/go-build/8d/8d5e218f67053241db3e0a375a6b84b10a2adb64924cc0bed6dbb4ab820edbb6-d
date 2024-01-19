@@ -1,5 +1,0 @@
-./register_btrfs.go
-./register_fuseoverlayfs.go
-./register_overlay2.go
-./register_vfs.go
-./register_zfs.go

@@ -2,7 +2,7 @@ Source-Makefile: feeds/packages/utils/acl/Makefile
 
 Package: acl
 Submenu: Filesystem
-Version: 2.3.1-0
+Version: 2.3.1-2
 Depends: +libc +libacl
 Conflicts: 
 Menu-Depends: 
@@ -27,7 +27,7 @@ Maxim Storchak <m.storchak@gmail.com>
 
 Package: libacl
 Submenu: Filesystem
-Version: 2.3.1-0
+Version: 2.3.1-2
 Depends: +libc +libattr
 Conflicts: 
 Menu-Depends: 

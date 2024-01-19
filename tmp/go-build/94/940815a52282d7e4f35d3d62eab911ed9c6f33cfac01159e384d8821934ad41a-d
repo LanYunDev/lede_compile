@@ -1,8 +1,0 @@
-./copy.go
-./copy_linux.go
-./copy_nowindows.go
-./hardlink.go
-./hardlink_unix.go
-./mkdir.go
-./mkdir_unix.go
-./stat_sysv.go

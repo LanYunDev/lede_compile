@@ -1,7 +1,0 @@
-./annotate.go
-./cmd.go
-./create_list.go
-./inspect.go
-./push.go
-./rm.go
-./util.go

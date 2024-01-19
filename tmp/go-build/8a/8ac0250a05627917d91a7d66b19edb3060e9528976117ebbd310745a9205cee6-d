@@ -1,6 +1,0 @@
-./certificate_authority.go
-./common.go
-./doc.go
-./generate.go
-./identity.go
-./utils.go

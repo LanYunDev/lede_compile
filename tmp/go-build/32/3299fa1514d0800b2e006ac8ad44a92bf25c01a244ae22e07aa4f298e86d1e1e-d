@@ -1,5 +1,0 @@
-./doc.go
-./rchcon.go
-./selinux.go
-./selinux_linux.go
-./xattrs_linux.go

@@ -1,8 +1,0 @@
-./contextual.go
-./exit.go
-./imports.go
-./k8s_references.go
-./klog.go
-./klog_file.go
-./klog_file_others.go
-./klogr.go

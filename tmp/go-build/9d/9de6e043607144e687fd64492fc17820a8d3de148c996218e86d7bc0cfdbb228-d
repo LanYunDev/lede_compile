@@ -1,6 +1,0 @@
-./cmd.go
-./create.go
-./formatter.go
-./inspect.go
-./ls.go
-./remove.go

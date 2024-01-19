@@ -1,5 +1,0 @@
-./conn.go
-./killer.go
-./packet_conn.go
-./track.go
-./track_disable.go

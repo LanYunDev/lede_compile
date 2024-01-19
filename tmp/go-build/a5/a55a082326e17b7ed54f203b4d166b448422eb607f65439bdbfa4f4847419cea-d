@@ -1,7 +1,0 @@
-./message.go
-./reader.go
-./tcpreader.go
-./tcpwriter.go
-./udpwriter.go
-./utils.go
-./writer.go

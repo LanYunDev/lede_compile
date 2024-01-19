@@ -1,4 +1,0 @@
-./atomicptrmap_ancestors_unsafe.go
-./atomicptrmap_goroutine_unsafe.go
-./lockdep_norace.go
-./locking.go

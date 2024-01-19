@@ -1,7 +1,0 @@
-./buffer.go
-./copy.go
-./fetcher.go
-./multiprovider.go
-./pusher.go
-./refs.go
-./source.go

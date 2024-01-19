@@ -1,7 +1,0 @@
-./cmd.go
-./create.go
-./inspect.go
-./list.go
-./prune.go
-./remove.go
-./update.go

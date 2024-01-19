@@ -1,8 +1,0 @@
-./consts.go
-./parse_action.go
-./parse_architecture.go
-./parse_arguments.go
-./parse_remove.go
-./seccomp_default.go
-./seccomp_default_linux.go
-./syscall_compare.go

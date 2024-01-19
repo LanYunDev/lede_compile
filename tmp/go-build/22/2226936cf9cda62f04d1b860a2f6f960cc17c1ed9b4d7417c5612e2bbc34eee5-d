@@ -1,9 +1,0 @@
-./context.go
-./errdefs.pb.go
-./fronetendcap.go
-./generate.go
-./op.go
-./solve.go
-./source.go
-./subrequest.go
-./vertex.go

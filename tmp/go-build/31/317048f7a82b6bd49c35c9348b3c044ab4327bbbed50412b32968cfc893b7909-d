@@ -1,8 +1,0 @@
-./cmd.go
-./df.go
-./dial_stdio.go
-./events.go
-./info.go
-./inspect.go
-./prune.go
-./version.go

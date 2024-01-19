@@ -1,9 +1,0 @@
-./blkio.go
-./cgroups.go
-./cpu.go
-./hugetlb.go
-./memory.go
-./metric.go
-./metrics.go
-./oom.go
-./pids.go

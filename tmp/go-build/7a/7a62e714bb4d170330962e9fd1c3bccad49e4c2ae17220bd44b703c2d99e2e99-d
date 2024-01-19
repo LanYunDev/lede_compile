@@ -1,5 +1,0 @@
-./main.go
-./proxy.go
-./sctp_proxy.go
-./tcp_proxy.go
-./udp_proxy.go

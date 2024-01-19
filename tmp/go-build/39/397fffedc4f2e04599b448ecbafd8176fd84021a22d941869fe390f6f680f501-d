@@ -1,6 +1,0 @@
-./blocks_asm.go
-./hash_asm.go
-./siphash.go
-./blocks_amd64.s
-./hash128_amd64.s
-./hash_amd64.s

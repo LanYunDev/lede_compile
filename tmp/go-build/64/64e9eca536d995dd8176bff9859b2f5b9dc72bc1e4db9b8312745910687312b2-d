@@ -1,4 +1,0 @@
-./grpctrace.go
-./interceptor.go
-./semconv.go
-./version.go

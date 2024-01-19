@@ -1,7 +1,0 @@
-./ipvlan.go
-./ipvlan_endpoint.go
-./ipvlan_joinleave.go
-./ipvlan_network.go
-./ipvlan_setup.go
-./ipvlan_state.go
-./ipvlan_store.go

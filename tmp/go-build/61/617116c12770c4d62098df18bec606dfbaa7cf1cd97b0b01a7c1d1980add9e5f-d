@@ -1,6 +1,0 @@
-./auth.go
-./basic.go
-./digest.go
-./md5crypt.go
-./misc.go
-./users.go

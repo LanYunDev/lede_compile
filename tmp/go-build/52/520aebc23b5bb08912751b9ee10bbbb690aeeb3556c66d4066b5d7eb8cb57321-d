@@ -1,7 +1,0 @@
-./build.go
-./diff.go
-./exec.go
-./exec_binfmt.go
-./file.go
-./merge.go
-./source.go

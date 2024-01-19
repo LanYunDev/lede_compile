@@ -1,8 +1,0 @@
-./candidate.go
-./cobra.go
-./error.go
-./manager.go
-./manager_unix.go
-./metadata.go
-./plugin.go
-./suffix_unix.go

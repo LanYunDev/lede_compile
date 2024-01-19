@@ -1,6 +1,0 @@
-./compression.go
-./estargz.go
-./gzip.go
-./parse.go
-./uncompressed.go
-./zstd.go

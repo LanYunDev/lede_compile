@@ -1,4 +1,0 @@
-./env.go
-./lex.go
-./node.go
-./parse.go

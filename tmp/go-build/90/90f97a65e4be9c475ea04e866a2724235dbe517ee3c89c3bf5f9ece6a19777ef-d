@@ -1,6 +1,0 @@
-./protocol.go
-./relay.go
-./service.go
-./service_multi.go
-./slidingwindow.go
-./xor.go

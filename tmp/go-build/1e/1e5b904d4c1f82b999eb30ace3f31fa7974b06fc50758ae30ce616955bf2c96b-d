@@ -1,7 +1,0 @@
-./container.pb.go
-./content.pb.go
-./doc.go
-./image.pb.go
-./namespace.pb.go
-./snapshot.pb.go
-./task.pb.go

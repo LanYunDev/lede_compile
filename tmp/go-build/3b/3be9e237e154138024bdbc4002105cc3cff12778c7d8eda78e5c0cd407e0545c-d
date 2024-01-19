@@ -1,5 +1,0 @@
-./cmd.go
-./help.go
-./progress.go
-./selfupdate_enabled.go
-./siginfo_others.go

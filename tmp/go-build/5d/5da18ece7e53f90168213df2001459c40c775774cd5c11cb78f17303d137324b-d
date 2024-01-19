@@ -1,6 +1,0 @@
-./cosmeticengine.go
-./dnsengine.go
-./dnsrewrite.go
-./doc.go
-./engine.go
-./networkengine.go

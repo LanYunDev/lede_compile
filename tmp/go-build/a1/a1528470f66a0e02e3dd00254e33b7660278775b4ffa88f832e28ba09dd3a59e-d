@@ -1,7 +1,0 @@
-./cpuid_other.go
-./sha256.go
-./sha256blockAvx512_amd64.go
-./sha256blockSha_amd64.go
-./sha256block_amd64.go
-./sha256blockAvx512_amd64.s
-./sha256blockSha_amd64.s

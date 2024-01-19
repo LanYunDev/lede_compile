@@ -1,3 +1,0 @@
-./linux.go
-./proc.go
-./syscall_linux_64.go

@@ -1,8 +1,0 @@
-./client.go
-./errors.generated.go
-./frame.go
-./mux.go
-./reader.go
-./server.go
-./session.go
-./writer.go

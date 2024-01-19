@@ -1,6 +1,0 @@
-./cache.go
-./config.go
-./internal.go
-./params.go
-./rc.go
-./registry.go

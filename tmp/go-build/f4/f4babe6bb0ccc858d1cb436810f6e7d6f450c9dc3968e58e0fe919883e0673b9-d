@@ -1,6 +1,0 @@
-./hosts.go
-./mounts.go
-./resolvconf.go
-./spec.go
-./spec_unix.go
-./user.go

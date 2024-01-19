@@ -1,6 +1,0 @@
-./config.go
-./interceptor.go
-./interceptorinfo.go
-./metadata_supplier.go
-./semconv.go
-./version.go

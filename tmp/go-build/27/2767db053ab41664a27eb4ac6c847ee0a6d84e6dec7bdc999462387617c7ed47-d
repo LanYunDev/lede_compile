@@ -1,7 +1,0 @@
-./config.go
-./main.go
-./main_unix.go
-./notify_linux.go
-./oci-hook.go
-./publish.go
-./service_unsupported.go

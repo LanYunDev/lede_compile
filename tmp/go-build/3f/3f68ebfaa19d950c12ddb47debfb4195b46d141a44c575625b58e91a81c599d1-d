@@ -1,6 +1,0 @@
-./doc.go
-./if.go
-./if_linux.go
-./params_linux.go
-./syscalls_linux.go
-./syscalls_linux_go1.11.go

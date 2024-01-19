@@ -1,9 +1,0 @@
-./check.go
-./conn.go
-./packet_conn.go
-./packet_reader.go
-./packet_reader_fallback.go
-./pipe.go
-./reader.go
-./reader_fallback.go
-./serial.go

@@ -1,5 +1,0 @@
-./builder_context.go
-./fileinfosums.go
-./tarsum.go
-./versioning.go
-./writercloser.go

@@ -1,7 +1,0 @@
-./adapter.go
-./attachment.go
-./container.go
-./controller.go
-./errors.go
-./executor.go
-./validate.go

@@ -1,4 +1,0 @@
-./log_entry.pb.go
-./logging.pb.go
-./logging_config.pb.go
-./logging_metrics.pb.go

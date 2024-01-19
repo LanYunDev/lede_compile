@@ -1,8 +1,0 @@
-./link_default.go
-./tar.go
-./tar_mostunix.go
-./tar_opts.go
-./tar_opts_linux.go
-./tar_unix.go
-./time.go
-./time_unix.go

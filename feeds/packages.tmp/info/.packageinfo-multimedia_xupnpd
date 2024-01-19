@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/multimedia/xupnpd/Makefile
 
 Package: xupnpd
-Version: 2018-11-20-1
+Version: 2018-11-20-2
 Depends: +libc +liblua +libopenssl
 Conflicts: 
 Menu-Depends: 

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/acpid/Makefile
 
 Package: acpid
-Version: 2.0.32-3
+Version: 2.0.34-1
 Depends: +libc +kmod-input-evdev
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Utilities
 Repository: base
 Title: The ACPI Daemon (acpid) With Netlink Support
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
-Source: acpid-2.0.32.tar.xz
+Source: acpid-2.0.34.tar.xz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg

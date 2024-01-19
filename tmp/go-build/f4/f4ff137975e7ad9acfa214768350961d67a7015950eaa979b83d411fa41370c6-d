@@ -1,6 +1,0 @@
-./bitmask.go
-./config.go
-./info.go
-./kubernetes.go
-./prometheus.go
-./rdt.go

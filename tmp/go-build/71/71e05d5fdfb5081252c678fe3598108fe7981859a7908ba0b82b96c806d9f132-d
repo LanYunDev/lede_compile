@@ -1,6 +1,0 @@
-./doc.go
-./ethertypes.go
-./ip_protocols.go
-./tap.go
-./tun.go
-./tun_ipv4.go

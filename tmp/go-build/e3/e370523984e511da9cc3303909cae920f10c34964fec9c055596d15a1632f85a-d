@@ -1,5 +1,0 @@
-./command.go
-./env.go
-./execute.go
-./help.go
-./root.go

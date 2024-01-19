@@ -1,9 +1,0 @@
-./http.go
-./https.go
-./proxy.go
-./stcp.go
-./sudp.go
-./tcp.go
-./tcpmux.go
-./udp.go
-./xtcp.go

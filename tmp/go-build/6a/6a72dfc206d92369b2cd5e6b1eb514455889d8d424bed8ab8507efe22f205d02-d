@@ -1,7 +1,0 @@
-./config.pb.go
-./default.go
-./dispatcher.go
-./errors.generated.go
-./fakednssniffer.go
-./sniffer.go
-./stats.go

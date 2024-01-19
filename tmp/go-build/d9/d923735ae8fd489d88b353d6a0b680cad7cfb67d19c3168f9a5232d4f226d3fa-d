@@ -1,6 +1,0 @@
-./bridge.go
-./config.go
-./config.pb.go
-./errors.generated.go
-./portal.go
-./reverse.go

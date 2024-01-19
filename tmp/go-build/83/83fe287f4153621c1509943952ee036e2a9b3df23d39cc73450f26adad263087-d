@@ -1,4 +1,0 @@
-./cni.go
-./cni_unsafe.go
-./createns_linux.go
-./allowempty.s

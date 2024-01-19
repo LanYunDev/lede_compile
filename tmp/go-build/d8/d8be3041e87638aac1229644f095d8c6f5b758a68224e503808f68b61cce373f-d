@@ -1,5 +1,0 @@
-./descriptor.go
-./instrumentkind.go
-./instrumentkind_string.go
-./noop.go
-./sdkapi.go

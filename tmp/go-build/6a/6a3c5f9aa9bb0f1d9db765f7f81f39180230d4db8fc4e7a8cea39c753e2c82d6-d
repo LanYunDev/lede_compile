@@ -1,8 +1,0 @@
-./config.go
-./config.pb.go
-./errors.generated.go
-./inbound.go
-./inbound_multi.go
-./inbound_relay.go
-./outbound.go
-./shadowsocks_2022.go

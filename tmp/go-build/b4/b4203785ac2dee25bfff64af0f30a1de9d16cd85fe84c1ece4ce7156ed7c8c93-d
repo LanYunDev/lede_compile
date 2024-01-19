@@ -1,8 +1,0 @@
-./doc.go
-./error.go
-./packet.go
-./packet_string.go
-./reader.go
-./split.go
-./varint.go
-./writer.go

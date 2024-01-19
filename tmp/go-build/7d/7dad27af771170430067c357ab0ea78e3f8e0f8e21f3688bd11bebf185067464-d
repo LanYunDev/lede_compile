@@ -1,8 +1,0 @@
-./cmd.go
-./common.go
-./config.go
-./deploy.go
-./list.go
-./ps.go
-./remove.go
-./services.go
