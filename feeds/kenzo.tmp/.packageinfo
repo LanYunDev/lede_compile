@@ -163,6 +163,47 @@ Tianling Shen <cnsztl@immortalwrt.org>
 @@
 
 
+Source-Makefile: feeds/kenzo/homeproxy/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-homeproxy
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +sing-box +chinadns-ng +firewall4 +kmod-nft-tproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: The modern ImmortalWrt proxy platform for ARM64/AMD64
+Maintainer: 
+Source: 
+Type: ipkg
+Description: The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+@@
+
+Package: luci-i18n-homeproxy-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-homeproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-homeproxy - zh_Hans translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-homeproxy - 
+
+@@
+
+
 Source-Makefile: feeds/kenzo/lua-maxminddb/Makefile
 
 Package: lua-maxminddb
@@ -423,7 +464,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-amlogic
 Submenu: 3. Applications
-Version: 3.1.217-1
+Version: 3.1.220-1
 Depends: +libc @(aarch64||arm) +luci +luci-lib-nixio +block-mount +blkid +parted +curl +dosfstools +e2fsprogs +jq +lsblk +pv +losetup +uuidgen +bash +perl +fdisk
 Conflicts: 
 Menu-Depends: 
@@ -442,7 +483,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 3.1.217-1
+Version: 3.1.220-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -462,7 +503,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 3.1.217-1
+Version: 3.1.220-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -1072,7 +1113,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-ikoolproxy
 Submenu: 3. Applications
-Version: 3.8.5-20221011
+Version: 3.8.5-20240124
 Depends: +libc +koolproxy +openssl-util +ipset +dnsmasq-full +@BUSYBOX_CONFIG_DIFF +iptables-mod-nat-extra +wget
 Conflicts: 
 Menu-Depends: 

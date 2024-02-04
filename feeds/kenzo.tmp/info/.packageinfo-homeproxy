@@ -1,0 +1,41 @@
+Source-Makefile: feeds/kenzo/homeproxy/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-homeproxy
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +sing-box +chinadns-ng +firewall4 +kmod-nft-tproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: The modern ImmortalWrt proxy platform for ARM64/AMD64
+Maintainer: 
+Source: 
+Type: ipkg
+Description: The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+@@
+
+Package: luci-i18n-homeproxy-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-homeproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-homeproxy - zh_Hans translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-homeproxy - 
+
+@@
+
+

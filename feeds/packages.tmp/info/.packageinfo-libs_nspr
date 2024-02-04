@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/libs/nspr/Makefile
 
 Package: nspr
-Version: 4.35-1
+Version: 4.35-2
 Depends: +libc +libpthread
 Conflicts: 
 Menu-Depends: 

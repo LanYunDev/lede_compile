@@ -8,7 +8,7 @@ define Device/ariaboard_photonicat
   SOC := rk3568
   UBOOT_DEVICE_NAME := photonicat-rk3568
   IMAGE/sysupgrade.img.gz := boot-common | boot-script nanopi-r5s | pine64-img | gzip | append-metadata
-  DEVICE_PACKAGES := ath10k-firmware-qca9377-sdio kmod-ath10k kmod-ath10k-sdio pcat-manager wpad
+  DEVICE_PACKAGES := photonicat-firmware  kmod-ath10k kmod-ath10k-sdio pcat-manager wpad
 endef
 TARGET_DEVICES += ariaboard_photonicat
 
@@ -186,7 +186,7 @@ define Device/lyt_t68m
   SOC := rk3568
   UBOOT_DEVICE_NAME := lyt-t68m-rk3568
   IMAGE/sysupgrade.img.gz := boot-common | boot-script nanopi-r5s | pine64-img | gzip | append-metadata
-  DEVICE_PACKAGES := kmod-mt7921e kmod-r8125 wpad-openssl
+  DEVICE_PACKAGES := kmod-mt7921e kmod-r8125 wpad-openssl uboot-envtools
 endef
 TARGET_DEVICES += lyt_t68m
 

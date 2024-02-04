@@ -3,7 +3,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-ikoolproxy
 Submenu: 3. Applications
-Version: 3.8.5-20221011
+Version: 3.8.5-20240124
 Depends: +libc +koolproxy +openssl-util +ipset +dnsmasq-full +@BUSYBOX_CONFIG_DIFF +iptables-mod-nat-extra +wget
 Conflicts: 
 Menu-Depends: 

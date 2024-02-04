@@ -3,7 +3,7 @@ Build-Depends/host: libxml2/host
 Build-Types: host
 
 Package: libxslt
-Version: 1.1.37-1
+Version: 1.1.34-4
 Depends: +libc +libxml2 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -13,7 +13,7 @@ Category: Libraries
 Repository: base
 Title: Gnome XSLT library
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: libxslt-1.1.37.tar.xz
+Source: libxslt-1.1.34.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -23,7 +23,7 @@ Jiri Slachta <jiri@slachta.eu>
 @@
 
 Package: libexslt
-Version: 1.1.37-1
+Version: 1.1.34-4
 Depends: +libc +libxslt
 Conflicts: 
 Menu-Depends: 
@@ -33,7 +33,7 @@ Category: Libraries
 Repository: base
 Title: Gnome XSLT library Extension
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: libxslt-1.1.37.tar.xz
+Source: libxslt-1.1.34.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -43,7 +43,7 @@ Jiri Slachta <jiri@slachta.eu>
 @@
 
 Package: xsltproc
-Version: 1.1.37-1
+Version: 1.1.34-4
 Depends: +libc +libxslt +PACKAGE_xsltproc:libexslt
 Conflicts: 
 Menu-Depends: 
@@ -53,7 +53,7 @@ Category: Utilities
 Repository: base
 Title: Gnome XSLT xsltproc Utility
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: libxslt-1.1.37.tar.xz
+Source: libxslt-1.1.34.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg

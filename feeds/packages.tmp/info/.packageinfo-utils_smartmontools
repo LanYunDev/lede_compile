@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/smartmontools/Makefile
 
 Package: smartmontools
-Version: 7.3-0
+Version: 7.4-1
 Depends: +libc +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Utilities
 Repository: base
 Title: S.M.A.R.T Monitoring Tool
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: smartmontools-7.3.tar.gz
+Source: smartmontools-7.4.tar.gz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -24,7 +24,7 @@ Maxim Storchak <m.storchak@gmail.com>
 @@
 
 Package: smartd
-Version: 7.3-0
+Version: 7.4-1
 Depends: +libc +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -34,7 +34,7 @@ Category: Utilities
 Repository: base
 Title: S.M.A.R.T Monitoring Daemon
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: smartmontools-7.3.tar.gz
+Source: smartmontools-7.4.tar.gz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -47,7 +47,7 @@ Maxim Storchak <m.storchak@gmail.com>
 @@
 
 Package: smartmontools-drivedb
-Version: 7.3-0
+Version: 7.4-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -57,7 +57,7 @@ Category: Utilities
 Repository: base
 Title: S.M.A.R.T Monitoring Drive database
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: smartmontools-7.3.tar.gz
+Source: smartmontools-7.4.tar.gz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -67,7 +67,7 @@ Maxim Storchak <m.storchak@gmail.com>
 @@
 
 Package: smartd-mail
-Version: 7.3-0
+Version: 7.4-1
 Depends: +libc +smartd +nail +msmtp-mta
 Conflicts: 
 Menu-Depends: 
@@ -77,7 +77,7 @@ Category: Utilities
 Repository: base
 Title: S.M.A.R.T Monitoring Email notifications
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: smartmontools-7.3.tar.gz
+Source: smartmontools-7.4.tar.gz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg

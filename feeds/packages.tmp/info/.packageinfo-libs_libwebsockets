@@ -2,7 +2,7 @@ Source-Makefile: feeds/packages/libs/libwebsockets/Makefile
 Build-Depends: libubox
 
 Package: libwebsockets-openssl
-Version: 4.3.2-2
+Version: 4.3.2-3
 Depends: +libc +zlib +libcap +libubox +libopenssl
 Conflicts: libwebsockets-full
 Menu-Depends: 
@@ -23,7 +23,7 @@ Karl Palsson <karlp@etactica.com>
 @@
 
 Package: libwebsockets-mbedtls
-Version: 4.3.2-2
+Version: 4.3.2-3
 Depends: +libc +zlib +libcap +libubox +libmbedtls
 Conflicts: libwebsockets-openssl
 Menu-Depends: 
@@ -44,7 +44,7 @@ Karl Palsson <karlp@etactica.com>
 @@
 
 Package: libwebsockets-full
-Version: 4.3.2-2
+Version: 4.3.2-3
 Depends: +libc +zlib +libcap +libubox +libopenssl +libuv
 Conflicts: 
 Menu-Depends: 
