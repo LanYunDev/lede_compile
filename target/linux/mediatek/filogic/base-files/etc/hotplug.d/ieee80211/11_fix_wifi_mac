@@ -10,6 +10,11 @@ PHYNBR=${DEVPATH##*/phy}
 board=$(board_name)
 
 case "$board" in
+	abt,asr3000)
+		addr=$(mtd_get_mac_binary "art" 0x6)
+		[ "$PHYNBR" = "1" ] && \
+			macaddr_setbit_la "$(macaddr_add $addr 0x600000)" > /sys${DEVPATH}/macaddress
+		;;
 	asus,tuf-ax4200)
 		CI_UBIPART="UBI_DEV"
 		addr=$(mtd_get_mac_binary_ubi "Factory" 0x4)
@@ -23,14 +28,6 @@ case "$board" in
 		addr=$(cat /sys/class/net/eth0/address)
 		[ "$PHYNBR" = "0" ] && macaddr_add $addr 2 > /sys${DEVPATH}/macaddress
 		[ "$PHYNBR" = "1" ] && macaddr_add $addr 3 > /sys${DEVPATH}/macaddress
-		;;
-	cmcc,rax3000m-emmc)
-		addr=$(mmc_get_mac_binary factory 0xa)
-		[ "$PHYNBR" = "1" ] && echo "$addr" > /sys${DEVPATH}/macaddress
-		;;
-	cmcc,rax3000m-nand)
-		addr=$(mtd_get_mac_binary factory 0xa)
-		[ "$PHYNBR" = "1" ] && echo "$addr" > /sys${DEVPATH}/macaddress
 		;;
 	cetron,ct3003*)
 		addr=$(mtd_get_mac_binary "art" 0)

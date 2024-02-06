@@ -44,7 +44,7 @@ Tianling Shen <cnsztl@immortalwrt.org>
 
 Package: v2ray-geosite-ir
 Submenu: IP Addresses and Names
-Version: 202401301750-1
+Version: 202402031713-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
