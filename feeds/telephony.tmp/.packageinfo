@@ -29,7 +29,7 @@ Source-Makefile: feeds/telephony/libs/dahdi-linux/Makefile
 
 Package: kmod-dahdi
 Submenu: Voice over IP
-Version: <LINUX_VERSION>+2023-09-21-1bb9088f2baff8c4e3fec536044cc48072cf9905-1
+Version: <LINUX_VERSION>+2023-09-21-1bb9088f2baff8c4e3fec536044cc48072cf9905-2
 Depends: @USB_SUPPORT +kmod-lib-crc-ccitt
 Conflicts: 
 Menu-Depends: 
@@ -49,7 +49,7 @@ Vittorio Gambaletta <openwrt@vittgam.net>
 
 Package: kmod-dahdi-echocan-oslec
 Submenu: Voice over IP
-Version: <LINUX_VERSION>+2023-09-21-1bb9088f2baff8c4e3fec536044cc48072cf9905-1
+Version: <LINUX_VERSION>+2023-09-21-1bb9088f2baff8c4e3fec536044cc48072cf9905-2
 Depends: kmod-dahdi +kmod-echo
 Conflicts: 
 Menu-Depends: 
@@ -69,7 +69,7 @@ Vittorio Gambaletta <openwrt@vittgam.net>
 
 Package: kmod-dahdi-dummy
 Submenu: Voice over IP
-Version: <LINUX_VERSION>+2023-09-21-1bb9088f2baff8c4e3fec536044cc48072cf9905-1
+Version: <LINUX_VERSION>+2023-09-21-1bb9088f2baff8c4e3fec536044cc48072cf9905-2
 Depends: kmod-dahdi
 Conflicts: 
 Menu-Depends: 
@@ -90,7 +90,7 @@ Vittorio Gambaletta <openwrt@vittgam.net>
 
 Package: kmod-dahdi-hfcs
 Submenu: Voice over IP
-Version: <LINUX_VERSION>+2023-09-21-1bb9088f2baff8c4e3fec536044cc48072cf9905-1
+Version: <LINUX_VERSION>+2023-09-21-1bb9088f2baff8c4e3fec536044cc48072cf9905-2
 Depends: @PCI_SUPPORT kmod-dahdi
 Conflicts: 
 Menu-Depends: 
@@ -7168,6 +7168,7 @@ Section: net
 Category: Network
 Title: Lantiq channel driver
 Maintainer: Jiri Slachta <jiri@slachta.eu>
+Require-User: asterisk=385::vmmc=386
 Source: asterisk-chan-lantiq-2021-09-11-2f029ec8778420538c8151c6aceba0f7b44b07c9.tar.xz
 License: GPL-2.0
 Type: ipkg

@@ -2834,8 +2834,8 @@ Build-Types: host
 
 Package: golang
 Submenu: Go
-Version: 1.21.5-1
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +golang-src
+Version: 1.22.1-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64) +golang-src
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -2844,7 +2844,7 @@ Category: Languages
 Repository: base
 Title: Go programming language (compiler)
 Maintainer: Jeffery To <jeffery.to@gmail.com>
-Source: go1.21.5.src.tar.gz
+Source: go1.22.1.src.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -2870,8 +2870,8 @@ Config:
 
 Package: golang-doc
 Submenu: Go
-Version: 1.21.5-1
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
+Version: 1.22.1-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64)
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -2880,7 +2880,7 @@ Category: Languages
 Repository: base
 Title: Go programming language (documentation)
 Maintainer: Jeffery To <jeffery.to@gmail.com>
-Source: go1.21.5.src.tar.gz
+Source: go1.22.1.src.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -2902,8 +2902,8 @@ Jeffery To <jeffery.to@gmail.com>
 
 Package: golang-src
 Submenu: Go
-Version: 1.21.5-1
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
+Version: 1.22.1-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64)
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -2912,7 +2912,7 @@ Category: Languages
 Repository: base
 Title: Go programming language (source files)
 Maintainer: Jeffery To <jeffery.to@gmail.com>
-Source: go1.21.5.src.tar.gz
+Source: go1.22.1.src.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -4389,7 +4389,7 @@ Build-Types: host
 Package: maturin
 Submenu: Rust
 Version: 0.14.15-1
-Depends: +libc 
+Depends: +libc @(aarch64||arm||i386||i686||mips||mipsel||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -24306,7 +24306,7 @@ Build-Types: host
 
 Package: rust
 Submenu: Rust
-Version: 1.75.0-1
+Version: 1.74.1-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mipsel||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -24316,7 +24316,7 @@ Category: Languages
 Repository: base
 Title: Rust Programming Language Compiler
 Maintainer: Luca Barbato <lu_zero@luminem.org>
-Source: rustc-1.75.0-src.tar.gz
+Source: rustc-1.74.1-src.tar.gz
 License: Apache-2.0 MIT
 LicenseFiles: LICENSE-APACHE LICENSE-MIT
 Type: ipkg
@@ -27768,6 +27768,59 @@ Type: ipkg
 Description:  This package provides tools for manipulating ICU data.
 http://icu-project.org
 Hirokazu MORIKAWA <morikw2@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/libs/inih/Makefile
+
+Package: libinih
+Version: r58-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Repository: base
+Title: Simple .INI file parser in C
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Source: inih-r58.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Type: ipkg
+Description:   inih (INI Not Invented Here) is a simple .INI file parser written
+  in C. It's only a couple of pages of code, and it was designed to
+  be small and simple, so it's good for embedded systems. It's also
+  more or less compatible with Python's ConfigParser style of .INI
+  files, including RFC 822-style multi-line syntax and name: value
+  entries.
+https://github.com/benhoyt/inih
+Tianling Shen <cnsztl@immortalwrt.org>
+@@
+
+Package: libinireader
+Version: r58-1
+Depends: +libc +libinih +libstdcpp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Repository: base
+Title: C++ library and API for inih
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Source: inih-r58.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Type: ipkg
+Description:   inih (INI Not Invented Here) is a simple .INI file parser written
+  in C. It's only a couple of pages of code, and it was designed to
+  be small and simple, so it's good for embedded systems. It's also
+  more or less compatible with Python's ConfigParser style of .INI
+  files, including RFC 822-style multi-line syntax and name: value
+  entries.
+https://github.com/benhoyt/inih
+Tianling Shen <cnsztl@immortalwrt.org>
 @@
 
 
@@ -45482,7 +45535,7 @@ Rosen Penev <rosenp@gmail.com>
 Source-Makefile: feeds/packages/libs/libuv/Makefile
 
 Package: libuv
-Version: 1.44.1-0
+Version: 1.48.0-0
 Depends: +libc +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -45492,7 +45545,7 @@ Category: Libraries
 Repository: base
 Title: Cross-platform asychronous I/O library
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
-Source: libuv-v1.44.1.tar.gz
+Source: libuv-v1.48.0.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg
@@ -50566,7 +50619,7 @@ Build-Depends: rust/host
 
 Package: aliyundrive-webdav
 Version: 2.3.2-1
-Depends: +libc @(aarch64||arm||i386||i686||mips||mipsel||mips64||mips64el||mipsel||powerpc64||x86_64)
+Depends: +libc @(aarch64||arm||i386||i686||mips||mipsel||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -58852,7 +58905,7 @@ Source-Makefile: feeds/packages/net/curl/Makefile
 
 Package: libcurl
 Menu: 1
-Version: 8.5.0-1
+Version: 8.6.0-1
 Depends: +libc +LIBCURL_WOLFSSL:libwolfssl +LIBCURL_OPENSSL:libopenssl +LIBCURL_GNUTLS:libgnutls +LIBCURL_MBEDTLS:libmbedtls +LIBCURL_ZLIB:zlib +LIBCURL_ZSTD:libzstd +LIBCURL_THREADED_RESOLVER:libpthread +LIBCURL_LDAP:libopenldap +LIBCURL_LIBIDN2:libidn2 +LIBCURL_SSH2:libssh2 +LIBCURL_NGHTTP2:libnghttp2 +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -58862,7 +58915,7 @@ Category: Libraries
 Repository: base
 Title: A client-side URL transfer library
 Maintainer: Stan Grishin <stangri@melmac.ca>
-Source: curl-8.5.0.tar.bz2
+Source: curl-8.6.0.tar.bz2
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -58876,7 +58929,7 @@ Config:
 
 Package: curl
 Submenu: File Transfer
-Version: 8.5.0-1
+Version: 8.6.0-1
 Depends: +libc +libcurl
 Conflicts: 
 Menu-Depends: 
@@ -58886,7 +58939,7 @@ Category: Network
 Repository: base
 Title: A client-side URL transfer utility
 Maintainer: Stan Grishin <stangri@melmac.ca>
-Source: curl-8.5.0.tar.bz2
+Source: curl-8.6.0.tar.bz2
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -63333,7 +63386,7 @@ Config:
 Source-Makefile: feeds/packages/net/iperf3/Makefile
 
 Package: iperf3
-Version: 3.12-1
+Version: 3.16-1
 Depends: +libc +libiperf3
 Conflicts: 
 Menu-Depends: 
@@ -63344,7 +63397,7 @@ Category: Network
 Repository: base
 Title: Internet Protocol bandwidth measuring tool
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: iperf-3.12.tar.gz
+Source: iperf-3.16.tar.gz
 License: BSD-3-Clause
 Type: ipkg
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
@@ -63355,9 +63408,9 @@ Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: iperf3-ssl
-Version: 3.12-1
-Depends: +libc +libopenssl
-Conflicts: 
+Version: 3.16-1
+Depends: +libc +libopenssl +libatomic
+Conflicts: iperf3
 Menu-Depends: 
 Provides: 
 Build-Variant: ssl
@@ -63366,7 +63419,7 @@ Category: Network
 Repository: base
 Title: Internet Protocol bandwidth measuring tool with iperf_auth support
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: iperf-3.12.tar.gz
+Source: iperf-3.16.tar.gz
 License: BSD-3-Clause
 Type: ipkg
 Description: Internet Protocol bandwidth measuring tool with iperf_auth support
@@ -63375,8 +63428,8 @@ Felix Fietkau <nbd@nbd.name>
 @@
 
 Package: libiperf3
-Version: 3.12-1
-Depends: +libc 
+Version: 3.16-1
+Depends: +libc +libatomic
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -63385,7 +63438,7 @@ Category: Libraries
 Repository: base
 Title: Internet Protocol bandwidth measuring library
 Maintainer: Felix Fietkau <nbd@nbd.name>
-Source: iperf-3.12.tar.gz
+Source: iperf-3.16.tar.gz
 License: BSD-3-Clause
 Type: ipkg
 Description:  Libiperf is a library providing an API for iperf3 functionality.
@@ -73321,7 +73374,7 @@ Stan Grishin <stangri@melmac.net>
 Source-Makefile: feeds/packages/net/smartdns/Makefile
 
 Package: smartdns
-Version: 1.2023.42-1
+Version: 1.2024.45-1
 Depends: +libc +libpthread +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -73331,7 +73384,7 @@ Category: Network
 Repository: base
 Title: smartdns server
 Maintainer: Nick Peng <pymumu@gmail.com>
-Source: smartdns-1.2023.42.tar.xz
+Source: smartdns-1.2024.45.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Type: ipkg
@@ -74229,7 +74282,7 @@ Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@the
 Package: strongswan-pki
 Submenu: VPN
 Version: 5.9.13-0
-Depends: +libc strongswan
+Depends: +libc strongswan strongswan-libtls
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -78156,7 +78209,7 @@ Stijn Tintel <stijn@linux-ipv6.be>
 Source-Makefile: feeds/packages/net/verysync/Makefile
 
 Package: verysync
-Version: 2.16.0-0
+Version: 2.17.0-0
 Depends: +libc @(aarch64||arm||i386||mips||mipsel||powerpc64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -78166,7 +78219,7 @@ Category: Network
 Repository: base
 Title: A efficient data transmission tool
 Maintainer: 
-Source: verysync-linux--v2.16.0.tar.gz
+Source: verysync-linux--v2.17.0.tar.gz
 Type: ipkg
 Description: A efficient data transmission tool
 http://www.verysync.com
@@ -85922,7 +85975,7 @@ Build-Depends: golang/host
 
 Package: containerd
 Menu: 1
-Version: 1.7.6-1
+Version: 1.7.13-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +btrfs-progs +runc
 Conflicts: 
 Menu-Depends: 
@@ -85932,7 +85985,7 @@ Category: Utilities
 Repository: base
 Title: containerd container runtime
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Source: containerd-1.7.6.tar.gz
+Source: containerd-1.7.13.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -88499,7 +88552,7 @@ Source-Makefile: feeds/packages/utils/docker/Makefile
 Build-Depends: golang/host
 
 Package: docker
-Version: 24.0.7-0
+Version: 25.0.3-0
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -88509,7 +88562,7 @@ Category: Utilities
 Repository: base
 Title: Docker Community Edition CLI
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Source: docker-24.0.7.tar.gz
+Source: docker-25.0.3.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -88548,7 +88601,7 @@ Build-Depends: golang/host
 
 Package: dockerd
 Menu: 1
-Version: 24.0.7-0
+Version: 25.0.3-0
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-certificates +containerd +iptables +iptables-mod-extra +IPV6:ip6tables +IPV6:kmod-ipt-nat6 +KERNEL_SECCOMP:libseccomp +kmod-ipt-nat +kmod-ipt-physdev +kmod-nf-ipvs +kmod-veth +tini @!(mips||mipsel)
 Conflicts: 
 Menu-Depends: 
@@ -88559,7 +88612,7 @@ Repository: base
 Title: Docker Community Edition Daemon
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Require-User: docker:docker
-Source: dockerd-24.0.7.tar.gz
+Source: dockerd-25.0.3.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -89841,7 +89894,7 @@ Source-Makefile: feeds/packages/utils/gptfdisk/Makefile
 
 Package: gdisk
 Submenu: Disc
-Version: 1.0.8-0
+Version: 1.0.9-1
 Depends: +libc +libstdcpp +libuuid
 Conflicts: 
 Menu-Depends: 
@@ -89851,7 +89904,7 @@ Category: Utilities
 Repository: base
 Title: GPT aware disk manipulation utility for interactive use
 Maintainer: 
-Source: gptfdisk-1.0.8.tar.gz
+Source: gptfdisk-1.0.9.tar.gz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -89862,7 +89915,7 @@ https://www.rodsbooks.com/gdisk
 
 Package: cgdisk
 Submenu: Disc
-Version: 1.0.8-0
+Version: 1.0.9-1
 Depends: +libc +libstdcpp +libuuid +libncursesw
 Conflicts: 
 Menu-Depends: 
@@ -89872,7 +89925,7 @@ Category: Utilities
 Repository: base
 Title: GPT aware disk manipulation utility for interactive use
 Maintainer: 
-Source: gptfdisk-1.0.8.tar.gz
+Source: gptfdisk-1.0.9.tar.gz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -89883,7 +89936,7 @@ https://www.rodsbooks.com/gdisk
 
 Package: sgdisk
 Submenu: Disc
-Version: 1.0.8-0
+Version: 1.0.9-1
 Depends: +libc +libstdcpp +libuuid +libpopt
 Conflicts: 
 Menu-Depends: 
@@ -89893,7 +89946,7 @@ Category: Utilities
 Repository: base
 Title: GPT aware disk manipulation utility for scripting use
 Maintainer: 
-Source: gptfdisk-1.0.8.tar.gz
+Source: gptfdisk-1.0.9.tar.gz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -89904,7 +89957,7 @@ https://www.rodsbooks.com/gdisk
 
 Package: fixparts
 Submenu: Disc
-Version: 1.0.8-0
+Version: 1.0.9-1
 Depends: +libc +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -89914,7 +89967,7 @@ Category: Utilities
 Repository: base
 Title: A utility to fix corrupted MBR partitions
 Maintainer: 
-Source: gptfdisk-1.0.8.tar.gz
+Source: gptfdisk-1.0.9.tar.gz
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Type: ipkg
@@ -98979,7 +99032,7 @@ Build-Depends: rust/host
 
 Package: ripgrep
 Version: 13.0.0-2
-Depends: +libc @(aarch64||arm||i386||i686||mips||mipsel||mips64||mips64el||mipsel||powerpc64||x86_64) +libpcre2
+Depends: +libc @(aarch64||arm||i386||i686||mips||mipsel||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +libpcre2
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -99461,7 +99514,7 @@ Source-Makefile: feeds/packages/utils/runc/Makefile
 Build-Depends: golang/host
 
 Package: runc
-Version: 1.1.9-1
+Version: 1.1.12-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +KERNEL_SECCOMP_FILTER:libseccomp
 Conflicts: 
 Menu-Depends: 
@@ -99471,7 +99524,7 @@ Category: Utilities
 Repository: base
 Title: runc container runtime
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Source: runc-1.1.9.tar.gz
+Source: runc-1.1.12.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -107190,11 +107243,12 @@ Toni Uhlig <matzeton@googlemail.com>
 
 
 Source-Makefile: feeds/packages/utils/xfsprogs/Makefile
+Build-Depends: inih
 
 Package: xfs-admin
 Submenu: Filesystem
-Version: 5.9.0-2
-Depends: +libc +libuuid +libpthread
+Version: 6.2.0-1
+Depends: +libc +liburcu +libuuid +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -107203,7 +107257,7 @@ Category: Utilities
 Repository: base
 Title: Utilities for changing parameters of an XFS filesystems
 Maintainer: 
-Source: xfsprogs-5.9.0.tar.xz
+Source: xfsprogs-6.2.0.tar.xz
 License: GPL-2.0-only
 LicenseFiles: LICENSES/GPL-2.0
 Type: ipkg
@@ -107214,8 +107268,8 @@ https://xfs.org/
 
 Package: xfs-mkfs
 Submenu: Filesystem
-Version: 5.9.0-2
-Depends: +libc +libuuid +libpthread
+Version: 6.2.0-1
+Depends: +libc +liburcu +libuuid +libpthread +libinih
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -107224,7 +107278,7 @@ Category: Utilities
 Repository: base
 Title: Utility for creating XFS filesystems
 Maintainer: 
-Source: xfsprogs-5.9.0.tar.xz
+Source: xfsprogs-6.2.0.tar.xz
 License: GPL-2.0-only
 LicenseFiles: LICENSES/GPL-2.0
 Type: ipkg
@@ -107235,8 +107289,8 @@ https://xfs.org/
 
 Package: xfs-fsck
 Submenu: Filesystem
-Version: 5.9.0-2
-Depends: +libc +libuuid +libpthread
+Version: 6.2.0-1
+Depends: +libc +liburcu +libuuid +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -107245,7 +107299,7 @@ Category: Utilities
 Repository: base
 Title: Utilities for checking and repairing XFS filesystems
 Maintainer: 
-Source: xfsprogs-5.9.0.tar.xz
+Source: xfsprogs-6.2.0.tar.xz
 License: GPL-2.0-only
 LicenseFiles: LICENSES/GPL-2.0
 Type: ipkg
@@ -107256,8 +107310,8 @@ https://xfs.org/
 
 Package: xfs-growfs
 Submenu: Filesystem
-Version: 5.9.0-2
-Depends: +libc +libuuid +libpthread
+Version: 6.2.0-1
+Depends: +libc +liburcu +libuuid +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -107266,7 +107320,7 @@ Category: Utilities
 Repository: base
 Title: Utility for increasing the size of XFS filesystems
 Maintainer: 
-Source: xfsprogs-5.9.0.tar.xz
+Source: xfsprogs-6.2.0.tar.xz
 License: GPL-2.0-only
 LicenseFiles: LICENSES/GPL-2.0
 Type: ipkg

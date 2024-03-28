@@ -2,7 +2,7 @@ Source-Makefile: feeds/small/redsocks2/Makefile
 
 Package: redsocks2
 Submenu: Web Servers/Proxies
-Version: release-test4-4
+Version: release-test4-1
 Depends: +libc +libevent2 +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -10,11 +10,13 @@ Provides:
 Section: net
 Category: Network
 Repository: base
-Title: Redirect any TCP connection to a SOCKS or HTTPS proxy server
+Title: Redirect TCP connection to proxy server
 Maintainer: semigodking <semigodking@gmail.com>
-Source: redsocks2-release-test4-d94c245ea47859cda5b4b7373308589206b97bdc.tar.gz
+Source: redsocks2-release-test4.tar.xz
+License: Apache-2.0
 Type: ipkg
-Description: This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+Description:   This is a modified version of original redsocks.
+  Transparent redirector of any TCP/UDP connection to proxy.
 https://github.com/semigodking/redsocks
 semigodking <semigodking@gmail.com>
 @@

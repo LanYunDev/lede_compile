@@ -4,7 +4,7 @@ Build-Depends: lua/host luci-base/host
 Package: luci-app-dockerman
 Submenu: 3. Applications
 Version: v0.5.26-1
-Depends: +libc @(aarch64||arm||x86_64) +luci-compat +luci-lib-docker +luci-lib-ip +docker +dockerd +cgroupfs-mount +cgroupfs-mount +ttyd
+Depends: +libc @(aarch64||arm||x86_64) +luci-compat +luci-lib-docker +luci-lib-ip +docker +dockerd +cgroupfs-mount +ttyd
 Conflicts: 
 Menu-Depends: 
 Provides: 

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/kenzo/luci-app-lucky/lucky/Makefile
 
 Package: lucky
-Version: 2.5.3-1
+Version: 2.7.2-1
 Depends: +libc @(i386||x86_64||arm||aarch64||mipsel||mips)
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Network
 Repository: base
 Title: Lucky dynamic domain name ddns-go service, socat,frp 
 Maintainer: GDY666 <gdy666@foxmail.com>
-Source: lucky-2.5.3.tar.xz
+Source: lucky-2.7.2.tar.xz
 License: GPL-3.0-only
 LicenseFiles: LICENSE
 Type: ipkg

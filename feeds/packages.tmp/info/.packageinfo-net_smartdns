@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/smartdns/Makefile
 
 Package: smartdns
-Version: 1.2023.42-1
+Version: 1.2024.45-1
 Depends: +libc +libpthread +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Network
 Repository: base
 Title: smartdns server
 Maintainer: Nick Peng <pymumu@gmail.com>
-Source: smartdns-1.2023.42.tar.xz
+Source: smartdns-1.2024.45.tar.xz
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Type: ipkg

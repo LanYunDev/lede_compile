@@ -11,12 +11,12 @@ Provides:
 Section: luci
 Category: LuCI
 Repository: base
-Title: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+Title: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6/aiccu
 Maintainer: 
 Source: 
 License: Apache-2.0
 Type: ipkg
-Description: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+Description: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6/aiccu
 
 @@
 

@@ -3,7 +3,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-cpufreq
 Submenu: 3. Applications
-Version: 7-0
+Version: 8-0
 Depends: +libc @(arm||aarch64)
 Conflicts: 
 Menu-Depends: 
@@ -21,7 +21,7 @@ Description: LuCI for CPU Freq Setting
 
 Package: luci-i18n-cpufreq-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 7-0
+Version: 8-0
 Depends: +libc luci-app-cpufreq
 Conflicts: 
 Menu-Depends: 

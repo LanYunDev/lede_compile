@@ -2,7 +2,7 @@ Source-Makefile: feeds/small/microsocks/Makefile
 
 Package: microsocks
 Submenu: Web Servers/Proxies
-Version: 1.0.3-0
+Version: 1.0.4-1
 Depends: +libc +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Category: Network
 Repository: base
 Title: Tiny, portable SOCKS5 server
 Maintainer: lean
-Source: microsocks-1.0.3.tar.gz
+Source: microsocks-1.0.4.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg

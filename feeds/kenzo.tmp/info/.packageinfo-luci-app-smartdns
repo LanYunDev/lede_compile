@@ -3,7 +3,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-smartdns
 Submenu: 3. Applications
-Version: 1.2023.43-1
+Version: 1.2024.45-1
 Depends: +libc +smartdns +luci-compat
 Conflicts: 
 Menu-Depends: 
@@ -22,7 +22,7 @@ Nick Peng <pymumu@gmail.com>
 
 Package: luci-i18n-smartdns-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.2023.43-1
+Version: 1.2024.45-1
 Depends: +libc luci-app-smartdns
 Conflicts: 
 Menu-Depends: 
@@ -42,7 +42,7 @@ Nick Peng <pymumu@gmail.com>
 
 Package: luci-i18n-smartdns-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.2023.43-1
+Version: 1.2024.45-1
 Depends: +libc luci-app-smartdns
 Conflicts: 
 Menu-Depends: 

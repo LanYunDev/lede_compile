@@ -3746,7 +3746,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-cpufreq
 Submenu: 3. Applications
-Version: 7-0
+Version: 8-0
 Depends: +libc @(arm||aarch64)
 Conflicts: 
 Menu-Depends: 
@@ -3764,7 +3764,7 @@ Description: LuCI for CPU Freq Setting
 
 Package: luci-i18n-cpufreq-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 7-0
+Version: 8-0
 Depends: +libc luci-app-cpufreq
 Conflicts: 
 Menu-Depends: 
@@ -19533,7 +19533,7 @@ Build-Depends: lua/host luci-base/host
 Package: luci
 Submenu: 1. Collections
 Version: x-1
-Depends: +libc +uhttpd +uhttpd-mod-ubus +luci-mod-admin-full +luci-theme-argone +luci-app-firewall +luci-proto-ppp +libiwinfo-lua +rpcd-mod-rrdns
+Depends: +libc +uhttpd +uhttpd-mod-ubus +luci-mod-admin-full +luci-theme-bootstrap +luci-app-firewall +luci-proto-ppp +libiwinfo-lua +rpcd-mod-rrdns
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -20920,12 +20920,12 @@ Provides:
 Section: luci
 Category: LuCI
 Repository: base
-Title: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+Title: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6/aiccu
 Maintainer: 
 Source: 
 License: Apache-2.0
 Type: ipkg
-Description: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+Description: Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6/aiccu
 
 @@
 

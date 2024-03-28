@@ -1,52 +1,44 @@
 Source-Makefile: feeds/small/simple-obfs/Makefile
 Build-Depends: libev
 
-Package: simple-obfs
-Version: 0.0.5-0
-Depends: +libc +libpthread +!SIMPLE_OBFS_STATIC_LINK:libev
+Package: simple-obfs-client
+Version: 0.0.5-1
+Depends: +libc +libpthread +libev
 Conflicts: 
 Menu-Depends: 
-Provides: 
+Provides: simple-obfs
 Section: net
 Category: Network
 Repository: base
-Title: Simple-obfs
+Title: A simple obfuscating tool (client)
 Maintainer: Jian Chang <aa65535@live.com>
-Source: simple-obfs-0.0.5-486bebd9208539058e57e23a12f23103016e09b4.tar.gz
+Source: simple-obfs-0.0.5.tar.xz
 License: GPL-3.0-or-later
-LicenseFiles: COPYING LICENSE
+LicenseFiles: LICENSE
 Type: ipkg
-Description: Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+Description:   Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 https://github.com/shadowsocks/simple-obfs
 Jian Chang <aa65535@live.com>
 @@
 
 Package: simple-obfs-server
-Version: 0.0.5-0
-Depends: +libc +libpthread +!SIMPLE_OBFS_STATIC_LINK:libev
+Version: 0.0.5-1
+Depends: +libc +libpthread +libev
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Section: net
 Category: Network
 Repository: base
-Title: Simple-obfs
+Title: A simple obfuscating tool (server)
 Maintainer: Jian Chang <aa65535@live.com>
-Source: simple-obfs-0.0.5-486bebd9208539058e57e23a12f23103016e09b4.tar.gz
+Source: simple-obfs-0.0.5.tar.xz
 License: GPL-3.0-or-later
-LicenseFiles: COPYING LICENSE
+LicenseFiles: LICENSE
 Type: ipkg
-Description: Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+Description:   Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 https://github.com/shadowsocks/simple-obfs
 Jian Chang <aa65535@live.com>
-@@
-Config:
-menu "Simple-obfs Compile Configuration"
-	depends on PACKAGE_simple-obfs || PACKAGE_simple-obfs-server
-	config SIMPLE_OBFS_STATIC_LINK
-		bool "enable static link libraries."
-		default n
-endmenu
 @@
 
 

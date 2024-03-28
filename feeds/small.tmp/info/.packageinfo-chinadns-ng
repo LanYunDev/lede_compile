@@ -2,8 +2,8 @@ Source-Makefile: feeds/small/chinadns-ng/Makefile
 
 Package: chinadns-ng
 Submenu: IP Addresses and Names
-Version: 2023.10.28-1
-Depends: +libc +ipset
+Version: 2024.03.25-1
+Depends: +libc @(aarch64||arm||i386||mips||mipsel||x86_64) @!(TARGET_x86_geode||TARGET_x86_legacy) +ipset
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -11,14 +11,14 @@ Section: net
 Category: Network
 Repository: base
 Title: ChinaDNS next generation, refactoring with epoll and ipset.
-Maintainer: pexcn <i@pexcn.me>
-Source: chinadns-ng-2023.10.28.tar.gz
+Maintainer: sbwml <admin@cooluc.com>
+Source: dummy
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Type: ipkg
 Description: ChinaDNS next generation, refactoring with epoll and ipset.
 https://github.com/zfl9/chinadns-ng
-pexcn <i@pexcn.me>
+sbwml <admin@cooluc.com>
 @@
 
 

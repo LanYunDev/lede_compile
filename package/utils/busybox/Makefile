@@ -26,7 +26,7 @@ BUSYBOX_SYM=$(if $(CONFIG_BUSYBOX_CUSTOM),CONFIG,DEFAULT)
 BUSYBOX_IF_ENABLED=$(if $(CONFIG_BUSYBOX_$(BUSYBOX_SYM)_$(1)),$(2))
 
 ifneq ($(CONFIG_BUSYBOX_$(BUSYBOX_SYM)_FEATURE_SUID),)
-  PKG_FILE_MODES:=/bin/busybox:root:root:4755
+  PKG_FILE_MODES:=/bin/busybox:lanyun:lanyun:4755
 endif
 
 include $(INCLUDE_DIR)/package.mk

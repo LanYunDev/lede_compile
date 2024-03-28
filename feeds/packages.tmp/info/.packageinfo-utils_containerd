@@ -3,7 +3,7 @@ Build-Depends: golang/host
 
 Package: containerd
 Menu: 1
-Version: 1.7.6-1
+Version: 1.7.13-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +btrfs-progs +runc
 Conflicts: 
 Menu-Depends: 
@@ -13,7 +13,7 @@ Category: Utilities
 Repository: base
 Title: containerd container runtime
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
-Source: containerd-1.7.6.tar.gz
+Source: containerd-1.7.13.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg

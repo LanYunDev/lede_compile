@@ -1,9 +1,10 @@
 Source-Makefile: feeds/packages/utils/xfsprogs/Makefile
+Build-Depends: inih
 
 Package: xfs-admin
 Submenu: Filesystem
-Version: 5.9.0-2
-Depends: +libc +libuuid +libpthread
+Version: 6.2.0-1
+Depends: +libc +liburcu +libuuid +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -12,7 +13,7 @@ Category: Utilities
 Repository: base
 Title: Utilities for changing parameters of an XFS filesystems
 Maintainer: 
-Source: xfsprogs-5.9.0.tar.xz
+Source: xfsprogs-6.2.0.tar.xz
 License: GPL-2.0-only
 LicenseFiles: LICENSES/GPL-2.0
 Type: ipkg
@@ -23,8 +24,8 @@ https://xfs.org/
 
 Package: xfs-mkfs
 Submenu: Filesystem
-Version: 5.9.0-2
-Depends: +libc +libuuid +libpthread
+Version: 6.2.0-1
+Depends: +libc +liburcu +libuuid +libpthread +libinih
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -33,7 +34,7 @@ Category: Utilities
 Repository: base
 Title: Utility for creating XFS filesystems
 Maintainer: 
-Source: xfsprogs-5.9.0.tar.xz
+Source: xfsprogs-6.2.0.tar.xz
 License: GPL-2.0-only
 LicenseFiles: LICENSES/GPL-2.0
 Type: ipkg
@@ -44,8 +45,8 @@ https://xfs.org/
 
 Package: xfs-fsck
 Submenu: Filesystem
-Version: 5.9.0-2
-Depends: +libc +libuuid +libpthread
+Version: 6.2.0-1
+Depends: +libc +liburcu +libuuid +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -54,7 +55,7 @@ Category: Utilities
 Repository: base
 Title: Utilities for checking and repairing XFS filesystems
 Maintainer: 
-Source: xfsprogs-5.9.0.tar.xz
+Source: xfsprogs-6.2.0.tar.xz
 License: GPL-2.0-only
 LicenseFiles: LICENSES/GPL-2.0
 Type: ipkg
@@ -65,8 +66,8 @@ https://xfs.org/
 
 Package: xfs-growfs
 Submenu: Filesystem
-Version: 5.9.0-2
-Depends: +libc +libuuid +libpthread
+Version: 6.2.0-1
+Depends: +libc +liburcu +libuuid +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -75,7 +76,7 @@ Category: Utilities
 Repository: base
 Title: Utility for increasing the size of XFS filesystems
 Maintainer: 
-Source: xfsprogs-5.9.0.tar.xz
+Source: xfsprogs-6.2.0.tar.xz
 License: GPL-2.0-only
 LicenseFiles: LICENSES/GPL-2.0
 Type: ipkg

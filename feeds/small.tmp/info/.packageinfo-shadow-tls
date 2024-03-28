@@ -2,7 +2,7 @@ Source-Makefile: feeds/small/shadow-tls/Makefile
 
 Package: shadow-tls
 Submenu: Web Servers/Proxies
-Version: 0.2.23-1
+Version: 0.2.25-1
 Depends: +libc @USE_MUSL @(aarch64||arm||x86_64) @!(TARGET_x86_geode||TARGET_x86_legacy)
 Conflicts: 
 Menu-Depends: 

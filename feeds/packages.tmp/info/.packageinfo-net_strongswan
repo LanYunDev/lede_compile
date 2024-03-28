@@ -201,7 +201,7 @@ Philip Prindeville <philipp@redfish-solutions.com>, Noel Kuntze <noel.kuntze@the
 Package: strongswan-pki
 Submenu: VPN
 Version: 5.9.13-0
-Depends: +libc strongswan
+Depends: +libc strongswan strongswan-libtls
 Conflicts: 
 Menu-Depends: 
 Provides: 

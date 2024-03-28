@@ -3,7 +3,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-amlogic
 Submenu: 3. Applications
-Version: 3.1.220-1
+Version: 3.1.228-1
 Depends: +libc @(aarch64||arm) +luci +luci-lib-nixio +block-mount +blkid +parted +curl +dosfstools +e2fsprogs +jq +lsblk +pv +losetup +uuidgen +bash +perl +fdisk
 Conflicts: 
 Menu-Depends: 
@@ -22,7 +22,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 3.1.220-1
+Version: 3.1.228-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -42,7 +42,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 3.1.220-1
+Version: 3.1.228-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 

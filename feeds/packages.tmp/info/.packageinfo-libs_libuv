@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/libs/libuv/Makefile
 
 Package: libuv
-Version: 1.44.1-0
+Version: 1.48.0-0
 Depends: +libc +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Libraries
 Repository: base
 Title: Cross-platform asychronous I/O library
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
-Source: libuv-v1.44.1.tar.gz
+Source: libuv-v1.48.0.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg

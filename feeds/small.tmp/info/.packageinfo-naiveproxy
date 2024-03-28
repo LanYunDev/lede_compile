@@ -1,9 +1,8 @@
 Source-Makefile: feeds/small/naiveproxy/Makefile
-Build-Depends: gn/host
 
 Package: naiveproxy
 Submenu: Web Servers/Proxies
-Version: 121.0.6167.71-1-1
+Version: 122.0.6261.43-2-1
 Depends: +libc @!(arc||armeb||mips||mips64||powerpc||TARGET_gemini) +libatomic
 Conflicts: 
 Menu-Depends: 
@@ -12,8 +11,8 @@ Section: net
 Category: Network
 Repository: base
 Title: Make a fortune quietly
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: naiveproxy-121.0.6167.71-1.tar.gz
+Maintainer: sbwml <admin@cooluc.com>
+Source: naiveproxy-v122.0.6261.43-2-openwrt-.tar.xz
 License: BSD 3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -21,7 +20,7 @@ Description:   NaïveProxy uses Chrome's network stack to camouflage traffic wit
   censorship resistance and low detectability. Reusing Chrome's stack also
   ensures best practices in performance and security.
 https://github.com/klzgrad/naiveproxy
-Tianling Shen <cnsztl@immortalwrt.org>
+sbwml <admin@cooluc.com>
 @@
 
 

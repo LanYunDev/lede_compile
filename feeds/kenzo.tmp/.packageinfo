@@ -1,7 +1,7 @@
 Source-Makefile: feeds/kenzo/UnblockNeteaseMusic/Makefile
 
 Package: UnblockNeteaseMusic
-Version: 0.27.4-patch.1-2022-10-09-253dc89329ebd16ff22175d9d0ab9382ed8aaccc-0
+Version: 0.27.6-1
 Depends: +libc +node
 Conflicts: 
 Menu-Depends: 
@@ -10,13 +10,12 @@ Section: multimedia
 Category: Multimedia
 Repository: base
 Title: Revive Netease Cloud Music (NodeJS)
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: UnblockNeteaseMusic-0.27.4-patch.1-2022-10-09-253dc89329ebd16ff22175d9d0ab9382ed8aaccc.tar.xz
-License: LGPL-3.0-only
+Maintainer: 
+Source: UnblockNeteaseMusic-0.27.6.tar.gz
 Type: ipkg
 Description: Revive Netease Cloud Music (NodeJS)
 https://github.com/nondanee/UnblockNeteaseMusic
-Tianling Shen <cnsztl@immortalwrt.org>
+
 @@
 
 
@@ -24,7 +23,7 @@ Source-Makefile: feeds/kenzo/adguardhome/Makefile
 Build-Depends: golang/host
 
 Package: adguardhome
-Version: 0.107.43-1
+Version: 0.107.46-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -34,7 +33,7 @@ Category: Network
 Repository: base
 Title: Network-wide ads and trackers blocking DNS server
 Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
-Source: adguardhome-0.107.43.tar.gz
+Source: adguardhome-0.107.46.tar.gz
 License: GPL-3.0-only
 LicenseFiles: LICENSE.txt
 Type: ipkg
@@ -49,8 +48,8 @@ Build-Depends: golang/host
 
 Package: alist
 Submenu: Web Servers/Proxies
-Version: 3.30.0-2
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
+Version: 3.33.0-2
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -59,11 +58,11 @@ Category: Network
 Repository: base
 Title: A file list program that supports multiple storage
 Maintainer: sbwml <admin@cooluc.com>
-Source: alist-3.30.0.tar.gz
+Source: alist-3.33.0.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description:   A file list program that supports multiple storage, powered by Gin and Solidjs.
-https://alist-doc.nn.ci/
+https://alist.nn.ci/
 sbwml <admin@cooluc.com>
 @@
 
@@ -87,6 +86,33 @@ Type: ipkg
 Description:   WebDAV server for AliyunDrive.
 https://github.com/messense/aliyundrive-webdav
 messense <messense@icloud.com>
+@@
+
+
+Source-Makefile: feeds/kenzo/ddns-go/Makefile
+Build-Depends: golang/host
+
+Package: ddns-go
+Submenu: Web Servers/Proxies
+Version: 6.3.0-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64) +ca-bundle
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: A Linux web GUI client of ddns-go
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Require-User: ddns-go:ddns-go
+Source: ddns-go-6.3.0.tar.gz
+License: MIT
+LicenseFiles: LICENSE
+Type: ipkg
+Description:   ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
+  support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
+https://github.com/jeessy2/ddns-go
+Tianling Shen <cnsztl@immortalwrt.org>
 @@
 
 
@@ -116,7 +142,7 @@ Source-Makefile: feeds/kenzo/filebrowser/Makefile
 Build-Depends: golang/host node/host
 
 Package: filebrowser
-Version: 2.27.0-0
+Version: 2.27.0-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -125,8 +151,8 @@ Section: utils
 Category: Utilities
 Repository: base
 Title: Web File Browser
-Maintainer: CN_SZTL <cnsztl@immortalwrt.org>
-Source: filebrowser-2.27.0.tar.xz
+Maintainer: kenzo <kenzok8@gmail.com>
+Source: filebrowser-2.27.0.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -135,7 +161,7 @@ Description:   filebrowser provides a file managing interface within a specified
   It allows the creation of multiple users and each user can have its own directory.
   It can be used as a standalone app or as a middleware.
 https://github.com/filebrowser/filebrowser
-CN_SZTL <cnsztl@immortalwrt.org>
+kenzo <kenzok8@gmail.com>
 @@
 
 
@@ -464,7 +490,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-amlogic
 Submenu: 3. Applications
-Version: 3.1.220-1
+Version: 3.1.228-1
 Depends: +libc @(aarch64||arm) +luci +luci-lib-nixio +block-mount +blkid +parted +curl +dosfstools +e2fsprogs +jq +lsblk +pv +losetup +uuidgen +bash +perl +fdisk
 Conflicts: 
 Menu-Depends: 
@@ -483,7 +509,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 3.1.220-1
+Version: 3.1.228-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -503,7 +529,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 3.1.220-1
+Version: 3.1.228-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -720,6 +746,66 @@ frainzy1477
 @@
 
 
+Source-Makefile: feeds/kenzo/luci-app-ddns-go/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-ddns-go
+Submenu: 3. Applications
+Version: 1.4.2-20240227
+Depends: +libc +ddns-go
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI Support for Dynamic ddns-go Client
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI Support for Dynamic ddns-go Client
+
+@@
+
+Package: luci-i18n-ddns-go-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 1.4.2-20240227
+Depends: +libc luci-app-ddns-go
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-ddns-go - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-ddns-go - 简体中文 (Simplified Chinese)
+
+@@
+
+Package: luci-i18n-ddns-go-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 1.4.2-20240227
+Depends: +libc luci-app-ddns-go
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-ddns-go - zh_Hans translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-ddns-go - 
+
+@@
+
+
 Source-Makefile: feeds/kenzo/luci-app-ddnsto/Makefile
 Build-Depends: lua/host luci-base/host 
 
@@ -909,7 +995,7 @@ Build-Depends: lua/host luci-base/host
 Package: luci-app-dockerman
 Submenu: 3. Applications
 Version: v0.5.26-1
-Depends: +libc @(aarch64||arm||x86_64) +luci-compat +luci-lib-docker +luci-lib-ip +docker +dockerd +cgroupfs-mount +cgroupfs-mount +ttyd
+Depends: +libc @(aarch64||arm||x86_64) +luci-compat +luci-lib-docker +luci-lib-ip +docker +dockerd +cgroupfs-mount +ttyd
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1108,6 +1194,186 @@ Description: LuCI support for Fileassistant
 @@
 
 
+Source-Makefile: feeds/kenzo/luci-app-filebrowser/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-filebrowser
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +filebrowser
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI app for FileBrowser
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI app for FileBrowser
+
+@@
+
+Package: luci-i18n-filebrowser-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-filebrowser
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-filebrowser - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-filebrowser - 简体中文 (Simplified Chinese)
+
+@@
+
+Package: luci-i18n-filebrowser-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-filebrowser
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-filebrowser - zh_Hans translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-filebrowser - 
+
+@@
+
+
+Source-Makefile: feeds/kenzo/luci-app-gost/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-gost
+Submenu: 3. Applications
+Version: 1.0-1
+Depends: +libc +gost
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for Gost
+Maintainer: ImmortalWrt
+Source: 
+Type: ipkg
+Description: LuCI support for Gost
+ImmortalWrt
+@@
+
+Package: luci-i18n-gost-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 1.0-1
+Depends: +libc luci-app-gost
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-gost - zh-cn translation
+Maintainer: ImmortalWrt
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-gost - 简体中文 (Simplified Chinese)
+ImmortalWrt
+@@
+
+Package: luci-i18n-gost-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 1.0-1
+Depends: +libc luci-app-gost
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-gost - zh_Hans translation
+Maintainer: ImmortalWrt
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-gost - 
+ImmortalWrt
+@@
+
+
+Source-Makefile: feeds/kenzo/luci-app-homeproxy/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-homeproxy
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +sing-box +chinadns-ng +firewall4 +kmod-nft-tproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: The modern ImmortalWrt proxy platform for ARM64/AMD64
+Maintainer: 
+Source: 
+Type: ipkg
+Description: The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+@@
+
+Package: luci-i18n-homeproxy-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-homeproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-homeproxy - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-homeproxy - 简体中文 (Simplified Chinese)
+
+@@
+
+Package: luci-i18n-homeproxy-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-homeproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-homeproxy - zh_Hans translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-homeproxy - 
+
+@@
+
+
 Source-Makefile: feeds/kenzo/luci-app-ikoolproxy/Makefile
 Build-Depends: lua/host luci-base/host 
 
@@ -1151,6 +1417,28 @@ https://github.com/houzi-/CDN
 @@
 
 
+Source-Makefile: feeds/kenzo/luci-app-istorex/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-istorex
+Submenu: 3. Applications
+Version: 0.6.6-1
+Depends: +libc +luci-app-quickstart +luci-app-store +luci-lib-taskd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: IstoreX
+Maintainer: 
+Source: 
+Type: ipkg
+Description: IstoreX
+
+@@
+
+
 Source-Makefile: feeds/kenzo/luci-app-koolproxyR/Makefile
 
 Package: luci-app-koolproxyR
@@ -1179,7 +1467,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-lucky
 Submenu: 3. Applications
-Version: 1.1.2-7
+Version: 1.2.0-8
 Depends: +libc +lucky
 Conflicts: 
 Menu-Depends: 
@@ -1197,7 +1485,7 @@ Description: LuCI Support for Dynamic lucky Client
 
 Package: luci-i18n-lucky-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.1.2-7
+Version: 1.2.0-8
 Depends: +libc luci-app-lucky
 Conflicts: 
 Menu-Depends: 
@@ -1216,7 +1504,7 @@ Description:     Translation for luci-app-lucky - 简体中文 (Simplified Chine
 
 Package: luci-i18n-lucky-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.1.2-7
+Version: 1.2.0-8
 Depends: +libc luci-app-lucky
 Conflicts: 
 Menu-Depends: 
@@ -1237,7 +1525,7 @@ Description:     Translation for luci-app-lucky -
 Source-Makefile: feeds/kenzo/luci-app-lucky/lucky/Makefile
 
 Package: lucky
-Version: 2.5.3-1
+Version: 2.7.2-1
 Depends: +libc @(i386||x86_64||arm||aarch64||mipsel||mips)
 Conflicts: 
 Menu-Depends: 
@@ -1247,7 +1535,7 @@ Category: Network
 Repository: base
 Title: Lucky dynamic domain name ddns-go service, socat,frp 
 Maintainer: GDY666 <gdy666@foxmail.com>
-Source: lucky-2.5.3.tar.xz
+Source: lucky-2.7.2.tar.xz
 License: GPL-3.0-only
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1257,71 +1545,11 @@ GDY666 <gdy666@foxmail.com>
 @@
 
 
-Source-Makefile: feeds/kenzo/luci-app-mosdns/Makefile
-Build-Depends: lua/host luci-base/host 
-
-Package: luci-app-mosdns
-Submenu: 3. Applications
-Version: 1.5.17-1
-Depends: +libc +mosdns +jsonfilter +luci-compat +curl +v2ray-geoip +v2ray-geosite +v2dat
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: LuCI Support for mosdns
-Maintainer: 
-Source: 
-Type: ipkg
-Description: LuCI Support for mosdns
-
-@@
-
-Package: luci-i18n-mosdns-zh-cn
-Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.5.17-1
-Depends: +libc luci-app-mosdns
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-mosdns - zh-cn translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
-
-@@
-
-Package: luci-i18n-mosdns-zh_Hans
-Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.5.17-1
-Depends: +libc luci-app-mosdns
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: luci
-Category: LuCI
-Repository: base
-Title: luci-app-mosdns - zh_Hans translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-mosdns - 
-
-@@
-
-
 Source-Makefile: feeds/kenzo/luci-app-openclash/Makefile
 
 Package: luci-app-openclash
 Submenu: 3. Applications
-Version: 0.45.157-beta
+Version: 0.46.003-beta
 Depends: +libc +dnsmasq-full +coreutils +coreutils-nohup +bash +curl +ca-bundle +ipset +ip-full +libcap +libcap-bin +libcap-bin +ruby +ruby-yaml +kmod-tun +unzip
 Conflicts: 
 Menu-Depends: 
@@ -1362,7 +1590,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-partexp
 Submenu: 3. Applications
-Version: 0.1.9-20221201
+Version: 1.1.0-20240314
 Depends: +libc +fdisk +block-mount
 Conflicts: 
 Menu-Depends: 
@@ -1381,7 +1609,7 @@ Sirpdboy <herboy2008@gmail.com>
 
 Package: luci-i18n-partexp-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 0.1.9-20221201
+Version: 1.1.0-20240314
 Depends: +libc luci-app-partexp
 Conflicts: 
 Menu-Depends: 
@@ -1401,7 +1629,7 @@ Sirpdboy <herboy2008@gmail.com>
 
 Package: luci-i18n-partexp-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 0.1.9-20221201
+Version: 1.1.0-20240314
 Depends: +libc luci-app-partexp
 Conflicts: 
 Menu-Depends: 
@@ -1420,12 +1648,72 @@ Sirpdboy <herboy2008@gmail.com>
 @@
 
 
+Source-Makefile: feeds/kenzo/luci-app-quickstart/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-quickstart
+Submenu: 3. Applications
+Version: 0.8.3-3
+Depends: +libc +quickstart +luci-app-store
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for quickstart 
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI support for quickstart 
+
+@@
+
+Package: luci-i18n-quickstart-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 0.8.3-3
+Depends: +libc luci-app-quickstart
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-quickstart - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-quickstart - 简体中文 (Simplified Chinese)
+
+@@
+
+Package: luci-i18n-quickstart-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 0.8.3-3
+Depends: +libc luci-app-quickstart
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-quickstart - zh_Hans translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-quickstart - 
+
+@@
+
+
 Source-Makefile: feeds/kenzo/luci-app-smartdns/Makefile
 Build-Depends: lua/host luci-base/host 
 
 Package: luci-app-smartdns
 Submenu: 3. Applications
-Version: 1.2023.43-1
+Version: 1.2024.45-1
 Depends: +libc +smartdns +luci-compat
 Conflicts: 
 Menu-Depends: 
@@ -1444,7 +1732,7 @@ Nick Peng <pymumu@gmail.com>
 
 Package: luci-i18n-smartdns-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.2023.43-1
+Version: 1.2024.45-1
 Depends: +libc luci-app-smartdns
 Conflicts: 
 Menu-Depends: 
@@ -1464,7 +1752,7 @@ Nick Peng <pymumu@gmail.com>
 
 Package: luci-i18n-smartdns-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.2023.43-1
+Version: 1.2024.45-1
 Depends: +libc luci-app-smartdns
 Conflicts: 
 Menu-Depends: 
@@ -1643,7 +1931,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-theme-atmaterial_new
 Submenu: 4. Themes
-Version: 1.2-02-20200209
+Version: 1.2-2
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -1748,34 +2036,32 @@ Description: Tomato new kenzo
 @@
 
 
-Source-Makefile: feeds/kenzo/mosdns/Makefile
-Build-Depends: golang/host
+Source-Makefile: feeds/kenzo/quickstart/Makefile
 
-Package: mosdns
-Submenu: IP Addresses and Names
-Version: 5.3.1-1
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
+Package: quickstart
+Submenu: Web Servers/Proxies
+Version: 0.8.9-1
+Depends: +libc @(x86_64||aarch64||arm) +shadow-utils +shadow-useradd +mount-utils +block-mount +lsblk +e2fsprogs +parted +smartmontools +smartd +mdadm +ip-full +ubus +uci +bash
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Section: net
 Category: Network
 Repository: base
-Title: A plug-in DNS forwarder/splitter
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: mosdns-5.3.1.tar.gz
-License: GPL-3.0
+Title: Quickstart, the quick start.
+Maintainer: 
+Source: quickstart-binary-0.8.9.tar.gz
 Type: ipkg
-Description: A plug-in DNS forwarder/splitter
-https://github.com/IrineSistiana/mosdns
-Tianling Shen <cnsztl@immortalwrt.org>
+Description:   Quickstart is a dashboard & user guide
+https://easepi.linkease.com/
+
 @@
 
 
 Source-Makefile: feeds/kenzo/smartdns/Makefile
 
 Package: smartdns
-Version: Release43-1
+Version: 45-1
 Depends: +libc +libpthread +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -1785,13 +2071,13 @@ Category: Network
 Repository: base
 Title: smartdns server
 Maintainer: Nick Peng <pymumu@gmail.com>
-Source: smartdns-Release43.tar.xz
+Source: smartdns-45.tar.gz
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Type: ipkg
 Description: SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
 gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
-Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH. 
+Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH.
 https://www.github.com/pymumu/smartdns/
 Nick Peng <pymumu@gmail.com>
 @@
@@ -1814,29 +2100,6 @@ Source:
 Type: ipkg
 Description: 	Simple Task Manager based on procd
 jjm2473 <jjm2473@gmail.com>
-@@
-
-
-Source-Makefile: feeds/kenzo/v2dat/Makefile
-Build-Depends: golang/host
-
-Package: v2dat
-Version: 2022-12-15-47b8ee51fb528e11e1a83453b7e767a18d20d1f7-1
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: utils
-Category: Utilities
-Repository: base
-Title: V2ray geo/ip data unpack tools
-Maintainer: sbwml <admin@cooluc.com>
-Source: v2dat-2022-12-15.tar.gz
-License: GPL-3.0
-Type: ipkg
-Description: V2ray geo/ip data unpack tools
-https://github.com/urlesistiana/v2dat
-sbwml <admin@cooluc.com>
 @@
 
 
