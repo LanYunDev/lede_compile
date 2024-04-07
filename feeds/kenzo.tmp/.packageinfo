@@ -23,7 +23,7 @@ Source-Makefile: feeds/kenzo/adguardhome/Makefile
 Build-Depends: golang/host
 
 Package: adguardhome
-Version: 0.107.46-1
+Version: 0.107.48-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -33,7 +33,7 @@ Category: Network
 Repository: base
 Title: Network-wide ads and trackers blocking DNS server
 Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
-Source: adguardhome-0.107.46.tar.gz
+Source: adguardhome-0.107.48.tar.gz
 License: GPL-3.0-only
 LicenseFiles: LICENSE.txt
 Type: ipkg
@@ -48,8 +48,8 @@ Build-Depends: golang/host
 
 Package: alist
 Submenu: Web Servers/Proxies
-Version: 3.33.0-2
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64) +ca-bundle
+Version: 3.33.0-5
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -94,8 +94,8 @@ Build-Depends: golang/host
 
 Package: ddns-go
 Submenu: Web Servers/Proxies
-Version: 6.3.0-1
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64) +ca-bundle
+Version: 6.3.1-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -105,7 +105,7 @@ Repository: base
 Title: A Linux web GUI client of ddns-go
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Require-User: ddns-go:ddns-go
-Source: ddns-go-6.3.0.tar.gz
+Source: ddns-go-6.3.1.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg
@@ -142,7 +142,7 @@ Source-Makefile: feeds/kenzo/filebrowser/Makefile
 Build-Depends: golang/host node/host
 
 Package: filebrowser
-Version: 2.27.0-1
+Version: 2.28.0-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64)
 Conflicts: 
 Menu-Depends: 
@@ -152,7 +152,7 @@ Category: Utilities
 Repository: base
 Title: Web File Browser
 Maintainer: kenzo <kenzok8@gmail.com>
-Source: filebrowser-2.27.0.tar.gz
+Source: filebrowser-2.28.0.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -367,7 +367,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-alist
 Submenu: 3. Applications
-Version: 1.0.11-1
+Version: 1.0.13-1
 Depends: +libc +alist +luci-compat
 Conflicts: 
 Menu-Depends: 
@@ -385,7 +385,7 @@ Description: LuCI support for alist
 
 Package: luci-i18n-alist-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.0.11-1
+Version: 1.0.13-1
 Depends: +libc luci-app-alist
 Conflicts: 
 Menu-Depends: 
@@ -404,7 +404,7 @@ Description:     Translation for luci-app-alist - 简体中文 (Simplified Chine
 
 Package: luci-i18n-alist-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.0.11-1
+Version: 1.0.13-1
 Depends: +libc luci-app-alist
 Conflicts: 
 Menu-Depends: 
@@ -490,7 +490,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-amlogic
 Submenu: 3. Applications
-Version: 3.1.228-1
+Version: 3.1.229-1
 Depends: +libc @(aarch64||arm) +luci +luci-lib-nixio +block-mount +blkid +parted +curl +dosfstools +e2fsprogs +jq +lsblk +pv +losetup +uuidgen +bash +perl +fdisk
 Conflicts: 
 Menu-Depends: 
@@ -509,7 +509,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 3.1.228-1
+Version: 3.1.229-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 
@@ -529,7 +529,7 @@ ophub <https://github.com/ophub/luci-app-amlogic>
 
 Package: luci-i18n-amlogic-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 3.1.228-1
+Version: 3.1.229-1
 Depends: +libc luci-app-amlogic
 Conflicts: 
 Menu-Depends: 

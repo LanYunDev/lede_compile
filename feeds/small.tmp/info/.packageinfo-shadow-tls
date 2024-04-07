@@ -11,13 +11,13 @@ Section: net
 Category: Network
 Repository: base
 Title: A proxy to expose real tls handshake to the firewall.
-Maintainer: FluffyTigerFear
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Source: dummy
-LicenseFiles: LICENSE
+License: GPL-3.0
 Type: ipkg
 Description: A proxy to expose real tls handshake to the firewall.
 https://github.com/ihciah/shadow-tls
-FluffyTigerFear
+Tianling Shen <cnsztl@immortalwrt.org>
 @@
 
 

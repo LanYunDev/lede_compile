@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/libs/libpciaccess/Makefile
 
 Package: libpciaccess
-Version: 0.16-1
+Version: 0.17-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,8 @@ Category: Libraries
 Repository: base
 Title: Generic PCI access library
 Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
-Source: libpciaccess-0.16.tar.bz2
+Source: libpciaccess-0.17.tar.xz
+License: MIT
 LicenseFiles: COPYING
 Type: ipkg
 Description: Generic PCI access library

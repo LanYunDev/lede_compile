@@ -3,8 +3,8 @@ Build-Depends: golang/host
 
 Package: ddns-go
 Submenu: Web Servers/Proxies
-Version: 6.3.0-1
-Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64) +ca-bundle
+Version: 6.3.1-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -14,7 +14,7 @@ Repository: base
 Title: A Linux web GUI client of ddns-go
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Require-User: ddns-go:ddns-go
-Source: ddns-go-6.3.0.tar.gz
+Source: ddns-go-6.3.1.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg

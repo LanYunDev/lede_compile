@@ -28,7 +28,7 @@ Source-Makefile: feeds/small/chinadns-ng/Makefile
 
 Package: chinadns-ng
 Submenu: IP Addresses and Names
-Version: 2024.03.25-1
+Version: 2024.03.27-1
 Depends: +libc @(aarch64||arm||i386||mips||mipsel||x86_64) @!(TARGET_x86_geode||TARGET_x86_legacy) +ipset
 Conflicts: 
 Menu-Depends: 
@@ -38,7 +38,7 @@ Category: Network
 Repository: base
 Title: ChinaDNS next generation, refactoring with epoll and ipset.
 Maintainer: sbwml <admin@cooluc.com>
-Source: dummy
+Source: chinadns-ng-2024.03.27-
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Type: ipkg
@@ -100,7 +100,7 @@ Source-Makefile: feeds/small/gn/Makefile
 Build-Types: host
 
 Package: gn
-Version: 2024-03-21-06cdcc8e1fa8e56f70efb4357d473345b7d1c083-1
+Version: 2024-03-28-93ee9b91423c1f1f53fb5f6cba7b8eef6247a564-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -110,7 +110,7 @@ Category: Development
 Repository: base
 Title: A meta-build system that generates build files for Ninja
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: gn-2024-03-21-06cdcc8e1fa8e56f70efb4357d473345b7d1c083.tar.xz
+Source: gn-2024-03-28-93ee9b91423c1f1f53fb5f6cba7b8eef6247a564.tar.xz
 License: BSD 3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -314,7 +314,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-mosdns
 Submenu: 3. Applications
-Version: 1.5.18-1
+Version: 1.5.19-1
 Depends: +libc +mosdns +jsonfilter +luci-compat +curl +v2ray-geoip +v2ray-geosite +v2dat
 Conflicts: 
 Menu-Depends: 
@@ -332,7 +332,7 @@ Description: LuCI Support for mosdns
 
 Package: luci-i18n-mosdns-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.5.18-1
+Version: 1.5.19-1
 Depends: +libc luci-app-mosdns
 Conflicts: 
 Menu-Depends: 
@@ -351,7 +351,7 @@ Description:     Translation for luci-app-mosdns - 简体中文 (Simplified Chin
 
 Package: luci-i18n-mosdns-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.5.18-1
+Version: 1.5.19-1
 Depends: +libc luci-app-mosdns
 Conflicts: 
 Menu-Depends: 
@@ -374,7 +374,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-passwall
 Submenu: 3. Applications
-Version: 4.76-1
+Version: 4.76-3
 Depends: +libc +coreutils +coreutils-base64 +coreutils-nohup +curl +chinadns-ng +dns2socks +dns2tcp +dnsmasq-full +ip-full +libuci-lua +lua +luci-compat +luci-lib-jsonc +microsocks +resolveip +tcping
 Conflicts: 
 Menu-Depends: 
@@ -513,7 +513,7 @@ endmenu
 
 Package: luci-i18n-passwall-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 4.76-1
+Version: 4.76-3
 Depends: +libc luci-app-passwall
 Conflicts: 
 Menu-Depends: 
@@ -532,7 +532,7 @@ Description:     Translation for luci-app-passwall - 简体中文 (Simplified Ch
 
 Package: luci-i18n-passwall-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 4.76-1
+Version: 4.76-3
 Depends: +libc luci-app-passwall
 Conflicts: 
 Menu-Depends: 
@@ -555,7 +555,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-passwall2
 Submenu: 3. Applications
-Version: 1.28-4
+Version: 1.28-5
 Depends: +libc +coreutils +coreutils-base64 +coreutils-nohup +curl +ip-full +libuci-lua +lua +luci-compat +luci-lib-jsonc +resolveip +tcping +xray-core +v2ray-geoip +v2ray-geosite +unzip +PACKAGE_luci-app-passwall2_INCLUDE_IPv6_Nat:ip6tables-mod-nat
 Conflicts: 
 Menu-Depends: 
@@ -682,7 +682,7 @@ endmenu
 
 Package: luci-i18n-passwall2-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.28-4
+Version: 1.28-5
 Depends: +libc luci-app-passwall2
 Conflicts: 
 Menu-Depends: 
@@ -701,7 +701,7 @@ Description:     Translation for luci-app-passwall2 - 简体中文 (Simplified C
 
 Package: luci-i18n-passwall2-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.28-4
+Version: 1.28-5
 Depends: +libc luci-app-passwall2
 Conflicts: 
 Menu-Depends: 
@@ -1053,13 +1053,13 @@ Section: net
 Category: Network
 Repository: base
 Title: A proxy to expose real tls handshake to the firewall.
-Maintainer: FluffyTigerFear
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Source: dummy
-LicenseFiles: LICENSE
+License: GPL-3.0
 Type: ipkg
 Description: A proxy to expose real tls handshake to the firewall.
 https://github.com/ihciah/shadow-tls
-FluffyTigerFear
+Tianling Shen <cnsztl@immortalwrt.org>
 @@
 
 
@@ -1645,7 +1645,7 @@ Source-Makefile: feeds/small/v2ray-geodata/Makefile
 
 Package: v2ray-geoip
 Submenu: IP Addresses and Names
-Version: 202403210039-1
+Version: 202404040040-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -1666,7 +1666,7 @@ Tianling Shen <cnsztl@immortalwrt.org>
 
 Package: v2ray-geosite
 Submenu: IP Addresses and Names
-Version: 20240324094850-1
+Version: 20240404120755-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -1687,7 +1687,7 @@ Tianling Shen <cnsztl@immortalwrt.org>
 
 Package: v2ray-geosite-ir
 Submenu: IP Addresses and Names
-Version: 202403250026-1
+Version: 202404010028-1
 Depends: +libc 
 Conflicts: 
 Menu-Depends: 
@@ -1762,7 +1762,7 @@ Source-Makefile: feeds/small/xray-core/Makefile
 Build-Depends: golang/host
 
 Package: xray-core
-Version: 1.8.9-1
+Version: 1.8.10-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -1772,7 +1772,7 @@ Category: Network
 Repository: base
 Title: A platform for building proxies to bypass network restrictions
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: xray-core-1.8.9.tar.gz
+Source: xray-core-1.8.10.tar.gz
 License: MPL-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1788,7 +1788,7 @@ Build-Depends: golang/host
 
 Package: xray-plugin
 Submenu: Web Servers/Proxies
-Version: 1.8.9-1
+Version: 1.8.10-1
 Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||riscv64||x86_64) +ca-bundle
 Conflicts: 
 Menu-Depends: 
@@ -1798,7 +1798,7 @@ Category: Network
 Repository: base
 Title: SIP003 plugin for Shadowsocks, based on Xray
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
-Source: xray-plugin-1.8.9.tar.gz
+Source: xray-plugin-1.8.10.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg

@@ -3,7 +3,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-alist
 Submenu: 3. Applications
-Version: 1.0.11-1
+Version: 1.0.13-1
 Depends: +libc +alist +luci-compat
 Conflicts: 
 Menu-Depends: 
@@ -21,7 +21,7 @@ Description: LuCI support for alist
 
 Package: luci-i18n-alist-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.0.11-1
+Version: 1.0.13-1
 Depends: +libc luci-app-alist
 Conflicts: 
 Menu-Depends: 
@@ -40,7 +40,7 @@ Description:     Translation for luci-app-alist - 简体中文 (Simplified Chine
 
 Package: luci-i18n-alist-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.0.11-1
+Version: 1.0.13-1
 Depends: +libc luci-app-alist
 Conflicts: 
 Menu-Depends: 

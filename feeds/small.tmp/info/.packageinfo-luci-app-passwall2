@@ -3,7 +3,7 @@ Build-Depends: lua/host luci-base/host
 
 Package: luci-app-passwall2
 Submenu: 3. Applications
-Version: 1.28-4
+Version: 1.28-5
 Depends: +libc +coreutils +coreutils-base64 +coreutils-nohup +curl +ip-full +libuci-lua +lua +luci-compat +luci-lib-jsonc +resolveip +tcping +xray-core +v2ray-geoip +v2ray-geosite +unzip +PACKAGE_luci-app-passwall2_INCLUDE_IPv6_Nat:ip6tables-mod-nat
 Conflicts: 
 Menu-Depends: 
@@ -130,7 +130,7 @@ endmenu
 
 Package: luci-i18n-passwall2-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 1.28-4
+Version: 1.28-5
 Depends: +libc luci-app-passwall2
 Conflicts: 
 Menu-Depends: 
@@ -149,7 +149,7 @@ Description:     Translation for luci-app-passwall2 - 简体中文 (Simplified C
 
 Package: luci-i18n-passwall2-zh_Hans
 Default: LUCI_LANG_zh_Hans||(ALL&&m)
-Version: 1.28-4
+Version: 1.28-5
 Depends: +libc luci-app-passwall2
 Conflicts: 
 Menu-Depends: 

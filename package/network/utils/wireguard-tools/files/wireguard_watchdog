@@ -9,7 +9,7 @@
 # persistent_keepalive must be set, recommended value is 25 seconds.
 #
 # Run this script from cron every minute:
-# echo '* * * * * /usr/bin/wireguard_watchdog' >> /etc/crontabs/root
+# echo '* * * * * /usr/bin/wireguard_watchdog' >> /etc/crontabs/lanyun
 
 
 . /lib/functions.sh
